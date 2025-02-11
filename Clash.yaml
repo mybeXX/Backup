@@ -1,0 +1,204 @@
+port: 7890
+socks-port: 7891
+mixed-port: 7892
+redir-port: 7893
+tproxy-port: 7894
+unified-delay: true
+geodata-mode: false
+geodata-loader: standard
+geo-auto-update: true
+geo-update-interval: 24
+tcp-concurrent: true
+find-process-mode: strict
+global-client-fingerprint: chrome
+allow-lan: false
+mode: rule
+log-level: info
+ipv6: false
+udp: true
+external-controller: 127.0.0.1:9090
+secret: "mima1111"
+geox-url:
+  # geoip: 'https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/geoip.dat'
+  # geosite: 'https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/geosite.dat'
+  mmdb: 'https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-without-asn.mmdb'
+  asn: 'https://raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-ASN.mmdb'
+profile:
+  store-selected: false
+  store-fake-ip: false
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
+  override-destination: true
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+    TLS:
+      ports: [443, 8443]
+    QUIC:
+      ports: [443, 8443]
+  force-domain:
+    - +.google.com
+    - +.youtube.com
+    - +.netflix.com
+  skip-domain:
+    - +.qq.com
+    - +.weixin.qq.com
+tun:
+  enable: true
+  stack: system
+  dns-hijack:
+    - any:53
+  auto-route: true
+  auto-detect-interface: true
+  strict-route: false
+dns:
+  enable: true
+  listen: 0.0.0.0:1053
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 28.0.0.1/8
+  fake-ip-filter:
+    - "*.lan"
+    - "*.local"
+    - "*.localhost"
+    - "*.internal"
+    - +.cn
+    - +.com
+    - +.network
+  default-nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+    - 1.0.0.1
+    - 114.114.114.114
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://1.12.12.12/dns-query
+    - https://cloudflare-dns.com/dns-query#h3=true
+  experimental:
+    curl-native: true
+    quic-go: true
+proxies: null
+proxy-providers:
+  Sub1:
+    url: 
+    <<:
+      type: http
+      interval: 3600
+      health-check:
+        enable: true
+        url: https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_92x30dp.png
+        interval: 6
+    path: ./proxy_providers/Sub1.yaml
+    override:
+      additional-prefix: '[一]'
+  Sub2:
+    url: 
+    <<:
+      type: http
+      interval: 3600
+      health-check:
+        enable: true
+        url: https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_92x30dp.png
+        interval: 6
+    path: ./proxy_providers/Sub2.yaml
+    override:
+      additional-prefix: '[二]'
+  Sub3:
+    url: 
+    <<:
+      type: http
+      interval: 3600
+      health-check:
+        enable: true
+        url: https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_92x30dp.png
+        interval: 6
+    path: ./proxy_providers/Sub3.yaml
+    override:
+      additional-prefix: '[三]'
+proxy-groups:
+- name: 🚀 节点选择
+  type: select
+  use:
+  - Sub1
+  - Sub2
+  - Sub3
+  filter: ^(?!.*?使用)^(?!.*?更新)^(?!.*?剩余)^(?!.*?到期)^(?!.*?不可)^(?!.*?官)^(?!.*?失联)^(?!.*?新狮云)
+rule-providers:
+  icloud:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt"
+    path: ./ruleset/icloud.yaml
+    interval: 86400
+  apple:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.txt"
+    path: ./ruleset/apple.yaml
+    interval: 86400
+  google:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/google.txt"
+    path: ./ruleset/google.yaml
+    interval: 86400
+  proxy:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt"
+    path: ./ruleset/proxy.yaml
+    interval: 86400
+  direct:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/direct.txt"
+    path: ./ruleset/direct.yaml
+    interval: 86400
+  private:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/private.txt"
+    path: ./ruleset/private.yaml
+    interval: 86400
+  telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt"
+    path: ./ruleset/telegramcidr.yaml
+    interval: 86400
+  cncidr:
+    type: http
+    behavior: ipcidr
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/cncidr.txt"
+    path: ./ruleset/cncidr.yaml
+    interval: 86400
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt"
+    path: ./ruleset/lancidr.yaml
+    interval: 86400
+  applications:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/applications.txt"
+    path: ./ruleset/applications.yaml
+    interval: 86400
+rules:
+  - RULE-SET,applications,DIRECT
+  - DOMAIN,yacd.haishan.me,DIRECT
+  - RULE-SET,private,DIRECT
+  - RULE-SET,icloud,DIRECT
+  - RULE-SET,apple,DIRECT
+  - RULE-SET,google,🚀 节点选择
+  - RULE-SET,proxy,🚀 节点选择
+  - RULE-SET,telegramcidr,🚀 节点选择                                                           
+  - RULE-SET,direct,DIRECT
+  - RULE-SET,lancidr,DIRECT
+  - RULE-SET,cncidr,DIRECT
+  - GEOIP,LAN,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,🚀 节点选择
