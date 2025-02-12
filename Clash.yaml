@@ -3,21 +3,23 @@ socks-port: 7891
 mixed-port: 7892
 redir-port: 7893
 tproxy-port: 7894
+
 unified-delay: true
-geodata-mode: false
-geodata-loader: standard
-geo-auto-update: true
-geo-update-interval: 24
 tcp-concurrent: true
 find-process-mode: strict
-global-client-fingerprint: chrome
+
 allow-lan: false
 mode: rule
 log-level: info
 ipv6: false
 udp: true
+
 external-controller: 127.0.0.1:9090
 secret: "mima1111"
+
+geo-auto-update: true
+geo-update-interval: 24
+geodata-mode: false
 geox-url:
   # geoip: 'https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/geoip.dat'
   # geosite: 'https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/geosite.dat'
@@ -26,6 +28,7 @@ geox-url:
 profile:
   store-selected: false
   store-fake-ip: false
+
 sniffer:
   enable: true
   force-dns-mapping: true
@@ -46,6 +49,7 @@ sniffer:
   skip-domain:
     - +.qq.com
     - +.weixin.qq.com
+
 tun:
   enable: true
   stack: system
@@ -54,29 +58,43 @@ tun:
   auto-route: true
   auto-detect-interface: true
   strict-route: false
+
 dns:
   enable: true
   listen: 0.0.0.0:1053
-  ipv6: true
   enhanced-mode: fake-ip
-  fake-ip-range: 28.0.0.1/8
+  fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
     - "*.lan"
     - "*.local"
     - "*.localhost"
     - "*.internal"
     - +.cn
-    - +.com
-    - +.network
   default-nameserver:
     - 119.29.29.29
     - 223.5.5.5
     - 1.0.0.1
-    - 114.114.114.114
   nameserver:
     - https://doh.pub/dns-query
     - https://1.12.12.12/dns-query
     - https://cloudflare-dns.com/dns-query#h3=true
+
+  fallback:
+    - https://dns.alidns.com/dns-query
+    - https://1.1.1.1/dns-query
+    - https://8.8.8.8/dns-query
+  fallback-filter:
+    geoip: false
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/8
+      - 127.0.0.0/8
+      - 10.0.0.0/8
+      - 172.16.0.0/12
+      - 192.168.0.0/16
+      - 224.0.0.0/4
+      - 169.254.0.0/16
+
   experimental:
     curl-native: true
     quic-go: true
