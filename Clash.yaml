@@ -3,20 +3,16 @@ socks-port: 7891
 mixed-port: 7892
 redir-port: 7893
 tproxy-port: 7894
-
 unified-delay: true
 tcp-concurrent: true
 find-process-mode: strict
-
 allow-lan: false
 mode: rule
 log-level: info
 ipv6: false
 udp: true
-
 external-controller: 127.0.0.1:9090
 secret: "mima1111"
-
 geo-auto-update: true
 geo-update-interval: 24
 geodata-mode: false
@@ -28,7 +24,6 @@ geox-url:
 profile:
   store-selected: false
   store-fake-ip: false
-
 sniffer:
   enable: true
   force-dns-mapping: true
@@ -49,7 +44,6 @@ sniffer:
   skip-domain:
     - +.qq.com
     - +.weixin.qq.com
-
 tun:
   enable: true
   stack: system
@@ -58,7 +52,6 @@ tun:
   auto-route: true
   auto-detect-interface: true
   strict-route: false
-
 dns:
   enable: true
   listen: 0.0.0.0:1053
@@ -78,7 +71,6 @@ dns:
     - https://doh.pub/dns-query
     - https://1.12.12.12/dns-query
     - https://cloudflare-dns.com/dns-query#h3=true
-
   fallback:
     - https://dns.alidns.com/dns-query
     - https://1.1.1.1/dns-query
@@ -94,7 +86,6 @@ dns:
       - 192.168.0.0/16
       - 224.0.0.0/4
       - 169.254.0.0/16
-
   experimental:
     curl-native: true
     quic-go: true
