@@ -192,6 +192,7 @@ rule-providers:
 
 rules:
   - RULE-SET,WeChat,DIRECT
+  - RULE-SET,Game,🎮 游戏平台
   - RULE-SET,YouTube,🚀 节点选择
   - RULE-SET,Netflix,🚀 节点选择
   - RULE-SET,Spotify,🚀 节点选择
@@ -201,7 +202,6 @@ rules:
   - RULE-SET,Reddit,🚀 节点选择
   - RULE-SET,GitHub,🚀 节点选择
   - RULE-SET,OpenAI,🚀 节点选择
-  - RULE-SET,Game,🚀 节点选择
   - RULE-SET,Apple,DIRECT
   - RULE-SET,Microsoft,DIRECT
   - RULE-SET,Google,🚀 节点选择
