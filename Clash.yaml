@@ -192,10 +192,10 @@ rule-providers:
 
 rules:
   - RULE-SET,WeChat,DIRECT
+  - RULE-SET,Spotify,🎶 Spotify
   - RULE-SET,Game,🎮 游戏平台
   - RULE-SET,YouTube,🚀 节点选择
   - RULE-SET,Netflix,🚀 节点选择
-  - RULE-SET,Spotify,🚀 节点选择
   - RULE-SET,Telegram,🚀 节点选择
   - RULE-SET,Twitter,🚀 节点选择
   - RULE-SET,Facebook,🚀 节点选择
