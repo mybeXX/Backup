@@ -181,6 +181,12 @@ rule-providers:
     path: ./RuleSet/Download.yaml
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Download/Download.yaml
     interval: 86400
+  Bing:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Bing.yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bing/Bing.yaml
+    interval: 86400
   Microsoft:
     type: http
     behavior: classical
@@ -239,6 +245,7 @@ rules:
   - RULE-SET,SteamCN,DIRECT
   - RULE-SET,Game,🎮 游戏平台
   - RULE-SET,Download,🌏 网盘下载
+  - RULE-SET,Bing,🚀 节点选择
   - RULE-SET,Microsoft,Ⓜ️ 微软服务
   - RULE-SET,Apple,🍎 苹果服务
   - RULE-SET,Google,🚀 节点选择
