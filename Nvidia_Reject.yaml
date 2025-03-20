@@ -1,0 +1,21 @@
+payload:
+
+  - DOMAIN,international-gfe.download.nvidia.com
+  - DOMAIN,cn.download.nvidia.com
+  - DOMAIN,international-gfe.download.nvidia.cn
+  - DOMAIN,cn.download.nvidia.cn
+  - DOMAIN,us.download.nvidia.com
+  - DOMAIN,developer.download.nvidia.com
+  - DOMAIN,ota-downloads.nvidia.com
+  - DOMAIN,ota-downloads.nvidia.cn
+  - DOMAIN,developer.nvidia.com
+  - DOMAIN,ngx.download.nvidia.com
+  - DOMAIN,static.nvidiagrid.net
+  - DOMAIN,assets.nvidiagrid.net
+  - DOMAIN,images.nvidiagrid.net
+  - DOMAIN,img.nvidiagrid.net
+  - DOMAIN,manifest.nvidiagrid.net
+  - DOMAIN,rconfig.nvidiagrid.net
+  - DOMAIN,stg-img.nvidiagrid.net
+  - DOMAIN,stg-rconfig.nvidiagrid.net
+  - DOMAIN,events.gfe.nvidia.com
