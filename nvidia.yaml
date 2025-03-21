@@ -20,3 +20,6 @@ payload:
   - DOMAIN,stg-rconfig.nvidiagrid.net
   - DOMAIN,events.gfe.nvidia.com
   - DOMAIN,ota.nvidia.com
+  - DOMAIN,gfwsl.geforce.com
+  - DOMAIN,download.nvidia.com
+  - DOMAIN,ota-downloads.nvidia.com
