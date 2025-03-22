@@ -1,15 +1,62 @@
-payload:
+  - DOMAIN,browser.pipe.aria.microsoft.com
+  - DOMAIN,dmd.metaservices.microsoft.com
+  - DOMAIN,ris.api.iris.microsoft.com
+  - DOMAIN,teams.events.data.microsoft.com
+  - DOMAIN,telecommand.telemetry.microsoft.com
+  - DOMAIN,telemetry.microsoft.com
+  - DOMAIN,vortex-win.data.microsoft.com
+  - DOMAIN,watson.events.data.microsoft.com
+  - DOMAIN,activity.windows.com
+  - DOMAIN,browser.events.data.microsoft.com
+  - DOMAIN,outlookads.live.com
 
-  - DOMAIN,international-gfe.download.nvidia.com
-  - DOMAIN,cn.download.nvidia.com
-  - DOMAIN,international-gfe.download.nvidia.cn
-  - DOMAIN,cn.download.nvidia.cn
-  - DOMAIN,us.download.nvidia.com
-  - DOMAIN,developer.download.nvidia.com
-  - DOMAIN,ota-downloads.nvidia.com
-  - DOMAIN,ota-downloads.nvidia.cn
-  - DOMAIN,developer.nvidia.com
-  - DOMAIN,ngx.download.nvidia.com
+  - DOMAIN,vortex.data.microsoft.com
+  - DOMAIN,dc.services.visualstudio.com
+  - DOMAIN,visualstudio-devdiv-c2s.msedge.net
+  - DOMAIN,az667904.vo.msecnd.net
+  - DOMAIN,scus-breeziest-in.cloudapp.net
+  - DOMAIN,nw-umwatson.events.data.microsoft.com
+  - DOMAIN,mobile.events.data.microsoft.com
+
+  - DOMAIN,watson.microsoft.com
+  - DOMAIN,watson.telemetry.microsoft.com
+  - DOMAIN,umwatsonc.events.data.microsoft.com
+  - DOMAIN,ceuswatcab01.blob.core.windows.net
+  - DOMAIN,ceuswatcab02.blob.core.windows.net
+  - DOMAIN,eaus2watcab01.blob.core.windows.net
+  - DOMAIN,eaus2watcab02.blob.core.windows.net
+  - DOMAIN,weus2watcab01.blob.core.windows.net
+  - DOMAIN,weus2watcab02.blob.core.windows.net
+
+  - DOMAIN,p3a.brave.com
+  - DOMAIN,p2a.brave.com
+  - DOMAIN,p3a-json.brave.com
+  - DOMAIN,p2a-json.brave.com
+  - DOMAIN,variations.brave.com
+  - DOMAIN,cr.brave.com
+
+  - DOMAIN,config.edge.skype.com
+  - DOMAIN,edge.activity.windows.com
+  - DOMAIN,edge.microsoft.com
+  - DOMAIN,edge-enterprise.activity.windows.com
+  - DOMAIN,web.vortex.data.microsoft.com
+
+  - DOMAIN,telemetry.mozilla.org
+  - DOMAIN,crash-stats.mozilla.org
+  - DOMAIN,incoming.telemetry.mozilla.org
+  - DOMAIN,firefox.settings.services.mozilla.com
+  - DOMAIN,content-signature-2.cdn.mozilla.net
+
+  - DOMAIN,ssl.google-analytics.com
+  - DOMAIN,www.google-analytics.com
+  - DOMAIN,pagead2.googlesyndication.com
+  - DOMAIN,adservice.google.com
+  - DOMAIN,adservice.google.pl
+  - DOMAIN,stats.g.doubleclick.net
+
+  - DOMAIN,*.dl.delivery.mp.microsoft.com
+  - DOMAIN,msedge.api.cdp.microsoft.com
+
   - DOMAIN,static.nvidiagrid.net
   - DOMAIN,assets.nvidiagrid.net
   - DOMAIN,images.nvidiagrid.net
@@ -22,4 +69,12 @@ payload:
   - DOMAIN,ota.nvidia.com
   - DOMAIN,gfwsl.geforce.com
   - DOMAIN,download.nvidia.com
+  - DOMAIN,international-gfe.download.nvidia.com
+  - DOMAIN,cn.download.nvidia.com
+  - DOMAIN,international-gfe.download.nvidia.cn
+  - DOMAIN,cn.download.nvidia.cn
+  - DOMAIN,us.download.nvidia.com
+  - DOMAIN,developer.download.nvidia.com
   - DOMAIN,ota-downloads.nvidia.com
+  - DOMAIN,ota-downloads.nvidia.cn
+  - DOMAIN,developer.nvidia.com
