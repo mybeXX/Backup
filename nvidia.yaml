@@ -1,3 +1,4 @@
+payload:
   - DOMAIN,browser.pipe.aria.microsoft.com
   - DOMAIN,dmd.metaservices.microsoft.com
   - DOMAIN,ris.api.iris.microsoft.com
