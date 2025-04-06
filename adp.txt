@@ -1,7 +1,0 @@
-https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt
-https://easylist-downloads.adblockplus.org/easyprivacy.txt
-https://easylist-downloads.adblockplus.org/fanboy-notifications.txt
-https://cdn.adblockcdn.com/filters/distraction-control-free.txt
-https://easylist-downloads.adblockplus.org/japanese-filters+easylist.txt
