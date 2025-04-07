@@ -2,3 +2,12 @@ file.cnxiaobai.com
 vidhub.me
 423down.com
 pc528.net
+host, ad.12306.cn, direct
+host, sdkapp.uve.weibo.com, direct
+host-keyword, github, QuantumultX
+ip-cidr, 10.0.0.0/8, direct
+ip-cidr, 127.0.0.0/8, direct
+ip-cidr, 172.16.0.0/12, direct
+ip-cidr, 192.168.0.0/16, direct
+ip-cidr, 224.0.0.0/24, direct
+ip-cidr, 182.254.116.0/24, direct
