@@ -88,7 +88,7 @@ dns:
 proxies: []
 
 proxy-providers:
-  鱼云:
+  Sub1:
     type: http
     url: https://cloudflaresub.yuwan.link/api/v1/client/subscribe?token=5eb9ea235799c2449ffdf6ac845ed59f
     interval: 3600
@@ -98,26 +98,13 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 600
     override:
-      additional-prefix: '[鱼云]'
-
-  性价比:
-    type: http
-    url: https://proxyinfo.net/api/v1/client/subscribe?token=39aa627d95468b7dfbb089611cafb72c
-    interval: 3600
-    path: ./proxy_providers/Sub2.yaml
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 600
-    override:
-      additional-prefix: '[性价比]'
+      additional-prefix: '[Sub1]'
 
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     use:
-      - 鱼云
-      - 性价比
+      - Sub1
     filter: "^(?!.*?(使用|更新|剩余|到期|不可|官|失联))"
 
 rule-providers:
