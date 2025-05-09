@@ -1,5 +1,5 @@
 const reloadURL = "http://127.0.0.1:6170/reload";
-$httpClient.get(reloadURL, (error, response, data) => {
+$httpClient。get(reloadURL, (error, response, data) => {
   if (error) {
     console.log("配置重载失败: " + error);
   } else {
