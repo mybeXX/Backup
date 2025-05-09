@@ -1,2 +1,1 @@
-payload:
-  - URL-REGEX,"\.log\."
+URL-REGEX,"\.log\."
