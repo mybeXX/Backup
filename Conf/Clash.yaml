@@ -112,7 +112,7 @@ rule-providers:
     type: http
     behavior: classical
     path: ./RuleSet/Reject.yaml
-    url: https://raw.githubusercontent.com/mybeXX/Backup/main/Reject.yaml
+    url: https://raw.githubusercontent.com/mybeXX/Backup/main/Rule/Clash/Reject.yaml
     interval: 86400
   BanAD:
     type: http
@@ -136,13 +136,13 @@ rule-providers:
     type: http
     behavior: classical
     path: ./RuleSet/Direct.yaml
-    url: https://raw.githubusercontent.com/mybeXX/Backup/main/Direct.yaml
+    url: https://raw.githubusercontent.com/mybeXX/Backup/main/Rule/Clash/Direct.yaml
     interval: 86400
   Proxy:
     type: http
     behavior: classical
     path: ./RuleSet/Proxy.yaml
-    url: https://raw.githubusercontent.com/mybeXX/Backup/main/Proxy.yaml
+    url: https://raw.githubusercontent.com/mybeXX/Backup/main/Rule/Clash/Proxy.yaml
     interval: 86400
   WeChat:
     type: http
