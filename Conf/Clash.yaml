@@ -372,7 +372,7 @@ rules:
   - RULE-SET,icloud,DIRECT
   - RULE-SET,apple,DIRECT
   - RULE-SET,private,DIRECT
-  - RULE-SET,GameDownloadCN,DIRECT
+  - RULE-SET,ChinaMedia,DIRECT
   - RULE-SET,GameDownloadCN,DIRECT
   - RULE-SET,Game,🚀 节点选择
   - RULE-SET,telegramcidr,🚀 节点选择
