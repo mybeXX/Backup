@@ -1,4 +1,4 @@
-#!url=https://raw.githubusercontent.com/LOWERTOP/Shadowrocket-First/refs/heads/main/Spotify.sgmodule
+#!url=https://raw.githubusercontent.com/mybeXX/Backup/refs/heads/main/Js/Spotify.sgmodule
 #!name=Spotify 模块
 #!desc=部分解锁 Premium，音质不能设置为超高，具有歌词翻译功能，点击参数编辑进行设置
 #!arguments=歌词翻译:false, 翻译账户:申请并填入百度翻译AppID, 翻译密钥:申请并填入百度翻译密钥
@@ -11,9 +11,9 @@
 [Rule]
 DOMAIN-SUFFIX,ad.doubleclick.net,REJECT-DROP
 
-# [Header Rewrite]
+[Header Rewrite]
 # if-none-match返回304状态码
-# http-request ^https:\/\/spclient\.wg\.spotify\.com\/user-customization-service\/v1\/customize$ header-del if-none-match
+http-request ^https:\/\/spclient\.wg\.spotify\.com\/user-customization-service\/v1\/customize$ header-del if-none-match
 
 [Script]
 # 本仓创建的 JS，用以尝试替代 Header Rewrite，不保证有效性，如有故障可注释掉下行内容
@@ -24,7 +24,7 @@ spotify-json = type=http-request,pattern=^https:\/\/spclient\.wg\.spotify\.com\/
 spotify-proto = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js,script-update-interval=0
 
 # 歌词翻译脚本，填入自己的appid和密钥
-spotify歌词翻译 = type=http-response,enable={{{歌词翻译}}},pattern=^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-lyric.js,argument=appid={{{翻译账户}}}&securityKey={{{翻译密钥}}}
+spotify歌词翻译 = type=http-response,enable={{{歌词翻译}}},pattern=^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-lyric.js,argument=appid={{{20231227001923299}}}&securityKey={{{LbcGDJFtxckPSuNFzIMD}}}
 
 [MITM]
 hostname = %APPEND% spclient.wg.spotify.com
