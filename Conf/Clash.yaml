@@ -103,19 +103,6 @@ proxies:
 proxy-providers:
 
 proxy-groups:
-  - name: 🚀 节点选择
-    type: select
-    use:
-      - 鱼云
-      - 性价比
-      - 公益网络
-    filter: "^(?!.*?(使用|更新|剩余|到期|不可|官|失联))"
-
-  - name: Ⓜ️ 微软服务
-    type: select
-    proxies: 
-      - DIRECT
-      - 🚀 节点选择
 
 experimental:
   quic-go: true
@@ -16150,4 +16137,4 @@ rules:
   - IP-CIDR,101.199.196.0/22,DIRECT,no-resolve
   - GEOIP,CN,DIRECT
   - MATCH,🚀 节点选择
-# Auto update: 2025-05-18T20:29:19
+# Auto update: 2025-05-18T21:10:25
