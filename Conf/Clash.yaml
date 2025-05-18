@@ -7754,25 +7754,48 @@ rules:
   - DOMAIN-SUFFIX,wxapp.tc.qq.com,DIRECT
   - DOMAIN-SUFFIX,wxs.qq.com,DIRECT
   - IP-ASN,132203,DIRECT,no-resolve
-  - DOMAIN,assets1.xboxlive.cn,DIRECT
-  - DOMAIN,assets2.xboxlive.cn,DIRECT
-  - DOMAIN,cdn-ali.content.steamchina.com,DIRECT
-  - DOMAIN,cdn-qc.content.steamchina.com,DIRECT
-  - DOMAIN,cdn-ws.content.steamchina.com,DIRECT
-  - DOMAIN,dl.delivery.mp.microsoft.com,DIRECT
-  - DOMAIN-SUFFIX,dl.steam.clngaa.com,DIRECT
-  - DOMAIN,epicgames-download1-1251447533.file.myqcloud.com,DIRECT
-  - DOMAIN-SUFFIX,st.dl.bscstorage.net,DIRECT
-  - DOMAIN-SUFFIX,st.dl.eccdnx.com,DIRECT
-  - DOMAIN,steampipe.steamcontent.tnkjmec.com,DIRECT
-  - DOMAIN,tlu.dl.delivery.mp.microsoft.com,DIRECT
-  - DOMAIN,trts.baishancdnx.cn,DIRECT
+  - DOMAIN,assets1.xboxlive.com,DIRECT
+  - DOMAIN,assets2.xboxlive.com,DIRECT
+  - DOMAIN,blizzard.gcdn.cloudn.co.kr,DIRECT
+  - DOMAIN-SUFFIX,blzddist1-a.akamaihd.net,DIRECT
+  - DOMAIN-SUFFIX,blzddistkr1-a.akamaihd.net,DIRECT
+  - DOMAIN,client.hikarifield.co.jp,DIRECT
+  - DOMAIN,content.cdp.bethesda.net,DIRECT
+  - DOMAIN,download.cdp.bethesda.net,DIRECT
+  - DOMAIN,download.dm.origin.com,DIRECT
+  - DOMAIN,download.epicgames.com,DIRECT
+  - DOMAIN,download.hikarifield.co.jp,DIRECT
+  - DOMAIN,download2.epicgames.com,DIRECT
+  - DOMAIN,download3.epicgames.com,DIRECT
+  - DOMAIN,download4.epicgames.com,DIRECT
+  - DOMAIN-SUFFIX,edge.steam-dns.top.comcast.net,DIRECT
+  - DOMAIN,epicgames-download1.akamaized.net,DIRECT
+  - DOMAIN,eu.cdn.blizzard.com,DIRECT
+  - DOMAIN,fastly-download.epicgames.com,DIRECT
+  - DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net,DIRECT
+  - DOMAIN,gog-cdn-lumen.secure2.footprint.net,DIRECT
+  - DOMAIN,kr.cdn.blizzard.com,DIRECT
+  - DOMAIN,level3.blizzard.com,DIRECT
+  - DOMAIN,packagespc.xboxlive.com,DIRECT
+  - DOMAIN,ssl-lvlt.cdn.ea.com,DIRECT
+  - DOMAIN-SUFFIX,steam.eca.qtlglb.com,DIRECT
+  - DOMAIN-SUFFIX,steam.naeu.qtlglb.com,DIRECT
+  - DOMAIN-SUFFIX,steam.ru.qtlglb.com,DIRECT
+  - DOMAIN-SUFFIX,steampipe-kr.akamaized.net,DIRECT
+  - DOMAIN-SUFFIX,steampipe-partner.akamaized.net,DIRECT
+  - DOMAIN-SUFFIX,steampipe.akamaized.net,DIRECT
+  - DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net,DIRECT
   - DOMAIN,uplaypc-s-ubisoft.cdn.ubionline.com.cn,DIRECT
-  - DOMAIN,xz.pphimalayanrt.com,DIRECT
-  - DOMAIN-SUFFIX,pdl.wow.battlenet.com.cn,DIRECT
+  - DOMAIN,us.cdn.blizzard.com,DIRECT
+  - DOMAIN,xvcf1.xboxlive.com,DIRECT
+  - DOMAIN,xvcf2.xboxlive.com,DIRECT
+  - DOMAIN-SUFFIX,cdn.ubi.com,DIRECT
+  - DOMAIN-SUFFIX,dyn.riotcdn.net,DIRECT
+  - DOMAIN-SUFFIX,steamcontent.com,DIRECT
   - DOMAIN,eaasserts-a.akamaihd.net,🚀 节点选择
   - DOMAIN,originasserts.akamaized.net,🚀 节点选择
   - DOMAIN,gog.salesmanago.com,🚀 节点选择
+  - DOMAIN,xz.pphimalayanrt.com,🚀 节点选择
   - DOMAIN,login.live.com,🚀 节点选择
   - DOMAIN,logincdn.msauth.net,🚀 节点选择
   - DOMAIN,store-images.s-microsoft.com,🚀 节点选择
@@ -7787,8 +7810,6 @@ rules:
   - DOMAIN-SUFFIX,blizzcon-a.akamaihd.net,🚀 节点选择
   - DOMAIN-SUFFIX,blz-contentstack.com,🚀 节点选择
   - DOMAIN-SUFFIX,blz.nosdn.127.net,🚀 节点选择
-  - DOMAIN-SUFFIX,blzddist1-a.akamaihd.net,🚀 节点选择
-  - DOMAIN-SUFFIX,blzddistkr1-a.akamaihd.net,🚀 节点选择
   - DOMAIN-SUFFIX,blzmedia-a.akamaihd.net,🚀 节点选择
   - DOMAIN-SUFFIX,blznav.akamaized.net,🚀 节点选择
   - DOMAIN-SUFFIX,blzstatic.cn,🚀 节点选择
@@ -8208,20 +8229,21 @@ rules:
   - DOMAIN-SUFFIX,supremacy.com,🚀 节点选择
   - DOMAIN-SUFFIX,supremacy.net,🚀 节点选择
   - DOMAIN-SUFFIX,ulol.com,🚀 节点选择
-  - DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net,🚀 节点选择
   - DOMAIN-SUFFIX,media-rockstargames-com.akamaized.net,🚀 节点选择
   - DOMAIN-SUFFIX,rockstargames.com,🚀 节点选择
   - DOMAIN-SUFFIX,rsg.sc,🚀 节点选择
   - DOMAIN-SUFFIX,videos-rockstargames-com.akamaized.net,🚀 节点选择
   - DOMAIN-SUFFIX,csgo.wmsj.cn,🚀 节点选择
+  - DOMAIN-SUFFIX,dl.steam.clngaa.com,🚀 节点选择
   - DOMAIN-SUFFIX,dl.steam.ksyna.com,🚀 节点选择
   - DOMAIN-SUFFIX,dota2.wmsj.cn,🚀 节点选择
-  - DOMAIN-SUFFIX,edge.steam-dns.top.comcast.net,🚀 节点选择
   - DOMAIN-SUFFIX,f3b7q2p3.ssl.hwcdn.net,🚀 节点选择
   - DOMAIN-SUFFIX,fanatical.com,🚀 节点选择
   - DOMAIN-SUFFIX,humblebundle.com,🚀 节点选择
   - DOMAIN-SUFFIX,playartifact.com,🚀 节点选择
   - DOMAIN-SUFFIX,s.team,🚀 节点选择
+  - DOMAIN-SUFFIX,st.dl.bscstorage.net,🚀 节点选择
+  - DOMAIN-SUFFIX,st.dl.eccdnx.com,🚀 节点选择
   - DOMAIN-SUFFIX,st.dl.pinyuncloud.com,🚀 节点选择
   - DOMAIN-SUFFIX,steam-api.com,🚀 节点选择
   - DOMAIN-SUFFIX,steam-chat.com,🚀 节点选择
@@ -8230,9 +8252,6 @@ rules:
   - DOMAIN-SUFFIX,steam.cdn.orcon.net.nz,🚀 节点选择
   - DOMAIN-SUFFIX,steam.cdn.slingshot.co.nz,🚀 节点选择
   - DOMAIN-SUFFIX,steam.cdn.webra.ru,🚀 节点选择
-  - DOMAIN-SUFFIX,steam.eca.qtlglb.com,🚀 节点选择
-  - DOMAIN-SUFFIX,steam.naeu.qtlglb.com,🚀 节点选择
-  - DOMAIN-SUFFIX,steam.ru.qtlglb.com,🚀 节点选择
   - DOMAIN-SUFFIX,steam.tv,🚀 节点选择
   - DOMAIN-SUFFIX,steambroadcast.akamaized.net,🚀 节点选择
   - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net,🚀 节点选择
@@ -8242,9 +8261,6 @@ rules:
   - DOMAIN-SUFFIX,steamdeck.com,🚀 节点选择
   - DOMAIN-SUFFIX,steamgames.com,🚀 节点选择
   - DOMAIN-SUFFIX,steammobile.akamaized.net,🚀 节点选择
-  - DOMAIN-SUFFIX,steampipe-kr.akamaized.net,🚀 节点选择
-  - DOMAIN-SUFFIX,steampipe-partner.akamaized.net,🚀 节点选择
-  - DOMAIN-SUFFIX,steampipe.akamaized.net,🚀 节点选择
   - DOMAIN-SUFFIX,steampowered.com,🚀 节点选择
   - DOMAIN-SUFFIX,steampowered.com.8686c.com,🚀 节点选择
   - DOMAIN-SUFFIX,steamstat.us,🚀 节点选择
@@ -8252,14 +8268,12 @@ rules:
   - DOMAIN-SUFFIX,steamstatic.com.8686c.com,🚀 节点选择
   - DOMAIN-SUFFIX,steamstore-a.akamaihd.net,🚀 节点选择
   - DOMAIN-SUFFIX,steamunlocked.net,🚀 节点选择
-  - DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net,🚀 节点选择
   - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net,🚀 节点选择
   - DOMAIN-SUFFIX,steamvideo-a.akamaihd.net,🚀 节点选择
   - DOMAIN-SUFFIX,underlords.com,🚀 节点选择
   - DOMAIN-SUFFIX,valvesoftware.com,🚀 节点选择
   - DOMAIN-SUFFIX,wmsjsteam.com,🚀 节点选择
   - DOMAIN-SUFFIX,steamchina.com,🚀 节点选择
-  - DOMAIN-SUFFIX,steamcontent.com,🚀 节点选择
   - DOMAIN-SUFFIX,steamserver.net,🚀 节点选择
   - DOMAIN-SUFFIX,steamusercontent.com,🚀 节点选择
   - DOMAIN-SUFFIX,brawlstars.com,🚀 节点选择
@@ -15633,6 +15647,7 @@ rules:
   - DOMAIN-SUFFIX,sohurdc.com,DIRECT
   - DOMAIN-SUFFIX,v-56.com,DIRECT
   - DOMAIN-SUFFIX,cm.steampowered.com,DIRECT
+  - DOMAIN,steampipe.steamcontent.tnkjmec.com,DIRECT
   - DOMAIN-SUFFIX,foxmail.com,DIRECT
   - DOMAIN-SUFFIX,gtimg.com,DIRECT
   - DOMAIN-SUFFIX,idqqimg.com,DIRECT
@@ -16137,4 +16152,4 @@ rules:
   - IP-CIDR,101.199.196.0/22,DIRECT,no-resolve
   - GEOIP,CN,DIRECT
   - MATCH,🚀 节点选择
-# Auto update: 2025-05-18T21:12:25
+# Auto update: 2025-05-18T21:25:21
