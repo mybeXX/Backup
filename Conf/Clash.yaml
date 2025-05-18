@@ -16137,4 +16137,4 @@ rules:
   - IP-CIDR,101.199.196.0/22,DIRECT,no-resolve
   - GEOIP,CN,DIRECT
   - MATCH,🚀 节点选择
-# Auto update: 2025-05-18T21:11:34
+# Auto update: 2025-05-18T21:12:25
