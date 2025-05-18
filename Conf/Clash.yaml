@@ -117,12 +117,6 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
 
-  - name: 🍎 苹果服务
-    type: select
-    proxies: 
-      - DIRECT
-      - 🚀 节点选择
-
 experimental:
   quic-go: true
   udp-fallback-policy: discard
@@ -6866,222 +6860,222 @@ rules:
   - DOMAIN-SUFFIX,vidhub.me,DIRECT
   - DOMAIN-SUFFIX,423down.com,DIRECT
   - DOMAIN-SUFFIX,shazam.com,🚀 节点选择
-  - DOMAIN,www-cdn.icloud.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,applemx-icloud.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloud-isupport.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloud-sandbox.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloud.ch,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloud.de,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloud.ee,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloud.fi,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloud.fr,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloud.hu,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloud.ie,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloud.is,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloud.jp,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloud.lv,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloud.om,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloud.org,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloud.pt,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloud.ro,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloud.se,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloud.si,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloud.sk,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloud.vn,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloudads.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloudbox.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloudbrowser.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloude.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloudhome.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloudmail.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloudmusic.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloudnet.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloudpay.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloudo.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloudo.de,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloudo.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloudos.de,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloudos.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloudsecure.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloudsetup.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,ios-icloud.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,me.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,myicloud.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,mylcloud.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,wwwicloud.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,apple-icloud.cn,🍎 苹果服务
-  - DOMAIN-SUFFIX,appleicloud.cn,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloud-apple.cn,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloud.net.cn,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloudapple.cn,🍎 苹果服务
-  - DOMAIN-SUFFIX,a1.mzstatic.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,a2.mzstatic.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,a3.mzstatic.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,a4.mzstatic.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,a5.mzstatic.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,adcdownload.apple.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,adcdownload.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,amp-api-updates.apps.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,amp-api.media.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,app-site-association.cdn-apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,appldnld.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,appldnld.g.aaplimg.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,appleid.cdn-apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,apps.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,apps.mzstatic.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,bag-cdn.itunes-apple.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,cdn-cn1.apple-mapkit.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,cdn-cn2.apple-mapkit.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,cdn-cn3.apple-mapkit.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,cdn-cn4.apple-mapkit.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,cdn.apple-mapkit.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,cdn1.apple-mapkit.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,cdn2.apple-mapkit.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,cdn3.apple-mapkit.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,cdn4.apple-mapkit.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,cds-cdn.v.aaplimg.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,cds.apple.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,cds.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,cdsassets.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,cl1-cdn.origin-apple.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,cl1.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,cl2-cn.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,cl2.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,cl3-cdn.origin-apple.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,cl3.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,cl4-cdn.origin-apple.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,cl4-cn.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,cl4.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,cl5-cdn.origin-apple.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,cl5.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,clientflow.apple.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,clientflow.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,cn-smp-paymentservices.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,configuration.apple.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,configuration.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,crl.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,cstat.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,cstat.cdn-apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,dd-cdn.origin-apple.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,dejavu.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,devimages-cdn.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,devstreaming-cdn.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,download.developer.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,experiments.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,gs-loc-cn.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,gs-loc.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,gsp10-ssl-cn.ls.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,gsp12-cn.ls.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,gsp13-cn.ls.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,gsp4-cn.ls.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,gsp5-cn.ls.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,gsp85-cn-ssl.ls.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,gspe19-2-cn-ssl.ls-apple.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,gspe19-2-cn-ssl.ls.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,gspe19-cn-ssl.ls.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,gspe19-cn.ls-apple.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,gspe19-cn.ls.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,gspe21-ssl.ls.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,gspe35-ssl.ls.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,gspe79-cn-ssl.ls.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,guzzoni-apple-com.v.aaplimg.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,guzzoni.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,guzzoni.smoot.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloud-cdn.icloud.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,icloud.cdn-apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,images.apple.com.edgekey.net.globalredir.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,init-kt.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,init-p01md-lb.push-apple.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,init-p01md.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,init-p01st-lb.push-apple.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,init-p01st.push.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,init-s01st-lb.push-apple.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,init-s01st.push.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,init.ess.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,iosapps.itunes.g.aaplimg.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,ipcdn.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,iphone-ld.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,iphone-ld.origin-apple.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,is-ssl.mzstatic.com-cn-lb.itunes-apple.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,is1-ssl.mzstatic.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,is1.mzstatic.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,is2-ssl.mzstatic.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,is2.mzstatic.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,is3-ssl.mzstatic.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,is3.mzstatic.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,is4-ssl.mzstatic.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,is4.mzstatic.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,is5-ssl.mzstatic.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,is5.mzstatic.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,itunes-apple.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,itunes.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,itunesconnect.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,mesu-cdn.apple.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,mesu-china.apple.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,mesu.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,ml.cdn-apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,music.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,ocsp-lb.apple.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,ocsp.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,ocsp2-lb.apple.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,ocsp2.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,oscdn.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,oscdn.origin-apple.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,osxapps.itunes.g.aaplimg.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,pancake.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,pancake.cdn-apple.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,pba0.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,probe.siri.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,prod-support.apple-support.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,publicassets.cdn-apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,reserve-prime.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,s.mzstatic.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,seed-sequoia.siri.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,seed-swallow.siri.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,seed.siri.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,sequoia.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,sh-pod2-smp-device.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,shazam-insights.cdn-apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,smp-device-content.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,static.gc.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,stocks-sparkline-lb.apple.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,stocks-sparkline.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,store.apple.com.edgekey.net.globalredir.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,store.apple.com.edgekey.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,store.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,store.storeimages.apple.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,store.storeimages.cdn-apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,support-china.apple-support.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,support.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,swallow-apple-com.v.aaplimg.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,swallow.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,swcatalog-cdn.apple.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,swcatalog.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,swcdn.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,swcdn.g.aaplimg.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,swdist.apple.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,swdist.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,swscan-cdn.apple.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,swscan.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,sylvan.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,tj-pod1-smp-device.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,updates-http.cdn-apple.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,updates-http.cdn-apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,updates.cdn-apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,valid.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,valid.origin-apple.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,weather-data.apple.com.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,weather-data.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,weather-map.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,weather-map2.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,weatherkit.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,www.apple.com.edgekey.net.globalredir.akadns.net,🍎 苹果服务
-  - DOMAIN-SUFFIX,www.apple.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,xp.apple.com,🍎 苹果服务
+  - DOMAIN,www-cdn.icloud.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,applemx-icloud.com,DIRECT
+  - DOMAIN-SUFFIX,icloud-content.com,DIRECT
+  - DOMAIN-SUFFIX,icloud-isupport.com,DIRECT
+  - DOMAIN-SUFFIX,icloud-sandbox.com,DIRECT
+  - DOMAIN-SUFFIX,icloud.ch,DIRECT
+  - DOMAIN-SUFFIX,icloud.com,DIRECT
+  - DOMAIN-SUFFIX,icloud.de,DIRECT
+  - DOMAIN-SUFFIX,icloud.ee,DIRECT
+  - DOMAIN-SUFFIX,icloud.fi,DIRECT
+  - DOMAIN-SUFFIX,icloud.fr,DIRECT
+  - DOMAIN-SUFFIX,icloud.hu,DIRECT
+  - DOMAIN-SUFFIX,icloud.ie,DIRECT
+  - DOMAIN-SUFFIX,icloud.is,DIRECT
+  - DOMAIN-SUFFIX,icloud.jp,DIRECT
+  - DOMAIN-SUFFIX,icloud.lv,DIRECT
+  - DOMAIN-SUFFIX,icloud.om,DIRECT
+  - DOMAIN-SUFFIX,icloud.org,DIRECT
+  - DOMAIN-SUFFIX,icloud.pt,DIRECT
+  - DOMAIN-SUFFIX,icloud.ro,DIRECT
+  - DOMAIN-SUFFIX,icloud.se,DIRECT
+  - DOMAIN-SUFFIX,icloud.si,DIRECT
+  - DOMAIN-SUFFIX,icloud.sk,DIRECT
+  - DOMAIN-SUFFIX,icloud.vn,DIRECT
+  - DOMAIN-SUFFIX,icloudads.net,DIRECT
+  - DOMAIN-SUFFIX,icloudbox.net,DIRECT
+  - DOMAIN-SUFFIX,icloudbrowser.net,DIRECT
+  - DOMAIN-SUFFIX,icloude.com,DIRECT
+  - DOMAIN-SUFFIX,icloudhome.com,DIRECT
+  - DOMAIN-SUFFIX,icloudmail.net,DIRECT
+  - DOMAIN-SUFFIX,icloudmusic.net,DIRECT
+  - DOMAIN-SUFFIX,icloudnet.net,DIRECT
+  - DOMAIN-SUFFIX,icloudpay.net,DIRECT
+  - DOMAIN-SUFFIX,icloudo.com,DIRECT
+  - DOMAIN-SUFFIX,icloudo.de,DIRECT
+  - DOMAIN-SUFFIX,icloudo.net,DIRECT
+  - DOMAIN-SUFFIX,icloudos.de,DIRECT
+  - DOMAIN-SUFFIX,icloudos.net,DIRECT
+  - DOMAIN-SUFFIX,icloudsecure.net,DIRECT
+  - DOMAIN-SUFFIX,icloudsetup.com,DIRECT
+  - DOMAIN-SUFFIX,ios-icloud.com,DIRECT
+  - DOMAIN-SUFFIX,me.com,DIRECT
+  - DOMAIN-SUFFIX,myicloud.net,DIRECT
+  - DOMAIN-SUFFIX,mylcloud.net,DIRECT
+  - DOMAIN-SUFFIX,wwwicloud.com,DIRECT
+  - DOMAIN-SUFFIX,apple-icloud.cn,DIRECT
+  - DOMAIN-SUFFIX,appleicloud.cn,DIRECT
+  - DOMAIN-SUFFIX,icloud-apple.cn,DIRECT
+  - DOMAIN-SUFFIX,icloud.com.cn,DIRECT
+  - DOMAIN-SUFFIX,icloud.net.cn,DIRECT
+  - DOMAIN-SUFFIX,icloudapple.cn,DIRECT
+  - DOMAIN-SUFFIX,a1.mzstatic.com,DIRECT
+  - DOMAIN-SUFFIX,a2.mzstatic.com,DIRECT
+  - DOMAIN-SUFFIX,a3.mzstatic.com,DIRECT
+  - DOMAIN-SUFFIX,a4.mzstatic.com,DIRECT
+  - DOMAIN-SUFFIX,a5.mzstatic.com,DIRECT
+  - DOMAIN-SUFFIX,adcdownload.apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,adcdownload.apple.com,DIRECT
+  - DOMAIN-SUFFIX,amp-api-updates.apps.apple.com,DIRECT
+  - DOMAIN-SUFFIX,amp-api.media.apple.com,DIRECT
+  - DOMAIN-SUFFIX,app-site-association.cdn-apple.com,DIRECT
+  - DOMAIN-SUFFIX,appldnld.apple.com,DIRECT
+  - DOMAIN-SUFFIX,appldnld.g.aaplimg.com,DIRECT
+  - DOMAIN-SUFFIX,appleid.cdn-apple.com,DIRECT
+  - DOMAIN-SUFFIX,apps.apple.com,DIRECT
+  - DOMAIN-SUFFIX,apps.mzstatic.com,DIRECT
+  - DOMAIN-SUFFIX,bag-cdn.itunes-apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,cdn-cn1.apple-mapkit.com,DIRECT
+  - DOMAIN-SUFFIX,cdn-cn2.apple-mapkit.com,DIRECT
+  - DOMAIN-SUFFIX,cdn-cn3.apple-mapkit.com,DIRECT
+  - DOMAIN-SUFFIX,cdn-cn4.apple-mapkit.com,DIRECT
+  - DOMAIN-SUFFIX,cdn.apple-mapkit.com,DIRECT
+  - DOMAIN-SUFFIX,cdn1.apple-mapkit.com,DIRECT
+  - DOMAIN-SUFFIX,cdn2.apple-mapkit.com,DIRECT
+  - DOMAIN-SUFFIX,cdn3.apple-mapkit.com,DIRECT
+  - DOMAIN-SUFFIX,cdn4.apple-mapkit.com,DIRECT
+  - DOMAIN-SUFFIX,cds-cdn.v.aaplimg.com,DIRECT
+  - DOMAIN-SUFFIX,cds.apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,cds.apple.com,DIRECT
+  - DOMAIN-SUFFIX,cdsassets.apple.com,DIRECT
+  - DOMAIN-SUFFIX,cl1-cdn.origin-apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,cl1.apple.com,DIRECT
+  - DOMAIN-SUFFIX,cl2-cn.apple.com,DIRECT
+  - DOMAIN-SUFFIX,cl2.apple.com,DIRECT
+  - DOMAIN-SUFFIX,cl3-cdn.origin-apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,cl3.apple.com,DIRECT
+  - DOMAIN-SUFFIX,cl4-cdn.origin-apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,cl4-cn.apple.com,DIRECT
+  - DOMAIN-SUFFIX,cl4.apple.com,DIRECT
+  - DOMAIN-SUFFIX,cl5-cdn.origin-apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,cl5.apple.com,DIRECT
+  - DOMAIN-SUFFIX,clientflow.apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,clientflow.apple.com,DIRECT
+  - DOMAIN-SUFFIX,cn-smp-paymentservices.apple.com,DIRECT
+  - DOMAIN-SUFFIX,configuration.apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,configuration.apple.com,DIRECT
+  - DOMAIN-SUFFIX,crl.apple.com,DIRECT
+  - DOMAIN-SUFFIX,cstat.apple.com,DIRECT
+  - DOMAIN-SUFFIX,cstat.cdn-apple.com,DIRECT
+  - DOMAIN-SUFFIX,dd-cdn.origin-apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,dejavu.apple.com,DIRECT
+  - DOMAIN-SUFFIX,devimages-cdn.apple.com,DIRECT
+  - DOMAIN-SUFFIX,devstreaming-cdn.apple.com,DIRECT
+  - DOMAIN-SUFFIX,download.developer.apple.com,DIRECT
+  - DOMAIN-SUFFIX,experiments.apple.com,DIRECT
+  - DOMAIN-SUFFIX,gs-loc-cn.apple.com,DIRECT
+  - DOMAIN-SUFFIX,gs-loc.apple.com,DIRECT
+  - DOMAIN-SUFFIX,gsp10-ssl-cn.ls.apple.com,DIRECT
+  - DOMAIN-SUFFIX,gsp12-cn.ls.apple.com,DIRECT
+  - DOMAIN-SUFFIX,gsp13-cn.ls.apple.com,DIRECT
+  - DOMAIN-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,gsp4-cn.ls.apple.com,DIRECT
+  - DOMAIN-SUFFIX,gsp5-cn.ls.apple.com,DIRECT
+  - DOMAIN-SUFFIX,gsp85-cn-ssl.ls.apple.com,DIRECT
+  - DOMAIN-SUFFIX,gspe19-2-cn-ssl.ls-apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,gspe19-2-cn-ssl.ls.apple.com,DIRECT
+  - DOMAIN-SUFFIX,gspe19-cn-ssl.ls.apple.com,DIRECT
+  - DOMAIN-SUFFIX,gspe19-cn.ls-apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,gspe19-cn.ls.apple.com,DIRECT
+  - DOMAIN-SUFFIX,gspe21-ssl.ls.apple.com,DIRECT
+  - DOMAIN-SUFFIX,gspe35-ssl.ls.apple.com,DIRECT
+  - DOMAIN-SUFFIX,gspe79-cn-ssl.ls.apple.com,DIRECT
+  - DOMAIN-SUFFIX,guzzoni-apple-com.v.aaplimg.com,DIRECT
+  - DOMAIN-SUFFIX,guzzoni.apple.com,DIRECT
+  - DOMAIN-SUFFIX,guzzoni.smoot.apple.com,DIRECT
+  - DOMAIN-SUFFIX,icloud-cdn.icloud.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,icloud.cdn-apple.com,DIRECT
+  - DOMAIN-SUFFIX,images.apple.com.edgekey.net.globalredir.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,init-kt.apple.com,DIRECT
+  - DOMAIN-SUFFIX,init-p01md-lb.push-apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,init-p01md.apple.com,DIRECT
+  - DOMAIN-SUFFIX,init-p01st-lb.push-apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,init-p01st.push.apple.com,DIRECT
+  - DOMAIN-SUFFIX,init-s01st-lb.push-apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,init-s01st.push.apple.com,DIRECT
+  - DOMAIN-SUFFIX,init.ess.apple.com,DIRECT
+  - DOMAIN-SUFFIX,iosapps.itunes.g.aaplimg.com,DIRECT
+  - DOMAIN-SUFFIX,ipcdn.apple.com,DIRECT
+  - DOMAIN-SUFFIX,iphone-ld.apple.com,DIRECT
+  - DOMAIN-SUFFIX,iphone-ld.origin-apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,is-ssl.mzstatic.com-cn-lb.itunes-apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,is1-ssl.mzstatic.com,DIRECT
+  - DOMAIN-SUFFIX,is1.mzstatic.com,DIRECT
+  - DOMAIN-SUFFIX,is2-ssl.mzstatic.com,DIRECT
+  - DOMAIN-SUFFIX,is2.mzstatic.com,DIRECT
+  - DOMAIN-SUFFIX,is3-ssl.mzstatic.com,DIRECT
+  - DOMAIN-SUFFIX,is3.mzstatic.com,DIRECT
+  - DOMAIN-SUFFIX,is4-ssl.mzstatic.com,DIRECT
+  - DOMAIN-SUFFIX,is4.mzstatic.com,DIRECT
+  - DOMAIN-SUFFIX,is5-ssl.mzstatic.com,DIRECT
+  - DOMAIN-SUFFIX,is5.mzstatic.com,DIRECT
+  - DOMAIN-SUFFIX,itunes-apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,itunes.apple.com,DIRECT
+  - DOMAIN-SUFFIX,itunesconnect.apple.com,DIRECT
+  - DOMAIN-SUFFIX,mesu-cdn.apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,mesu-china.apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,mesu.apple.com,DIRECT
+  - DOMAIN-SUFFIX,ml.cdn-apple.com,DIRECT
+  - DOMAIN-SUFFIX,music.apple.com,DIRECT
+  - DOMAIN-SUFFIX,ocsp-lb.apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,ocsp.apple.com,DIRECT
+  - DOMAIN-SUFFIX,ocsp2-lb.apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,ocsp2.apple.com,DIRECT
+  - DOMAIN-SUFFIX,oscdn.apple.com,DIRECT
+  - DOMAIN-SUFFIX,oscdn.origin-apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,osxapps.itunes.g.aaplimg.com,DIRECT
+  - DOMAIN-SUFFIX,pancake.apple.com,DIRECT
+  - DOMAIN-SUFFIX,pancake.cdn-apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,pba0.apple.com,DIRECT
+  - DOMAIN-SUFFIX,probe.siri.apple.com,DIRECT
+  - DOMAIN-SUFFIX,prod-support.apple-support.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,publicassets.cdn-apple.com,DIRECT
+  - DOMAIN-SUFFIX,reserve-prime.apple.com,DIRECT
+  - DOMAIN-SUFFIX,s.mzstatic.com,DIRECT
+  - DOMAIN-SUFFIX,seed-sequoia.siri.apple.com,DIRECT
+  - DOMAIN-SUFFIX,seed-swallow.siri.apple.com,DIRECT
+  - DOMAIN-SUFFIX,seed.siri.apple.com,DIRECT
+  - DOMAIN-SUFFIX,sequoia.apple.com,DIRECT
+  - DOMAIN-SUFFIX,sh-pod2-smp-device.apple.com,DIRECT
+  - DOMAIN-SUFFIX,shazam-insights.cdn-apple.com,DIRECT
+  - DOMAIN-SUFFIX,smp-device-content.apple.com,DIRECT
+  - DOMAIN-SUFFIX,static.gc.apple.com,DIRECT
+  - DOMAIN-SUFFIX,stocks-sparkline-lb.apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,stocks-sparkline.apple.com,DIRECT
+  - DOMAIN-SUFFIX,store.apple.com.edgekey.net.globalredir.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,store.apple.com.edgekey.net,DIRECT
+  - DOMAIN-SUFFIX,store.apple.com,DIRECT
+  - DOMAIN-SUFFIX,store.storeimages.apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,store.storeimages.cdn-apple.com,DIRECT
+  - DOMAIN-SUFFIX,support-china.apple-support.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,support.apple.com,DIRECT
+  - DOMAIN-SUFFIX,swallow-apple-com.v.aaplimg.com,DIRECT
+  - DOMAIN-SUFFIX,swallow.apple.com,DIRECT
+  - DOMAIN-SUFFIX,swcatalog-cdn.apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,swcatalog.apple.com,DIRECT
+  - DOMAIN-SUFFIX,swcdn.apple.com,DIRECT
+  - DOMAIN-SUFFIX,swcdn.g.aaplimg.com,DIRECT
+  - DOMAIN-SUFFIX,swdist.apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,swdist.apple.com,DIRECT
+  - DOMAIN-SUFFIX,swscan-cdn.apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,swscan.apple.com,DIRECT
+  - DOMAIN-SUFFIX,sylvan.apple.com,DIRECT
+  - DOMAIN-SUFFIX,tj-pod1-smp-device.apple.com,DIRECT
+  - DOMAIN-SUFFIX,updates-http.cdn-apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,updates-http.cdn-apple.com,DIRECT
+  - DOMAIN-SUFFIX,updates.cdn-apple.com,DIRECT
+  - DOMAIN-SUFFIX,valid.apple.com,DIRECT
+  - DOMAIN-SUFFIX,valid.origin-apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,weather-data.apple.com.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,weather-data.apple.com,DIRECT
+  - DOMAIN-SUFFIX,weather-map.apple.com,DIRECT
+  - DOMAIN-SUFFIX,weather-map2.apple.com,DIRECT
+  - DOMAIN-SUFFIX,weatherkit.apple.com,DIRECT
+  - DOMAIN-SUFFIX,www.apple.com.edgekey.net.globalredir.akadns.net,DIRECT
+  - DOMAIN-SUFFIX,www.apple.com,DIRECT
+  - DOMAIN-SUFFIX,xp.apple.com,DIRECT
   - DOMAIN,vsmarketplacebadge.apphb.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,1drv.ms,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,21vbc.com,Ⓜ️ 微软服务
@@ -7773,33 +7767,21 @@ rules:
   - DOMAIN-SUFFIX,wxapp.tc.qq.com,DIRECT
   - DOMAIN-SUFFIX,wxs.qq.com,DIRECT
   - IP-ASN,132203,DIRECT,no-resolve
-  - DOMAIN-SUFFIX,csgo.wmsj.cn,DIRECT
-  - DOMAIN-SUFFIX,dl.steam.clngaa.com,DIRECT
-  - DOMAIN-SUFFIX,dl.steam.ksyna.com,DIRECT
-  - DOMAIN-SUFFIX,dota2.wmsj.cn,DIRECT
-  - DOMAIN-SUFFIX,st.dl.bscstorage.net,DIRECT
-  - DOMAIN-SUFFIX,st.dl.eccdnx.com,DIRECT
-  - DOMAIN-SUFFIX,st.dl.pinyuncloud.com,DIRECT
-  - DOMAIN,steampipe.steamcontent.tnkjmec.com,DIRECT
-  - DOMAIN-SUFFIX,steampowered.com.8686c.com,DIRECT
-  - DOMAIN-SUFFIX,steamstatic.com.8686c.com,DIRECT
-  - DOMAIN-SUFFIX,wmsjsteam.com,DIRECT
-  - DOMAIN,xz.pphimalayanrt.com,DIRECT
-  - DOMAIN-SUFFIX,cm.steampowered.com,DIRECT
-  - DOMAIN-SUFFIX,steamchina.com,DIRECT
-  - DOMAIN-SUFFIX,steamcontent.com,DIRECT
-  - DOMAIN-SUFFIX,steamserver.net,DIRECT
-  - DOMAIN-SUFFIX,steamusercontent.com,DIRECT
   - DOMAIN,assets1.xboxlive.cn,DIRECT
   - DOMAIN,assets2.xboxlive.cn,DIRECT
   - DOMAIN,cdn-ali.content.steamchina.com,DIRECT
   - DOMAIN,cdn-qc.content.steamchina.com,DIRECT
   - DOMAIN,cdn-ws.content.steamchina.com,DIRECT
   - DOMAIN,dl.delivery.mp.microsoft.com,DIRECT
+  - DOMAIN-SUFFIX,dl.steam.clngaa.com,DIRECT
   - DOMAIN,epicgames-download1-1251447533.file.myqcloud.com,DIRECT
+  - DOMAIN-SUFFIX,st.dl.bscstorage.net,DIRECT
+  - DOMAIN-SUFFIX,st.dl.eccdnx.com,DIRECT
+  - DOMAIN,steampipe.steamcontent.tnkjmec.com,DIRECT
   - DOMAIN,tlu.dl.delivery.mp.microsoft.com,DIRECT
   - DOMAIN,trts.baishancdnx.cn,DIRECT
   - DOMAIN,uplaypc-s-ubisoft.cdn.ubionline.com.cn,DIRECT
+  - DOMAIN,xz.pphimalayanrt.com,DIRECT
   - DOMAIN-SUFFIX,pdl.wow.battlenet.com.cn,DIRECT
   - DOMAIN,eaasserts-a.akamaihd.net,🚀 节点选择
   - DOMAIN,originasserts.akamaized.net,🚀 节点选择
@@ -8244,12 +8226,16 @@ rules:
   - DOMAIN-SUFFIX,rockstargames.com,🚀 节点选择
   - DOMAIN-SUFFIX,rsg.sc,🚀 节点选择
   - DOMAIN-SUFFIX,videos-rockstargames-com.akamaized.net,🚀 节点选择
+  - DOMAIN-SUFFIX,csgo.wmsj.cn,🚀 节点选择
+  - DOMAIN-SUFFIX,dl.steam.ksyna.com,🚀 节点选择
+  - DOMAIN-SUFFIX,dota2.wmsj.cn,🚀 节点选择
   - DOMAIN-SUFFIX,edge.steam-dns.top.comcast.net,🚀 节点选择
   - DOMAIN-SUFFIX,f3b7q2p3.ssl.hwcdn.net,🚀 节点选择
   - DOMAIN-SUFFIX,fanatical.com,🚀 节点选择
   - DOMAIN-SUFFIX,humblebundle.com,🚀 节点选择
   - DOMAIN-SUFFIX,playartifact.com,🚀 节点选择
   - DOMAIN-SUFFIX,s.team,🚀 节点选择
+  - DOMAIN-SUFFIX,st.dl.pinyuncloud.com,🚀 节点选择
   - DOMAIN-SUFFIX,steam-api.com,🚀 节点选择
   - DOMAIN-SUFFIX,steam-chat.com,🚀 节点选择
   - DOMAIN-SUFFIX,steam.apac.qtlglb.com,🚀 节点选择
@@ -8273,8 +8259,10 @@ rules:
   - DOMAIN-SUFFIX,steampipe-partner.akamaized.net,🚀 节点选择
   - DOMAIN-SUFFIX,steampipe.akamaized.net,🚀 节点选择
   - DOMAIN-SUFFIX,steampowered.com,🚀 节点选择
+  - DOMAIN-SUFFIX,steampowered.com.8686c.com,🚀 节点选择
   - DOMAIN-SUFFIX,steamstat.us,🚀 节点选择
   - DOMAIN-SUFFIX,steamstatic.com,🚀 节点选择
+  - DOMAIN-SUFFIX,steamstatic.com.8686c.com,🚀 节点选择
   - DOMAIN-SUFFIX,steamstore-a.akamaihd.net,🚀 节点选择
   - DOMAIN-SUFFIX,steamunlocked.net,🚀 节点选择
   - DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net,🚀 节点选择
@@ -8282,6 +8270,11 @@ rules:
   - DOMAIN-SUFFIX,steamvideo-a.akamaihd.net,🚀 节点选择
   - DOMAIN-SUFFIX,underlords.com,🚀 节点选择
   - DOMAIN-SUFFIX,valvesoftware.com,🚀 节点选择
+  - DOMAIN-SUFFIX,wmsjsteam.com,🚀 节点选择
+  - DOMAIN-SUFFIX,steamchina.com,🚀 节点选择
+  - DOMAIN-SUFFIX,steamcontent.com,🚀 节点选择
+  - DOMAIN-SUFFIX,steamserver.net,🚀 节点选择
+  - DOMAIN-SUFFIX,steamusercontent.com,🚀 节点选择
   - DOMAIN-SUFFIX,brawlstars.com,🚀 节点选择
   - DOMAIN-SUFFIX,brawlstarsgame.com,🚀 节点选择
   - DOMAIN-SUFFIX,ubi.com,🚀 节点选择
@@ -8344,36 +8337,6 @@ rules:
   - IP-CIDR,210.71.148.11/32,🚀 节点选择,no-resolve
   - IP-CIDR,211.115.104.1/32,🚀 节点选择,no-resolve
   - IP-CIDR,24.105.62.129/32,🚀 节点选择,no-resolve
-  - DOMAIN,audio4-ak-spotify-com.akamaized.net,🚀 节点选择
-  - DOMAIN,cdn-spotify-experiments.conductrics.com,🚀 节点选择
-  - DOMAIN,heads-ak-spotify-com.akamaized.net,🚀 节点选择
-  - DOMAIN,spotify.com.edgesuite.net,🚀 节点选择
-  - DOMAIN,spotify.map.fastly.net,🚀 节点选择
-  - DOMAIN,spotify.map.fastlylb.net,🚀 节点选择
-  - DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net,🚀 节点选择
-  - DOMAIN-SUFFIX,byspotify.com,🚀 节点选择
-  - DOMAIN-SUFFIX,heads4-ak-spotify-com.akamaized.net,🚀 节点选择
-  - DOMAIN-SUFFIX,pscdn.co,🚀 节点选择
-  - DOMAIN-SUFFIX,scdn.co,🚀 节点选择
-  - DOMAIN-SUFFIX,spoti.fi,🚀 节点选择
-  - DOMAIN-SUFFIX,spotify-com.akamaized.net,🚀 节点选择
-  - DOMAIN-SUFFIX,spotify-everywhere.com,🚀 节点选择
-  - DOMAIN-SUFFIX,spotify.app.link,🚀 节点选择
-  - DOMAIN-SUFFIX,spotify.com,🚀 节点选择
-  - DOMAIN-SUFFIX,spotify.design,🚀 节点选择
-  - DOMAIN-SUFFIX,spotifycdn.com,🚀 节点选择
-  - DOMAIN-SUFFIX,spotifycdn.net,🚀 节点选择
-  - DOMAIN-SUFFIX,spotifycharts.com,🚀 节点选择
-  - DOMAIN-SUFFIX,spotifycodes.com,🚀 节点选择
-  - DOMAIN-SUFFIX,spotifyforbrands.com,🚀 节点选择
-  - DOMAIN-SUFFIX,spotifyjobs.com,🚀 节点选择
-  - DOMAIN-SUFFIX,spotifynewsroom.jp,🚀 节点选择
-  - DOMAIN-SUFFIX,spotilocal.com,🚀 节点选择
-  - DOMAIN-SUFFIX,tospotify.com,🚀 节点选择
-  - DOMAIN-KEYWORD,spotify,🚀 节点选择
-  - IP-CIDR,104.154.127.126/32,🚀 节点选择,no-resolve
-  - IP-CIDR,35.186.224.47/32,🚀 节点选择,no-resolve
-  - PROCESS-NAME,com.spotify.music,🚀 节点选择
   - DOMAIN,apiintl.biliapi.net,DIRECT
   - DOMAIN,upos-hz-mirrorakam.akamaized.net,DIRECT
   - DOMAIN-SUFFIX,acg.tv,DIRECT
@@ -8695,6 +8658,12 @@ rules:
   - DOMAIN-SUFFIX,sndcdn.com,🚀 节点选择
   - DOMAIN-SUFFIX,soundcloud.com,🚀 节点选择
   - DOMAIN-KEYWORD,-spotify-,🚀 节点选择
+  - DOMAIN-KEYWORD,spotify.com,🚀 节点选择
+  - DOMAIN-SUFFIX,pscdn.co,🚀 节点选择
+  - DOMAIN-SUFFIX,scdn.co,🚀 节点选择
+  - DOMAIN-SUFFIX,spoti.fi,🚀 节点选择
+  - DOMAIN-SUFFIX,spotifycdn.com,🚀 节点选择
+  - DOMAIN-SUFFIX,spotifycdn.net,🚀 节点选择
   - DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com,🚀 节点选择
   - DOMAIN-SUFFIX,tidal.com,🚀 节点选择
   - DOMAIN-SUFFIX,tidalhifi.com,🚀 节点选择
@@ -8790,6 +8759,7 @@ rules:
   - DOMAIN-KEYWORD,instagram,🚀 节点选择
   - DOMAIN-KEYWORD,porn,🚀 节点选择
   - DOMAIN-KEYWORD,sci-hub,🚀 节点选择
+  - DOMAIN-KEYWORD,spotify,🚀 节点选择
   - DOMAIN-KEYWORD,telegram,🚀 节点选择
   - DOMAIN-KEYWORD,twitter,🚀 节点选择
   - DOMAIN-KEYWORD,whatsapp,🚀 节点选择
@@ -15675,6 +15645,7 @@ rules:
   - DOMAIN-SUFFIX,sohuno.com,DIRECT
   - DOMAIN-SUFFIX,sohurdc.com,DIRECT
   - DOMAIN-SUFFIX,v-56.com,DIRECT
+  - DOMAIN-SUFFIX,cm.steampowered.com,DIRECT
   - DOMAIN-SUFFIX,foxmail.com,DIRECT
   - DOMAIN-SUFFIX,gtimg.com,DIRECT
   - DOMAIN-SUFFIX,idqqimg.com,DIRECT
@@ -16179,4 +16150,4 @@ rules:
   - IP-CIDR,101.199.196.0/22,DIRECT,no-resolve
   - GEOIP,CN,DIRECT
   - MATCH,🚀 节点选择
-# Auto update: 2025-05-18T19:51:56
+# Auto update: 2025-05-18T20:29:19
