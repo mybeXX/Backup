@@ -15,7 +15,7 @@ proxy-providers:
     path: ./proxy_providers/Sub1.yaml
     health-check:
       enable: true
-      url: http://www.gstatic.com/generate_204
+      url: https://www.gstatic.com/generate_204
       interval: 600
     override:
       additional-prefix: '[Sub1]'
@@ -27,7 +27,7 @@ proxy-providers:
     path: ./proxy_providers/Sub2.yaml
     health-check:
       enable: true
-      url: http://www.gstatic.com/generate_204
+      url: https://www.gstatic.com/generate_204
       interval: 600
     override:
       additional-prefix: '[Sub2]'
@@ -39,7 +39,7 @@ proxy-providers:
     path: ./proxy_providers/Sub3.yaml
     health-check:
       enable: true
-      url: http://www.gstatic.com/generate_204
+      url: https://www.gstatic.com/generate_204
       interval: 600
     override:
       additional-prefix: '[Sub3]'
