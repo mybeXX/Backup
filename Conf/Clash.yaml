@@ -16179,4 +16179,4 @@ rules:
   - IP-CIDR,101.199.196.0/22,DIRECT,no-resolve
   - GEOIP,CN,DIRECT
   - MATCH,🚀 节点选择
-# Auto update: 2025-05-18T17:49:46
+# Auto update: 2025-05-18T19:51:56
