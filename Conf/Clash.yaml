@@ -109,7 +109,7 @@ experimental:
   udp-fallback-policy: discard
 
 rules:
-  # 合并规则总数：22770 条
+  # 合并规则总数：22763 条
   # 来自 private.txt，原 131 条规则，现 131 条
   - DOMAIN,instant.arubanetworks.com,DIRECT
   - DOMAIN,setmeup.arubanetworks.com,DIRECT
@@ -871,7 +871,7 @@ rules:
   - DOMAIN-SUFFIX,go.10086.cn,REJECT
   - DOMAIN-SUFFIX,hivedata.cc,REJECT
   - DOMAIN-SUFFIX,navi.gd.chinamobile.com,REJECT
-  # 来自 adblockclashlite.list，原 6096 条规则，现 5918 条
+  # 来自 adblockclashlite.list，原 6089 条规则，现 5911 条
   - DOMAIN-SUFFIX,kwflvcdn.000dn.com,REJECT-DROP
   - DOMAIN-SUFFIX,00xvppy.cn,REJECT-DROP
   - DOMAIN-SUFFIX,img.0279.net,REJECT-DROP
@@ -1903,7 +1903,6 @@ rules:
   - DOMAIN-SUFFIX,bigwww.com,REJECT-DROP
   - DOMAIN-SUFFIX,bihaipack.com,REJECT-DROP
   - DOMAIN-SUFFIX,dataflow.biliapi.com,REJECT-DROP
-  - DOMAIN-SUFFIX,ali-bj-pcdn-06.biliapi.net,REJECT-DROP
   - DOMAIN-SUFFIX,ali-bj-pcdn-07.biliapi.net,REJECT-DROP
   - DOMAIN-SUFFIX,ali-bj-pcdn-08.biliapi.net,REJECT-DROP
   - DOMAIN-SUFFIX,ali-bj-pcdn-09.biliapi.net,REJECT-DROP
@@ -2557,7 +2556,6 @@ rules:
   - DOMAIN-SUFFIX,e8d7.icu,REJECT-DROP
   - DOMAIN-SUFFIX,stat.ea3w.com,REJECT-DROP
   - DOMAIN-SUFFIX,eagle-tex.cn,REJECT-DROP
-  - DOMAIN-SUFFIX,activation.easeus.com,REJECT-DROP
   - DOMAIN-SUFFIX,track.easeus.com,REJECT-DROP
   - DOMAIN-SUFFIX,easou.com,REJECT-DROP
   - DOMAIN-SUFFIX,mini.eastday.com,REJECT-DROP
@@ -3302,7 +3300,6 @@ rules:
   - DOMAIN-SUFFIX,seeder.igetget.com,REJECT-DROP
   - DOMAIN-SUFFIX,ignslkgs.com,REJECT-DROP
   - DOMAIN-SUFFIX,ihclam.cn,REJECT-DROP
-  - DOMAIN-SUFFIX,tracking.ihipportb.com,REJECT-DROP
   - DOMAIN-SUFFIX,fpbone.ihowguide.com,REJECT-DROP
   - DOMAIN-SUFFIX,ihtqqws.cn,REJECT-DROP
   - DOMAIN-SUFFIX,ad.iii.co.uk,REJECT-DROP
@@ -4227,7 +4224,6 @@ rules:
   - DOMAIN-SUFFIX,ceshi127722.obs.cn-north-4.myhuaweicloud.com,REJECT-DROP
   - DOMAIN-SUFFIX,r39-g003-h8ig0w-u8f0we8-fgw0rgf-0we880e-rhgth.obs.ap-southeast-2.myhuaweicloud.com,REJECT-DROP
   - DOMAIN-SUFFIX,teslaamg.obs.cn-east-3.myhuaweicloud.com,REJECT-DROP
-  - DOMAIN-SUFFIX,sentry.myoas.net,REJECT-DROP
   - DOMAIN-SUFFIX,esa-reg-eup.myoppo.com,REJECT-DROP
   - DOMAIN-SUFFIX,12551-1311572332.cos.ap-shanghai.myqcloud.com,REJECT-DROP
   - DOMAIN-SUFFIX,2g312kn32qfy-1323053341.cos.ap-bangkok.myqcloud.com,REJECT-DROP
@@ -4322,7 +4318,6 @@ rules:
   - DOMAIN-SUFFIX,synad2.nuffnang.com.cn,REJECT-DROP
   - DOMAIN-SUFFIX,c.nuhcpf.com,REJECT-DROP
   - DOMAIN-SUFFIX,log.nuomi.com,REJECT-DROP
-  - DOMAIN-SUFFIX,ads.nuonuo.com,REJECT-DROP
   - DOMAIN-SUFFIX,metric.nuonuo.com,REJECT-DROP
   - DOMAIN-SUFFIX,promotionad.nvcam.net,REJECT-DROP
   - DOMAIN-SUFFIX,nvcnet.cn,REJECT-DROP
@@ -5767,7 +5762,7 @@ rules:
   - DOMAIN-SUFFIX,veryboys.com,REJECT-DROP
   - DOMAIN-SUFFIX,vfvdsati.com,REJECT-DROP
   - DOMAIN-SUFFIX,www.vgzjy.cn,REJECT-DROP
-  - DOMAIN-SUFFIX,vicp.cc,REJECT-DROP
+  - DOMAIN-SUFFIX,serconsole.vicp.cc,REJECT-DROP
   - DOMAIN-SUFFIX,goldbye.vicp.net,REJECT-DROP
   - DOMAIN-SUFFIX,ns1.vicp.net,REJECT-DROP
   - DOMAIN-SUFFIX,ns2.vicp.net,REJECT-DROP
@@ -6113,7 +6108,6 @@ rules:
   - DOMAIN-SUFFIX,analytics.woozooo.com,REJECT-DROP
   - DOMAIN-SUFFIX,statics.woozooo.com,REJECT-DROP
   - DOMAIN-SUFFIX,www.world-flags.cn,REJECT-DROP
-  - DOMAIN-SUFFIX,tracking.wosai.cn,REJECT-DROP
   - DOMAIN-SUFFIX,auth.wosms.cn,REJECT-DROP
   - DOMAIN-SUFFIX,opencloud.wostore.cn,REJECT-DROP
   - DOMAIN-SUFFIX,www.wowostar.cn,REJECT-DROP
@@ -6783,7 +6777,6 @@ rules:
   - DOMAIN-SUFFIX,zxptw.cn,REJECT-DROP
   - DOMAIN-SUFFIX,zxqiwe.cn,REJECT-DROP
   - DOMAIN-SUFFIX,zxrcfw.com,REJECT-DROP
-  - DOMAIN-SUFFIX,zxrtb.com,REJECT-DROP
   - DOMAIN-SUFFIX,zxsruvd.cn,REJECT-DROP
   - DOMAIN-SUFFIX,httpdns.zybang.com,REJECT-DROP
   - DOMAIN-SUFFIX,zykwnj.cn,REJECT-DROP
@@ -8266,14 +8259,12 @@ rules:
   - DOMAIN-KEYWORD,steambroadcast,🚀 节点选择
   - DOMAIN-KEYWORD,steamstore,🚀 节点选择
   - DOMAIN-KEYWORD,steamuserimages,🚀 节点选择
-  - IP-CIDR,103.4.115.248/32,🚀 节点选择,no-resolve
   - IP-CIDR,182.162.135.1/32,🚀 节点选择,no-resolve
-  - IP-CIDR,185.60.112.157/32,🚀 节点选择,no-resolve
-  - IP-CIDR,185.60.112.158/32,🚀 节点选择,no-resolve
   - IP-CIDR,210.242.235.6/32,🚀 节点选择,no-resolve
   - IP-CIDR,24.105.30.129/32,🚀 节点选择,no-resolve
   - IP-CIDR,54.94.196.47/32,🚀 节点选择,no-resolve
   - IP-CIDR,182.162.132.1/32,🚀 节点选择,no-resolve
+  - IP-CIDR,103.4.114.233/32,🚀 节点选择,no-resolve
   - IP-CIDR,182.162.116.1/32,🚀 节点选择,no-resolve
   - IP-CIDR,202.9.67.59/32,🚀 节点选择,no-resolve
   - IP-CIDR,203.69.111.4/32,🚀 节点选择,no-resolve
@@ -8282,7 +8273,6 @@ rules:
   - IP-CIDR,203.66.81.98/32,🚀 节点选择,no-resolve
   - IP-CIDR,211.234.110.1/32,🚀 节点选择,no-resolve
   - IP-CIDR,54.207.107.12/32,🚀 节点选择,no-resolve
-  - IP-CIDR,103.4.114.233/32,🚀 节点选择,no-resolve
   - IP-CIDR,202.9.67.254/32,🚀 节点选择,no-resolve
   - IP-CIDR,222.231.22.1/32,🚀 节点选择,no-resolve
   - IP-CIDR,13.210.25.233/32,🚀 节点选择,no-resolve
@@ -8307,7 +8297,10 @@ rules:
   - IP-CIDR,52.50.131.212/32,🚀 节点选择,no-resolve
   - IP-CIDR,54.207.168.84/32,🚀 节点选择,no-resolve
   - IP-CIDR,54.248.64.192/32,🚀 节点选择,no-resolve
+  - IP-CIDR,103.4.115.248/32,🚀 节点选择,no-resolve
   - IP-CIDR,137.221.105.2/32,🚀 节点选择,no-resolve
+  - IP-CIDR,185.60.112.157/32,🚀 节点选择,no-resolve
+  - IP-CIDR,185.60.112.158/32,🚀 节点选择,no-resolve
   - IP-CIDR,185.60.114.159/32,🚀 节点选择,no-resolve
   - IP-CIDR,210.71.148.11/32,🚀 节点选择,no-resolve
   - IP-CIDR,211.115.104.1/32,🚀 节点选择,no-resolve
@@ -22906,4 +22899,4 @@ rules:
   - IP-CIDR,101.199.196.0/22,DIRECT,no-resolve
   - GEOIP,CN,DIRECT
   - MATCH,🚀 节点选择
-# Auto update: 2025-05-24T20:11:49
+# Auto update: 2025-05-25T05:41:19
