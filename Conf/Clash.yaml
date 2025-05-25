@@ -109,7 +109,7 @@ experimental:
   udp-fallback-policy: discard
 
 rules:
-  # 合并规则总数：22763 条
+  # 合并规则总数：22765 条
   # 来自 private.txt，原 131 条规则，现 131 条
   - DOMAIN,instant.arubanetworks.com,DIRECT
   - DOMAIN,setmeup.arubanetworks.com,DIRECT
@@ -17630,7 +17630,7 @@ rules:
   - IP-CIDR,174.37.243.0/16,🚀 节点选择,no-resolve
   - IP-CIDR,75.126.150.0/16,🚀 节点选择,no-resolve
   - IP-CIDR,69.171.235.0/16,🚀 节点选择,no-resolve
-  # 来自 gfw.txt，原 6524 条规则，现 525 条
+  # 来自 gfw.txt，原 6525 条规则，现 527 条
   - DOMAIN-SUFFIX,1989report.hkja.org.hk,🚀 节点选择
   - DOMAIN-SUFFIX,56cun04.jigsy.com,🚀 节点选择
   - DOMAIN-SUFFIX,89.64.charter.constitutionalism.solutions,🚀 节点选择
@@ -17983,6 +17983,7 @@ rules:
   - DOMAIN-SUFFIX,rcam.target.com,🚀 节点选择
   - DOMAIN-SUFFIX,rconversation.blogs.com,🚀 节点选择
   - DOMAIN-SUFFIX,realforum.zkiz.com,🚀 节点选择
+  - DOMAIN-SUFFIX,reddithelp.com,🚀 节点选择
   - DOMAIN-SUFFIX,relay.firefox.com,🚀 节点选择
   - DOMAIN-SUFFIX,rfalive1.akacast.akamaistream.net,🚀 节点选择
   - DOMAIN-SUFFIX,rthklive2-lh.akamaihd.net,🚀 节点选择
@@ -18124,6 +18125,7 @@ rules:
   - DOMAIN-SUFFIX,www.moztw.org,🚀 节点选择
   - DOMAIN-SUFFIX,www.msn.com,🚀 节点选择
   - DOMAIN-SUFFIX,www.nbc.com,🚀 节点选择
+  - DOMAIN-SUFFIX,www.nodeloc.com,🚀 节点选择
   - DOMAIN-SUFFIX,www.orchidbbs.com,🚀 节点选择
   - DOMAIN-SUFFIX,www.owind.com,🚀 节点选择
   - DOMAIN-SUFFIX,www.oxid.it,🚀 节点选择
@@ -22899,4 +22901,4 @@ rules:
   - IP-CIDR,101.199.196.0/22,DIRECT,no-resolve
   - GEOIP,CN,DIRECT
   - MATCH,🚀 节点选择
-# Auto update: 2025-05-25T05:41:19
+# Auto update: 2025-05-25T10:10:44
