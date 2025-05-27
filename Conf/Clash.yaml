@@ -6916,7 +6916,7 @@ rules:
   - DOMAIN-SUFFIX,zzad.com,REJECT-DROP
   - DOMAIN-SUFFIX,log-auth.zztfly.com,REJECT-DROP
   - DOMAIN-SUFFIX,zztxr.cn,REJECT-DROP
-  # 来自 rejectAd.list，原 10039 条规则，现 8003 条
+  # 来自 rejectAd.list，原 10039 条规则，现 8002 条
   - DOMAIN-KEYWORD,-ad-sign.byteimg.com,REJECT
   - DOMAIN-KEYWORD,-tos.pstatp.com,REJECT
   - DOMAIN-KEYWORD,asiad.byteactivity,REJECT
@@ -7758,7 +7758,6 @@ rules:
   - DOMAIN,ads.finance.yahoo.com,REJECT
   - DOMAIN,ads.yahoo.com,REJECT
   - DOMAIN,ads.yahoo.de,REJECT
-  - DOMAIN-SUFFIX,sm.cn,REJECT
   - DOMAIN-SUFFIX,acz.youku.com,REJECT
   - DOMAIN-SUFFIX,adx-core.youku.com,REJECT
   - DOMAIN-SUFFIX,rhdc-acs.youku.com,REJECT
@@ -27108,7 +27107,7 @@ rules:
   - IP-CIDR,174.37.243.0/16,🚀 节点选择,no-resolve
   - IP-CIDR,75.126.150.0/16,🚀 节点选择,no-resolve
   - IP-CIDR,69.171.235.0/16,🚀 节点选择,no-resolve
-  # 来自 gfw.txt，原 6525 条规则，现 526 条
+  # 来自 gfw.txt，原 6526 条规则，现 527 条
   - DOMAIN-SUFFIX,1989report.hkja.org.hk,🚀 节点选择
   - DOMAIN-SUFFIX,56cun04.jigsy.com,🚀 节点选择
   - DOMAIN-SUFFIX,89.64.charter.constitutionalism.solutions,🚀 节点选择
@@ -27342,6 +27341,7 @@ rules:
   - DOMAIN-SUFFIX,freedominfonetweb.wordpress.com,🚀 节点选择
   - DOMAIN-SUFFIX,gamer-cds.cdn.hinet.net,🚀 节点选择
   - DOMAIN-SUFFIX,gamer2-cds.cdn.hinet.net,🚀 节点选择
+  - DOMAIN-SUFFIX,gemini.google,🚀 节点选择
   - DOMAIN-SUFFIX,global.bing.com,🚀 节点选择
   - DOMAIN-SUFFIX,gmozomg.izihost.org,🚀 节点选择
   - DOMAIN-SUFFIX,go.nesnode.com,🚀 节点选择
@@ -32352,4 +32352,4 @@ rules:
   - IP-CIDR,101.199.196.0/22,DIRECT,no-resolve
   - GEOIP,CN,DIRECT
   - MATCH,🚀 节点选择
-# Auto update: 2025-05-27T04:46:43
+# Auto update: 2025-05-27T09:02:20
