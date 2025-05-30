@@ -109,7 +109,7 @@ experimental:
   udp-fallback-policy: discard
 
 rules:
-  # 合并规则总数：32203 条
+  # 合并规则总数：32209 条
   # 来自 private.txt，原 131 条规则，现 131 条
   - DOMAIN,instant.arubanetworks.com,DIRECT
   - DOMAIN,setmeup.arubanetworks.com,DIRECT
@@ -27109,7 +27109,7 @@ rules:
   - IP-CIDR,174.37.243.0/16,🚀 节点选择,no-resolve
   - IP-CIDR,75.126.150.0/16,🚀 节点选择,no-resolve
   - IP-CIDR,69.171.235.0/16,🚀 节点选择,no-resolve
-  # 来自 gfw.txt，原 6501 条规则，现 526 条
+  # 来自 gfw.txt，原 6507 条规则，现 532 条
   - DOMAIN-SUFFIX,1989report.hkja.org.hk,🚀 节点选择
   - DOMAIN-SUFFIX,56cun04.jigsy.com,🚀 节点选择
   - DOMAIN-SUFFIX,89.64.charter.constitutionalism.solutions,🚀 节点选择
@@ -27468,9 +27468,15 @@ rules:
   - DOMAIN-SUFFIX,rtm.tnt-ea.com,🚀 节点选择
   - DOMAIN-SUFFIX,s.yimg.com,🚀 节点选择
   - DOMAIN-SUFFIX,s1.nudezz.com,🚀 节点选择
+  - DOMAIN-SUFFIX,s3-ap-northeast-1.amazonaws.com,🚀 节点选择
+  - DOMAIN-SUFFIX,s3-ap-northeast-2.amazonaws.com,🚀 节点选择
   - DOMAIN-SUFFIX,s3-ap-southeast-1.amazonaws.com,🚀 节点选择
   - DOMAIN-SUFFIX,s3-ap-southeast-2.amazonaws.com,🚀 节点选择
+  - DOMAIN-SUFFIX,s3-eu-central-1.amazonaws.com,🚀 节点选择
   - DOMAIN-SUFFIX,s3.amazonaws.com,🚀 节点选择
+  - DOMAIN-SUFFIX,s3.ap-northeast-2.amazonaws.com,🚀 节点选择
+  - DOMAIN-SUFFIX,s3.eu-central-1.amazonaws.com,🚀 节点选择
+  - DOMAIN-SUFFIX,s3.us-east-1.amazonaws.com,🚀 节点选择
   - DOMAIN-SUFFIX,scache.vzw.com,🚀 节点选择
   - DOMAIN-SUFFIX,scache1.vzw.com,🚀 节点选择
   - DOMAIN-SUFFIX,scache2.vzw.com,🚀 节点选择
@@ -32340,4 +32346,4 @@ rules:
   - IP-CIDR,101.199.196.0/22,DIRECT,no-resolve
   - GEOIP,CN,DIRECT
   - MATCH,🚀 节点选择
-# Auto update: 2025-05-30T04:42:01
+# Auto update: 2025-05-30T09:16:18
