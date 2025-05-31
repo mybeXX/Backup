@@ -32373,4 +32373,4 @@ rules:
   - IP-CIDR,101.199.196.0/22,DIRECT,no-resolve
   - GEOIP,CN,DIRECT
   - MATCH,🚀 节点选择
-# Auto update: 2025-05-31T10:30:22
+# Auto update: 2025-05-31T10:33:23
