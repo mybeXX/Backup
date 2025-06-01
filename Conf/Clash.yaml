@@ -108,7 +108,7 @@ experimental:
   quic-go: true
   udp-fallback-policy: discard
 rules:
-  # 合并规则总数：29452 条
+  # 合并规则总数：29471 条
   - DOMAIN,instant.arubanetworks.com,DIRECT
   - DOMAIN,setmeup.arubanetworks.com,DIRECT
   - DOMAIN,asusrouter.com,DIRECT
@@ -28822,6 +28822,25 @@ rules:
   - DOMAIN-SUFFIX,how,Clash
   - DOMAIN-SUFFIX,soy,Clash
   - DOMAIN-SUFFIX,xn--q9jyb4c,Clash
+  - DOMAIN,api.imem.app,Clash
+  - DOMAIN,api.swiftgram.app,Clash
+  - DOMAIN-SUFFIX,contest.com,Clash
+  - DOMAIN-SUFFIX,mbrx.app,Clash
+  - DOMAIN-SUFFIX,stel.com,Clash
+  - DOMAIN-SUFFIX,usercontent.dev,Clash
+  - DOMAIN-KEYWORD,nicegram,Clash
+  - IP-CIDR,5.28.192.0/18,Clash,no-resolve
+  - PROCESS-NAME,Telegram.exe,Clash
+  - PROCESS-NAME,nekox.messenger,Clash
+  - PROCESS-NAME,org.telegram.messenger,Clash
+  - PROCESS-NAME,telegram-desktop,Clash
+  - PROCESS-NAME,tw.nekomimi.nekogram,Clash
+  - PROCESS-NAME,xyz.nextalone.nagram,Clash
+  - IP-ASN,211157,Clash,no-resolve
+  - IP-ASN,44907,Clash,no-resolve
+  - IP-ASN,59930,Clash,no-resolve
+  - IP-ASN,62014,Clash,no-resolve
+  - IP-ASN,62041,Clash,no-resolve
   - DOMAIN-SUFFIX,13th.tech,DIRECT
   - DOMAIN-SUFFIX,bokecc.com,DIRECT
   - DOMAIN-SUFFIX,chaipip.com,DIRECT
@@ -29563,4 +29582,4 @@ rules:
   - PROCESS-NAME,baidunetdisk.exe,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,Clash
-# Auto update: 2025-06-01T17:05:31
+# Auto update: 2025-06-01T17:06:33
