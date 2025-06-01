@@ -29563,4 +29563,4 @@ rules:
   - PROCESS-NAME,baidunetdisk.exe,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,Clash
-# Auto update: 2025-06-01T17:04:51
+# Auto update: 2025-06-01T17:05:31
