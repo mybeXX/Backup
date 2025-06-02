@@ -108,7 +108,7 @@ experimental:
   quic-go: true
   udp-fallback-policy: discard
 rules:
-  # 合并规则总数：36873 条
+  # 合并规则总数：36874 条
   - DOMAIN,instant.arubanetworks.com,DIRECT
   - DOMAIN,setmeup.arubanetworks.com,DIRECT
   - DOMAIN,asusrouter.com,DIRECT
@@ -16145,7 +16145,6 @@ rules:
   - DOMAIN-SUFFIX,app-store.wang,DIRECT
   - DOMAIN-SUFFIX,appe-store.com,DIRECT
   - DOMAIN-SUFFIX,apple-appstore.cn,DIRECT
-  - DOMAIN-SUFFIX,apple-icloud.cn,DIRECT
   - DOMAIN-SUFFIX,apple-itunes.cn,DIRECT
   - DOMAIN-SUFFIX,apple-pay.com,DIRECT
   - DOMAIN-SUFFIX,apple-pay.rs,DIRECT
@@ -16156,7 +16155,6 @@ rules:
   - DOMAIN-SUFFIX,appleappstore.tv,DIRECT
   - DOMAIN-SUFFIX,appledarwin.com,DIRECT
   - DOMAIN-SUFFIX,appledarwin.net,DIRECT
-  - DOMAIN-SUFFIX,appleicloud.cn,DIRECT
   - DOMAIN-SUFFIX,appleid-applemx.com,DIRECT
   - DOMAIN-SUFFIX,appleid-applemx.us,DIRECT
   - DOMAIN-SUFFIX,appleid-iclou.com,DIRECT
@@ -16165,7 +16163,6 @@ rules:
   - DOMAIN-SUFFIX,appleid.com,DIRECT
   - DOMAIN-SUFFIX,appleid.hamburg,DIRECT
   - DOMAIN-SUFFIX,appleid.hk,DIRECT
-  - DOMAIN-SUFFIX,applemx-icloud.com,DIRECT
   - DOMAIN-SUFFIX,appleone.audio,DIRECT
   - DOMAIN-SUFFIX,appleone.blog,DIRECT
   - DOMAIN-SUFFIX,appleone.chat,DIRECT
@@ -16211,50 +16208,7 @@ rules:
   - DOMAIN-SUFFIX,darwinsource.com,DIRECT
   - DOMAIN-SUFFIX,darwinsource.org,DIRECT
   - DOMAIN-SUFFIX,darwinsourcecode.com,DIRECT
-  - DOMAIN-SUFFIX,icloud-apple.cn,DIRECT
-  - DOMAIN-SUFFIX,icloud-content.com,DIRECT
-  - DOMAIN-SUFFIX,icloud-isupport.com,DIRECT
-  - DOMAIN-SUFFIX,icloud-sandbox.com,DIRECT
-  - DOMAIN-SUFFIX,icloud.ch,DIRECT
-  - DOMAIN-SUFFIX,icloud.com,DIRECT
-  - DOMAIN-SUFFIX,icloud.com.cn,DIRECT
-  - DOMAIN-SUFFIX,icloud.de,DIRECT
-  - DOMAIN-SUFFIX,icloud.ee,DIRECT
-  - DOMAIN-SUFFIX,icloud.fi,DIRECT
-  - DOMAIN-SUFFIX,icloud.fr,DIRECT
-  - DOMAIN-SUFFIX,icloud.hu,DIRECT
-  - DOMAIN-SUFFIX,icloud.ie,DIRECT
-  - DOMAIN-SUFFIX,icloud.is,DIRECT
-  - DOMAIN-SUFFIX,icloud.jp,DIRECT
-  - DOMAIN-SUFFIX,icloud.lv,DIRECT
-  - DOMAIN-SUFFIX,icloud.net.cn,DIRECT
-  - DOMAIN-SUFFIX,icloud.om,DIRECT
-  - DOMAIN-SUFFIX,icloud.org,DIRECT
-  - DOMAIN-SUFFIX,icloud.pt,DIRECT
-  - DOMAIN-SUFFIX,icloud.ro,DIRECT
-  - DOMAIN-SUFFIX,icloud.se,DIRECT
-  - DOMAIN-SUFFIX,icloud.si,DIRECT
-  - DOMAIN-SUFFIX,icloud.sk,DIRECT
-  - DOMAIN-SUFFIX,icloud.vn,DIRECT
-  - DOMAIN-SUFFIX,icloudads.net,DIRECT
-  - DOMAIN-SUFFIX,icloudapple.cn,DIRECT
-  - DOMAIN-SUFFIX,icloudbox.net,DIRECT
-  - DOMAIN-SUFFIX,icloudbrowser.net,DIRECT
-  - DOMAIN-SUFFIX,icloude.com,DIRECT
-  - DOMAIN-SUFFIX,icloudhome.com,DIRECT
-  - DOMAIN-SUFFIX,icloudmail.net,DIRECT
-  - DOMAIN-SUFFIX,icloudmusic.net,DIRECT
-  - DOMAIN-SUFFIX,icloudnet.net,DIRECT
-  - DOMAIN-SUFFIX,icloudo.com,DIRECT
-  - DOMAIN-SUFFIX,icloudo.de,DIRECT
-  - DOMAIN-SUFFIX,icloudo.net,DIRECT
-  - DOMAIN-SUFFIX,icloudos.de,DIRECT
-  - DOMAIN-SUFFIX,icloudos.net,DIRECT
-  - DOMAIN-SUFFIX,icloudpay.net,DIRECT
-  - DOMAIN-SUFFIX,icloudsecure.net,DIRECT
-  - DOMAIN-SUFFIX,icloudsetup.com,DIRECT
   - DOMAIN-SUFFIX,ids-apple.com,DIRECT
-  - DOMAIN-SUFFIX,ios-icloud.com,DIRECT
   - DOMAIN-SUFFIX,itun.es,DIRECT
   - DOMAIN-SUFFIX,itunbes.com,DIRECT
   - DOMAIN-SUFFIX,ituneas.com,DIRECT
@@ -16288,12 +16242,8 @@ rules:
   - DOMAIN-SUFFIX,itunesu.com,DIRECT
   - DOMAIN-SUFFIX,itunesu.net,DIRECT
   - DOMAIN-SUFFIX,iutunes.com,DIRECT
-  - DOMAIN-SUFFIX,me.com,DIRECT
   - DOMAIN-SUFFIX,myappleid.com,DIRECT
-  - DOMAIN-SUFFIX,myicloud.net,DIRECT
-  - DOMAIN-SUFFIX,mylcloud.net,DIRECT
   - DOMAIN-SUFFIX,tvappstore.net,DIRECT
-  - DOMAIN-SUFFIX,wwwicloud.com,DIRECT
   - DOMAIN-SUFFIX,wwwitunes.com,DIRECT
   - DOMAIN-SUFFIX,aplestore.com,DIRECT
   - DOMAIN-SUFFIX,aplleipods.com,DIRECT
@@ -16522,11 +16472,9 @@ rules:
   - DOMAIN-SUFFIX,wwwipodlounge.com,DIRECT
   - DOMAIN-SUFFIX,wwwmacbookair.com,DIRECT
   - DOMAIN-SUFFIX,apple.comscoreresearch.com,DIRECT
-  - DOMAIN-SUFFIX,apple.news,DIRECT
   - DOMAIN-SUFFIX,appleenews.com,DIRECT
   - DOMAIN-SUFFIX,applemusic.berlin,DIRECT
   - DOMAIN-SUFFIX,applemusic.co,DIRECT
-  - DOMAIN-SUFFIX,applemusic.com,DIRECT
   - DOMAIN-SUFFIX,applemusic.com.au,DIRECT
   - DOMAIN-SUFFIX,applemusic.hamburg,DIRECT
   - DOMAIN-SUFFIX,applemusic.wang,DIRECT
@@ -16559,13 +16507,65 @@ rules:
   - DOMAIN-SUFFIX,iphoto.wang,DIRECT
   - DOMAIN-SUFFIX,musickit.net,DIRECT
   - DOMAIN-SUFFIX,wwwapplemusic.com,DIRECT
+  - DOMAIN-SUFFIX,applemusic.com,DIRECT
   - DOMAIN-SUFFIX,apple-dns.net,DIRECT
+  - DOMAIN-SUFFIX,apple.news,DIRECT
   - DOMAIN-SUFFIX,appsto.re,DIRECT
-  - DOMAIN-SUFFIX,cdn-apple.com,DIRECT
   - DOMAIN-SUFFIX,digicert.com,DIRECT
   - DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
+  - DOMAIN-SUFFIX,apple-icloud.cn,DIRECT
   - DOMAIN-SUFFIX,apple-livephotoskit.com,DIRECT
+  - DOMAIN-SUFFIX,appleicloud.cn,DIRECT
+  - DOMAIN-SUFFIX,applemx-icloud.com,DIRECT
   - DOMAIN-SUFFIX,apzones.com,DIRECT
+  - DOMAIN-SUFFIX,cdn-apple.com,DIRECT
+  - DOMAIN-SUFFIX,icloud-apple.cn,DIRECT
+  - DOMAIN-SUFFIX,icloud-content.com,DIRECT
+  - DOMAIN-SUFFIX,icloud-isupport.com,DIRECT
+  - DOMAIN-SUFFIX,icloud-sandbox.com,DIRECT
+  - DOMAIN-SUFFIX,icloud.ch,DIRECT
+  - DOMAIN-SUFFIX,icloud.com,DIRECT
+  - DOMAIN-SUFFIX,icloud.com.cn,DIRECT
+  - DOMAIN-SUFFIX,icloud.de,DIRECT
+  - DOMAIN-SUFFIX,icloud.ee,DIRECT
+  - DOMAIN-SUFFIX,icloud.fi,DIRECT
+  - DOMAIN-SUFFIX,icloud.fr,DIRECT
+  - DOMAIN-SUFFIX,icloud.hu,DIRECT
+  - DOMAIN-SUFFIX,icloud.ie,DIRECT
+  - DOMAIN-SUFFIX,icloud.is,DIRECT
+  - DOMAIN-SUFFIX,icloud.jp,DIRECT
+  - DOMAIN-SUFFIX,icloud.lv,DIRECT
+  - DOMAIN-SUFFIX,icloud.net.cn,DIRECT
+  - DOMAIN-SUFFIX,icloud.om,DIRECT
+  - DOMAIN-SUFFIX,icloud.org,DIRECT
+  - DOMAIN-SUFFIX,icloud.pt,DIRECT
+  - DOMAIN-SUFFIX,icloud.ro,DIRECT
+  - DOMAIN-SUFFIX,icloud.se,DIRECT
+  - DOMAIN-SUFFIX,icloud.si,DIRECT
+  - DOMAIN-SUFFIX,icloud.sk,DIRECT
+  - DOMAIN-SUFFIX,icloud.vn,DIRECT
+  - DOMAIN-SUFFIX,icloudads.net,DIRECT
+  - DOMAIN-SUFFIX,icloudapple.cn,DIRECT
+  - DOMAIN-SUFFIX,icloudbox.net,DIRECT
+  - DOMAIN-SUFFIX,icloudbrowser.net,DIRECT
+  - DOMAIN-SUFFIX,icloude.com,DIRECT
+  - DOMAIN-SUFFIX,icloudhome.com,DIRECT
+  - DOMAIN-SUFFIX,icloudmail.net,DIRECT
+  - DOMAIN-SUFFIX,icloudmusic.net,DIRECT
+  - DOMAIN-SUFFIX,icloudnet.net,DIRECT
+  - DOMAIN-SUFFIX,icloudo.com,DIRECT
+  - DOMAIN-SUFFIX,icloudo.de,DIRECT
+  - DOMAIN-SUFFIX,icloudo.net,DIRECT
+  - DOMAIN-SUFFIX,icloudos.de,DIRECT
+  - DOMAIN-SUFFIX,icloudos.net,DIRECT
+  - DOMAIN-SUFFIX,icloudpay.net,DIRECT
+  - DOMAIN-SUFFIX,icloudsecure.net,DIRECT
+  - DOMAIN-SUFFIX,icloudsetup.com,DIRECT
+  - DOMAIN-SUFFIX,ios-icloud.com,DIRECT
+  - DOMAIN-SUFFIX,me.com,DIRECT
+  - DOMAIN-SUFFIX,myicloud.net,DIRECT
+  - DOMAIN-SUFFIX,mylcloud.net,DIRECT
+  - DOMAIN-SUFFIX,wwwicloud.com,DIRECT
   - DOMAIN-KEYWORD,apple-support.akadns.net,DIRECT
   - DOMAIN-KEYWORD,apple.com.akadns.net,DIRECT
   - DOMAIN-KEYWORD,apple.com.edgekey.net,DIRECT
@@ -17736,16 +17736,13 @@ rules:
   - DOMAIN-SUFFIX,lpl.com.cn,Clash
   - DOMAIN-SUFFIX,molesports.com,Clash
   - DOMAIN-SUFFIX,playvalorant.com,Clash
-  - DOMAIN-SUFFIX,pvp.net,Clash
   - DOMAIN-SUFFIX,pvp.tv,Clash
   - DOMAIN-SUFFIX,rgpub.io,Clash
   - DOMAIN-SUFFIX,riot-games.com,Clash
   - DOMAIN-SUFFIX,riot.com,Clash
   - DOMAIN-SUFFIX,riot.net,Clash
-  - DOMAIN-SUFFIX,riotcdn.net,Clash
   - DOMAIN-SUFFIX,riotforgegames.com,Clash
   - DOMAIN-SUFFIX,riotgames.co.kr,Clash
-  - DOMAIN-SUFFIX,riotgames.com,Clash
   - DOMAIN-SUFFIX,riotgames.info,Clash
   - DOMAIN-SUFFIX,riotgames.jp,Clash
   - DOMAIN-SUFFIX,riotgames.net,Clash
@@ -17818,28 +17815,33 @@ rules:
   - DOMAIN-SUFFIX,ubisoft-uplay-savegames.s3.amazonaws.com,Clash
   - DOMAIN-SUFFIX,ubisoft.com,Clash
   - DOMAIN-SUFFIX,uplay.com,Clash
+  - DOMAIN-SUFFIX,pvp.net,Clash
+  - DOMAIN-SUFFIX,riotcdn.net,Clash
+  - DOMAIN-SUFFIX,riotgames.com,Clash
   - DOMAIN-SUFFIX,xboxab.net,Clash
   - DOMAIN-SUFFIX,xboxservice.com,Clash
   - DOMAIN-KEYWORD,epicgames,Clash
   - DOMAIN-KEYWORD,steambroadcast,Clash
   - DOMAIN-KEYWORD,steamstore,Clash
   - DOMAIN-KEYWORD,steamuserimages,Clash
+  - IP-CIDR,103.4.115.248/32,Clash,no-resolve
   - IP-CIDR,182.162.135.1/32,Clash,no-resolve
   - IP-CIDR,210.242.235.6/32,Clash,no-resolve
   - IP-CIDR,54.94.196.47/32,Clash,no-resolve
   - IP-CIDR,182.162.132.1/32,Clash,no-resolve
+  - IP-CIDR,103.4.114.233/32,Clash,no-resolve
+  - IP-CIDR,182.162.116.1/32,Clash,no-resolve
   - IP-CIDR,185.60.112.157/32,Clash,no-resolve
   - IP-CIDR,185.60.112.158/32,Clash,no-resolve
-  - IP-CIDR,24.105.30.129/32,Clash,no-resolve
-  - IP-CIDR,182.162.116.1/32,Clash,no-resolve
   - IP-CIDR,202.9.67.59/32,Clash,no-resolve
   - IP-CIDR,203.69.111.4/32,Clash,no-resolve
+  - IP-CIDR,24.105.30.129/32,Clash,no-resolve
+  - IP-CIDR,24.105.62.129/32,Clash,no-resolve
   - IP-CIDR,54.207.104.145/32,Clash,no-resolve
   - IP-CIDR,35.192.0.0/12,Clash,no-resolve
   - IP-CIDR,203.66.81.98/32,Clash,no-resolve
   - IP-CIDR,211.234.110.1/32,Clash,no-resolve
   - IP-CIDR,54.207.107.12/32,Clash,no-resolve
-  - IP-CIDR,103.4.114.233/32,Clash,no-resolve
   - IP-CIDR,202.9.67.254/32,Clash,no-resolve
   - IP-CIDR,222.231.22.1/32,Clash,no-resolve
   - IP-CIDR,13.210.25.233/32,Clash,no-resolve
@@ -17864,12 +17866,10 @@ rules:
   - IP-CIDR,52.50.131.212/32,Clash,no-resolve
   - IP-CIDR,54.207.168.84/32,Clash,no-resolve
   - IP-CIDR,54.248.64.192/32,Clash,no-resolve
-  - IP-CIDR,103.4.115.248/32,Clash,no-resolve
   - IP-CIDR,137.221.105.2/32,Clash,no-resolve
   - IP-CIDR,185.60.114.159/32,Clash,no-resolve
   - IP-CIDR,210.71.148.11/32,Clash,no-resolve
   - IP-CIDR,211.115.104.1/32,Clash,no-resolve
-  - IP-CIDR,24.105.62.129/32,Clash,no-resolve
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com,DIRECT
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com,DIRECT
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3z.ourdvsss.com,DIRECT
@@ -21174,6 +21174,7 @@ rules:
   - DOMAIN-SUFFIX,bl-doujinsouko.com,Clash
   - DOMAIN-SUFFIX,blacked.com,Clash
   - DOMAIN-SUFFIX,blacklogic.com,Clash
+  - DOMAIN-SUFFIX,blackmagicdesign.com,Clash
   - DOMAIN-SUFFIX,blackvpn.com,Clash
   - DOMAIN-SUFFIX,blewpass.com,Clash
   - DOMAIN-SUFFIX,blingblingsquad.net,Clash
@@ -27527,7 +27528,6 @@ rules:
   - DOMAIN-SUFFIX,bbs.sou-tong.org,Clash
   - DOMAIN-SUFFIX,bbs.tuitui.info,Clash
   - DOMAIN-SUFFIX,bitc.bme.emory.edu,Clash
-  - DOMAIN-SUFFIX,blackmagicdesign.com,Clash
   - DOMAIN-SUFFIX,blog.calibre-ebook.com,Clash
   - DOMAIN-SUFFIX,blog.cnyes.com,Clash
   - DOMAIN-SUFFIX,blog.cryptographyengineering.com,Clash
@@ -27667,6 +27667,7 @@ rules:
   - DOMAIN-SUFFIX,contests.twilio.com,Clash
   - DOMAIN-SUFFIX,cosmic.monar.ch,Clash
   - DOMAIN-SUFFIX,css.pixnet.in,Clash
+  - DOMAIN-SUFFIX,ctinews.com,Clash
   - DOMAIN-SUFFIX,cyberghost.natado.com,Clash
   - DOMAIN-SUFFIX,dajusha.baywords.com,Clash
   - DOMAIN-SUFFIX,danbooru.donmai.us,Clash
@@ -36984,4 +36985,4 @@ rules:
   - PROCESS-NAME,baidunetdisk.exe,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,Clash
-# Auto update: 2025-06-01T19:56:45
+# Auto update: 2025-06-02T11:22:56
