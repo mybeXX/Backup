@@ -108,7 +108,7 @@ experimental:
   quic-go: true
   udp-fallback-policy: discard
 rules:
-  # 合并规则总数：36572 条
+  # 合并规则总数：36566 条
   - DOMAIN,instant.arubanetworks.com,DIRECT
   - DOMAIN,setmeup.arubanetworks.com,DIRECT
   - DOMAIN,asusrouter.com,DIRECT
@@ -944,7 +944,6 @@ rules:
   - DOMAIN-SUFFIX,crash.163.com,REJECT
   - DOMAIN-SUFFIX,crashlytics.163.com,REJECT
   - DOMAIN-SUFFIX,e-p4p.163.com,REJECT
-  - DOMAIN-SUFFIX,fa.163.com,REJECT
   - DOMAIN-SUFFIX,fp-upload.dun.163.com,REJECT
   - DOMAIN-SUFFIX,g.163.com,REJECT
   - DOMAIN-SUFFIX,g1.163.com,REJECT
@@ -1150,6 +1149,7 @@ rules:
   - DOMAIN-SUFFIX,52kuwang.cn,REJECT
   - DOMAIN-SUFFIX,52pk.com,REJECT
   - DOMAIN-SUFFIX,adm.52swine.com,REJECT
+  - DOMAIN-SUFFIX,52wmb.com,REJECT
   - DOMAIN-SUFFIX,slzs.52xiyou.com,REJECT
   - DOMAIN-SUFFIX,api.52youtu.com,REJECT
   - DOMAIN-SUFFIX,52z.com,REJECT
@@ -1381,7 +1381,6 @@ rules:
   - DOMAIN-SUFFIX,api.aixifan.com,REJECT
   - DOMAIN-SUFFIX,dmym.aixyy.com,REJECT
   - DOMAIN-SUFFIX,dmm.aizhan.com,REJECT
-  - DOMAIN-SUFFIX,aizhigu.com.cn,REJECT
   - DOMAIN-SUFFIX,aizipai.cn,REJECT
   - DOMAIN-SUFFIX,counter.ajansspor.com,REJECT
   - DOMAIN-SUFFIX,ajiang.net,REJECT
@@ -1832,7 +1831,6 @@ rules:
   - DOMAIN-SUFFIX,httpdns.bcelive.com,REJECT
   - DOMAIN-SUFFIX,bcglkfu.cn,REJECT
   - DOMAIN-SUFFIX,m.bchchk.cn,REJECT
-  - DOMAIN-SUFFIX,etc-androist.bcnrw.cn,REJECT
   - DOMAIN-SUFFIX,bddwm.com,REJECT
   - DOMAIN-SUFFIX,bdhcpll.cn,REJECT
   - DOMAIN-SUFFIX,ecma.bdimg.com,REJECT
@@ -2079,7 +2077,6 @@ rules:
   - DOMAIN-SUFFIX,p.data.cctv.com,REJECT
   - DOMAIN-SUFFIX,cctvgb.com.cn,REJECT
   - DOMAIN-SUFFIX,ccutu.com,REJECT
-  - DOMAIN-SUFFIX,www.cdcem.com,REJECT
   - DOMAIN-SUFFIX,tracker.cdnbye.com,REJECT
   - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao-b.com.w.cdngslb.com,REJECT
   - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com.w.cdngslb.com,REJECT
@@ -2581,7 +2578,6 @@ rules:
   - DOMAIN-SUFFIX,ecudsc.cn,REJECT
   - DOMAIN-SUFFIX,eddcc.icu,REJECT
   - DOMAIN-SUFFIX,sqqqwee2334cloudstorage90034ppoe-7230s2b404.edgeone.app,REJECT
-  - DOMAIN-SUFFIX,ssocloudauth243567899po-u6bulzws0d.edgeone.app,REJECT
   - DOMAIN-SUFFIX,ediuschina.com,REJECT
   - DOMAIN-SUFFIX,eexlgyn.cn,REJECT
   - DOMAIN-SUFFIX,metrics.egencia.cn,REJECT
@@ -3482,7 +3478,6 @@ rules:
   - DOMAIN-SUFFIX,u-x.jd.com,REJECT
   - DOMAIN-SUFFIX,union.m.jd.com,REJECT
   - DOMAIN-SUFFIX,uranus.jd.com,REJECT
-  - DOMAIN-SUFFIX,wl.jd.com,REJECT
   - DOMAIN-SUFFIX,x.jd.com,REJECT
   - DOMAIN-SUFFIX,xlog.jd.com,REJECT
   - DOMAIN-SUFFIX,pic.jdbbs.com,REJECT
@@ -3522,7 +3517,6 @@ rules:
   - DOMAIN-SUFFIX,jjjcyjj.cn,REJECT
   - DOMAIN-SUFFIX,jjyx.com,REJECT
   - DOMAIN-SUFFIX,jknrwe.cn,REJECT
-  - DOMAIN-SUFFIX,googl3.jnbfwg.cn,REJECT
   - DOMAIN-SUFFIX,ub1.job592.com,REJECT
   - DOMAIN-SUFFIX,ywg.jobui.com,REJECT
   - DOMAIN-SUFFIX,jojog.com,REJECT
@@ -3594,7 +3588,6 @@ rules:
   - DOMAIN-SUFFIX,up.wps.kingsoft.com,REJECT
   - DOMAIN-SUFFIX,kinleung.cn,REJECT
   - DOMAIN-SUFFIX,smetrics.kioxia.com.cn,REJECT
-  - DOMAIN-SUFFIX,hometrade.nomura.kiuuf.cn,REJECT
   - DOMAIN-SUFFIX,kivo.fun,REJECT
   - DOMAIN-SUFFIX,kjxhd.cn,REJECT
   - DOMAIN-SUFFIX,adl.kkguan.com,REJECT
@@ -5967,7 +5960,6 @@ rules:
   - DOMAIN-SUFFIX,ru-os-config-appstore.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,ru-p.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,ru-pnrt-stsdk.vivoglobal.com,REJECT
-  - DOMAIN-SUFFIX,ru-prt-stsdk.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,ru-romsp-unifyconfig.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,ru-st-exappupgrade.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,ru-st-sl.vivoglobal.com,REJECT
@@ -10380,6 +10372,7 @@ rules:
   - DOMAIN-SUFFIX,js.139y.com,REJECT
   - DOMAIN-SUFFIX,diaopic.14bobo.com,REJECT
   - DOMAIN-SUFFIX,pic.14bobo.com,REJECT
+  - DOMAIN-SUFFIX,fa.163.com,REJECT
   - DOMAIN-SUFFIX,iad.g.163.com,REJECT
   - DOMAIN-SUFFIX,rec.g.163.com,REJECT
   - DOMAIN-SUFFIX,ir.mail.163.com,REJECT
@@ -17663,27 +17656,26 @@ rules:
   - DOMAIN-KEYWORD,steambroadcast,Clash
   - DOMAIN-KEYWORD,steamstore,Clash
   - DOMAIN-KEYWORD,steamuserimages,Clash
-  - IP-CIDR,103.4.115.248/32,Clash,no-resolve
   - IP-CIDR,182.162.135.1/32,Clash,no-resolve
-  - IP-CIDR,185.60.112.158/32,Clash,no-resolve
   - IP-CIDR,210.242.235.6/32,Clash,no-resolve
   - IP-CIDR,54.94.196.47/32,Clash,no-resolve
   - IP-CIDR,182.162.132.1/32,Clash,no-resolve
-  - IP-CIDR,103.4.114.233/32,Clash,no-resolve
+  - IP-CIDR,185.60.112.157/32,Clash,no-resolve
+  - IP-CIDR,185.60.112.158/32,Clash,no-resolve
+  - IP-CIDR,24.105.30.129/32,Clash,no-resolve
   - IP-CIDR,182.162.116.1/32,Clash,no-resolve
   - IP-CIDR,202.9.67.59/32,Clash,no-resolve
   - IP-CIDR,203.69.111.4/32,Clash,no-resolve
   - IP-CIDR,54.207.104.145/32,Clash,no-resolve
   - IP-CIDR,35.192.0.0/12,Clash,no-resolve
-  - IP-CIDR,185.60.112.157/32,Clash,no-resolve
-  - IP-CIDR,185.60.114.159/32,Clash,no-resolve
   - IP-CIDR,203.66.81.98/32,Clash,no-resolve
   - IP-CIDR,211.234.110.1/32,Clash,no-resolve
-  - IP-CIDR,24.105.30.129/32,Clash,no-resolve
-  - IP-CIDR,24.105.62.129/32,Clash,no-resolve
   - IP-CIDR,54.207.107.12/32,Clash,no-resolve
+  - IP-CIDR,103.4.114.233/32,Clash,no-resolve
+  - IP-CIDR,185.60.114.159/32,Clash,no-resolve
   - IP-CIDR,202.9.67.254/32,Clash,no-resolve
   - IP-CIDR,222.231.22.1/32,Clash,no-resolve
+  - IP-CIDR,24.105.62.129/32,Clash,no-resolve
   - IP-CIDR,13.210.25.233/32,Clash,no-resolve
   - IP-CIDR,13.212.170.102/32,Clash,no-resolve
   - IP-CIDR,13.212.171.212/32,Clash,no-resolve
@@ -17706,6 +17698,7 @@ rules:
   - IP-CIDR,52.50.131.212/32,Clash,no-resolve
   - IP-CIDR,54.207.168.84/32,Clash,no-resolve
   - IP-CIDR,54.248.64.192/32,Clash,no-resolve
+  - IP-CIDR,103.4.115.248/32,Clash,no-resolve
   - IP-CIDR,137.221.105.2/32,Clash,no-resolve
   - IP-CIDR,210.71.148.11/32,Clash,no-resolve
   - IP-CIDR,211.115.104.1/32,Clash,no-resolve
@@ -21262,6 +21255,7 @@ rules:
   - DOMAIN-SUFFIX,cdig.info,Clash
   - DOMAIN-SUFFIX,cdjp.org,Clash
   - DOMAIN-SUFFIX,cdn.angruo.com,Clash
+  - DOMAIN-SUFFIX,cdn.arstechnica.net,Clash
   - DOMAIN-SUFFIX,cdn.segment.com,Clash
   - DOMAIN-SUFFIX,cdnews.com.tw,Clash
   - DOMAIN-SUFFIX,cdnst.net,Clash
@@ -21414,6 +21408,7 @@ rules:
   - DOMAIN-SUFFIX,churchinhongkong.org,Clash
   - DOMAIN-SUFFIX,chushigangdrug.ch,Clash
   - DOMAIN-SUFFIX,ci-en.jp,Clash
+  - DOMAIN-SUFFIX,cici.com,Clash
   - DOMAIN-SUFFIX,ciciai.com,Clash
   - DOMAIN-SUFFIX,cienen.com,Clash
   - DOMAIN-SUFFIX,cineastentreff.de,Clash
@@ -21499,6 +21494,7 @@ rules:
   - DOMAIN-SUFFIX,codeshare.io,Clash
   - DOMAIN-SUFFIX,codeskulptor.org,Clash
   - DOMAIN-SUFFIX,cofacts.tw,Clash
+  - DOMAIN-SUFFIX,coffeemanga.to,Clash
   - DOMAIN-SUFFIX,coin2co.in,Clash
   - DOMAIN-SUFFIX,coinbase.com,Clash
   - DOMAIN-SUFFIX,coinbene.com,Clash
@@ -27462,7 +27458,6 @@ rules:
   - DOMAIN-SUFFIX,casino.williamhill.com,Clash
   - DOMAIN-SUFFIX,cbs.ntu.edu.tw,Clash
   - DOMAIN-SUFFIX,cdn-images.mailchimp.com,Clash
-  - DOMAIN-SUFFIX,cdn.arstechnica.net,Clash
   - DOMAIN-SUFFIX,cdn.assets.lfpcontent.com,Clash
   - DOMAIN-SUFFIX,cdn.helixstudios.net,Clash
   - DOMAIN-SUFFIX,cdn.jwplayer.com,Clash
@@ -27481,7 +27476,6 @@ rules:
   - DOMAIN-SUFFIX,chinese.engadget.com,Clash
   - DOMAIN-SUFFIX,chinese.irib.ir,Clash
   - DOMAIN-SUFFIX,chinese.soifind.com,Clash
-  - DOMAIN-SUFFIX,cici.com,Clash
   - DOMAIN-SUFFIX,cl.d0z.net,Clash
   - DOMAIN-SUFFIX,cldr.unicode.org,Clash
   - DOMAIN-SUFFIX,cling.omy.sg,Clash
@@ -29602,7 +29596,6 @@ rules:
   - IP-CIDR,27.192.0.0/11,DIRECT,no-resolve
   - IP-CIDR,27.224.0.0/14,DIRECT,no-resolve
   - IP-CIDR,31.56.124.0/24,DIRECT,no-resolve
-  - IP-CIDR,31.57.182.0/24,DIRECT,no-resolve
   - IP-CIDR,31.57.222.0/23,DIRECT,no-resolve
   - IP-CIDR,36.0.0.0/22,DIRECT,no-resolve
   - IP-CIDR,36.0.8.0/21,DIRECT,no-resolve
@@ -29918,6 +29911,7 @@ rules:
   - IP-CIDR,43.231.144.0/20,DIRECT,no-resolve
   - IP-CIDR,43.231.160.0/20,DIRECT,no-resolve
   - IP-CIDR,43.231.176.0/21,DIRECT,no-resolve
+  - IP-CIDR,43.231.186.0/24,DIRECT,no-resolve
   - IP-CIDR,43.236.0.0/17,DIRECT,no-resolve
   - IP-CIDR,43.236.128.0/18,DIRECT,no-resolve
   - IP-CIDR,43.236.192.0/19,DIRECT,no-resolve
@@ -30098,7 +30092,6 @@ rules:
   - IP-CIDR,43.250.160.0/22,DIRECT,no-resolve
   - IP-CIDR,43.250.168.0/22,DIRECT,no-resolve
   - IP-CIDR,43.250.176.0/22,DIRECT,no-resolve
-  - IP-CIDR,43.250.180.0/23,DIRECT,no-resolve
   - IP-CIDR,43.250.200.0/22,DIRECT,no-resolve
   - IP-CIDR,43.250.212.0/22,DIRECT,no-resolve
   - IP-CIDR,43.250.216.0/21,DIRECT,no-resolve
@@ -30321,8 +30314,9 @@ rules:
   - IP-CIDR,45.147.6.0/24,DIRECT,no-resolve
   - IP-CIDR,45.151.47.0/24,DIRECT,no-resolve
   - IP-CIDR,45.157.88.0/24,DIRECT,no-resolve
+  - IP-CIDR,45.166.67.0/24,DIRECT,no-resolve
   - IP-CIDR,45.195.6.0/24,DIRECT,no-resolve
-  - IP-CIDR,45.200.10.0/24,DIRECT,no-resolve
+  - IP-CIDR,45.197.131.0/24,DIRECT,no-resolve
   - IP-CIDR,45.202.209.0/24,DIRECT,no-resolve
   - IP-CIDR,45.202.210.0/23,DIRECT,no-resolve
   - IP-CIDR,45.202.212.0/24,DIRECT,no-resolve
@@ -30624,6 +30618,7 @@ rules:
   - IP-CIDR,81.173.18.0/23,DIRECT,no-resolve
   - IP-CIDR,81.173.20.0/22,DIRECT,no-resolve
   - IP-CIDR,81.173.28.0/24,DIRECT,no-resolve
+  - IP-CIDR,82.26.131.0/24,DIRECT,no-resolve
   - IP-CIDR,82.156.0.0/15,DIRECT,no-resolve
   - IP-CIDR,84.54.2.0/23,DIRECT,no-resolve
   - IP-CIDR,85.237.205.0/24,DIRECT,no-resolve
@@ -30935,10 +30930,7 @@ rules:
   - IP-CIDR,103.36.96.0/22,DIRECT,no-resolve
   - IP-CIDR,103.36.132.0/22,DIRECT,no-resolve
   - IP-CIDR,103.36.136.0/22,DIRECT,no-resolve
-  - IP-CIDR,103.36.160.0/21,DIRECT,no-resolve
-  - IP-CIDR,103.36.168.0/23,DIRECT,no-resolve
-  - IP-CIDR,103.36.172.0/22,DIRECT,no-resolve
-  - IP-CIDR,103.36.176.0/20,DIRECT,no-resolve
+  - IP-CIDR,103.36.160.0/19,DIRECT,no-resolve
   - IP-CIDR,103.36.192.0/19,DIRECT,no-resolve
   - IP-CIDR,103.36.224.0/20,DIRECT,no-resolve
   - IP-CIDR,103.36.240.0/21,DIRECT,no-resolve
@@ -31571,7 +31563,7 @@ rules:
   - IP-CIDR,103.96.224.0/23,DIRECT,no-resolve
   - IP-CIDR,103.97.16.0/20,DIRECT,no-resolve
   - IP-CIDR,103.97.40.0/22,DIRECT,no-resolve
-  - IP-CIDR,103.97.56.0/21,DIRECT,no-resolve
+  - IP-CIDR,103.97.60.0/22,DIRECT,no-resolve
   - IP-CIDR,103.97.64.0/21,DIRECT,no-resolve
   - IP-CIDR,103.97.112.0/21,DIRECT,no-resolve
   - IP-CIDR,103.97.144.0/21,DIRECT,no-resolve
@@ -32150,7 +32142,6 @@ rules:
   - IP-CIDR,103.196.96.0/22,DIRECT,no-resolve
   - IP-CIDR,103.196.168.0/22,DIRECT,no-resolve
   - IP-CIDR,103.197.0.0/22,DIRECT,no-resolve
-  - IP-CIDR,103.197.180.0/22,DIRECT,no-resolve
   - IP-CIDR,103.197.228.0/22,DIRECT,no-resolve
   - IP-CIDR,103.198.20.0/22,DIRECT,no-resolve
   - IP-CIDR,103.198.60.0/22,DIRECT,no-resolve
@@ -32326,7 +32317,9 @@ rules:
   - IP-CIDR,103.218.16.0/21,DIRECT,no-resolve
   - IP-CIDR,103.218.28.0/22,DIRECT,no-resolve
   - IP-CIDR,103.218.32.0/19,DIRECT,no-resolve
-  - IP-CIDR,103.218.64.0/19,DIRECT,no-resolve
+  - IP-CIDR,103.218.64.0/20,DIRECT,no-resolve
+  - IP-CIDR,103.218.80.0/21,DIRECT,no-resolve
+  - IP-CIDR,103.218.88.0/22,DIRECT,no-resolve
   - IP-CIDR,103.218.178.0/23,DIRECT,no-resolve
   - IP-CIDR,103.218.192.0/20,DIRECT,no-resolve
   - IP-CIDR,103.218.208.0/21,DIRECT,no-resolve
@@ -34314,8 +34307,7 @@ rules:
   - IP-CIDR,139.148.0.0/16,DIRECT,no-resolve
   - IP-CIDR,139.155.0.0/16,DIRECT,no-resolve
   - IP-CIDR,139.159.0.0/19,DIRECT,no-resolve
-  - IP-CIDR,139.159.32.0/21,DIRECT,no-resolve
-  - IP-CIDR,139.159.40.0/22,DIRECT,no-resolve
+  - IP-CIDR,139.159.32.0/20,DIRECT,no-resolve
   - IP-CIDR,139.159.52.0/22,DIRECT,no-resolve
   - IP-CIDR,139.159.56.0/21,DIRECT,no-resolve
   - IP-CIDR,139.159.64.0/19,DIRECT,no-resolve
@@ -34456,6 +34448,7 @@ rules:
   - IP-CIDR,153.118.0.0/15,DIRECT,no-resolve
   - IP-CIDR,154.8.128.0/17,DIRECT,no-resolve
   - IP-CIDR,154.38.104.0/22,DIRECT,no-resolve
+  - IP-CIDR,154.48.227.0/24,DIRECT,no-resolve
   - IP-CIDR,154.72.42.0/24,DIRECT,no-resolve
   - IP-CIDR,154.72.44.0/24,DIRECT,no-resolve
   - IP-CIDR,154.72.47.0/24,DIRECT,no-resolve
@@ -34482,10 +34475,7 @@ rules:
   - IP-CIDR,155.102.135.0/24,DIRECT,no-resolve
   - IP-CIDR,155.102.136.0/23,DIRECT,no-resolve
   - IP-CIDR,155.102.140.0/22,DIRECT,no-resolve
-  - IP-CIDR,155.102.144.0/22,DIRECT,no-resolve
-  - IP-CIDR,155.102.149.0/24,DIRECT,no-resolve
-  - IP-CIDR,155.102.150.0/23,DIRECT,no-resolve
-  - IP-CIDR,155.102.152.0/21,DIRECT,no-resolve
+  - IP-CIDR,155.102.144.0/20,DIRECT,no-resolve
   - IP-CIDR,155.102.160.0/23,DIRECT,no-resolve
   - IP-CIDR,155.102.193.0/24,DIRECT,no-resolve
   - IP-CIDR,155.126.176.0/23,DIRECT,no-resolve
@@ -34501,6 +34491,7 @@ rules:
   - IP-CIDR,156.154.62.0/23,DIRECT,no-resolve
   - IP-CIDR,156.230.11.0/24,DIRECT,no-resolve
   - IP-CIDR,156.231.163.0/24,DIRECT,no-resolve
+  - IP-CIDR,156.236.96.0/23,DIRECT,no-resolve
   - IP-CIDR,156.237.104.0/23,DIRECT,no-resolve
   - IP-CIDR,156.242.5.0/24,DIRECT,no-resolve
   - IP-CIDR,156.242.6.0/24,DIRECT,no-resolve
@@ -34657,7 +34648,7 @@ rules:
   - IP-CIDR,163.181.42.0/23,DIRECT,no-resolve
   - IP-CIDR,163.181.44.0/23,DIRECT,no-resolve
   - IP-CIDR,163.181.46.0/24,DIRECT,no-resolve
-  - IP-CIDR,163.181.49.0/24,DIRECT,no-resolve
+  - IP-CIDR,163.181.48.0/23,DIRECT,no-resolve
   - IP-CIDR,163.181.50.0/24,DIRECT,no-resolve
   - IP-CIDR,163.181.52.0/24,DIRECT,no-resolve
   - IP-CIDR,163.181.56.0/22,DIRECT,no-resolve
@@ -34709,7 +34700,10 @@ rules:
   - IP-CIDR,163.181.201.0/24,DIRECT,no-resolve
   - IP-CIDR,163.181.202.0/23,DIRECT,no-resolve
   - IP-CIDR,163.181.204.0/22,DIRECT,no-resolve
-  - IP-CIDR,163.181.208.0/20,DIRECT,no-resolve
+  - IP-CIDR,163.181.209.0/24,DIRECT,no-resolve
+  - IP-CIDR,163.181.210.0/23,DIRECT,no-resolve
+  - IP-CIDR,163.181.212.0/22,DIRECT,no-resolve
+  - IP-CIDR,163.181.216.0/21,DIRECT,no-resolve
   - IP-CIDR,163.181.224.0/23,DIRECT,no-resolve
   - IP-CIDR,163.181.228.0/22,DIRECT,no-resolve
   - IP-CIDR,163.181.232.0/23,DIRECT,no-resolve
@@ -36683,4 +36677,4 @@ rules:
   - PROCESS-NAME,baidunetdisk.exe,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,Clash
-# Auto update: 2025-06-05T12:12:43
+# Auto update: 2025-06-06T14:11:43
