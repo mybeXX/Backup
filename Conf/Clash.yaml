@@ -124,7 +124,7 @@ experimental:
   quic-go: true
   udp-fallback-policy: discard
 rules:
-  # 合并规则总数：36980 条
+  # 合并规则总数：36979 条
   - DOMAIN,asusrouter.com,DIRECT
   - DOMAIN,instant.arubanetworks.com,DIRECT
   - DOMAIN,oasisauth.h3c.com,DIRECT
@@ -6206,7 +6206,6 @@ rules:
   - DOMAIN-SUFFIX,tchkcc.cn,REJECT
   - DOMAIN-SUFFIX,gwrtdp-tn690bfadt.tclclouds.com,REJECT
   - DOMAIN-SUFFIX,tcl-icloudcdn.tclclouds.com,REJECT
-  - DOMAIN-SUFFIX,i.tddmp.com,REJECT
   - DOMAIN-SUFFIX,site.tdk.cn,REJECT
   - DOMAIN-SUFFIX,tracking.tdk.cn,REJECT
   - DOMAIN-SUFFIX,metrics.teamviewer.cn,REJECT
@@ -37107,4 +37106,4 @@ rules:
   - PROCESS-NAME,uTorrent.exe,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,Clash
-# Auto update: 2025-06-08T04:10:49
+# Auto update: 2025-06-08T10:55:27
