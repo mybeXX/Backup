@@ -84,16 +84,28 @@ dns:
     - '*.msftncsi.com'
     - 'www.msftconnecttest.com'
   default-nameserver:
-    - '119.29.29.29'
-    - '223.5.5.5'
-    - '114.114.114.114'
+    - 'https://dns.google/dns-query'
+    - 'https://cloudflare-dns.com/dns-query'
     - '8.8.8.8'
     - '1.1.1.1'
   nameserver:
     - 'https://doh.pub/dns-query'
     - 'https://dns.alidns.com/dns-query'
+    - '119.29.29.29'
+    - '223.5.5.5'
+    - '114.114.114.114'
+  fallback:
     - 'https://dns.google/dns-query'
     - 'https://cloudflare-dns.com/dns-query'
+    - 8.8.8.8
+    - 1.1.1.1
+  nameserver-policy:
+    'DIRECT':
+    - 'https://doh.pub/dns-query'
+    - 'https://dns.alidns.com/dns-query'
+    - '119.29.29.29'
+    - '223.5.5.5'
+    - '114.114.114.114'
   direct-nameserver-follow-policy: false
   fallback-filter:
     geoip: true
@@ -106,9 +118,10 @@ dns:
       - '+.facebook.com'
       - '+.youtube.com'
   proxy-server-nameserver:
-    - 'https://doh.pub/dns-query'
-    - 'https://dns.alidns.com/dns-query'
-    - 'tls://223.5.5.5'
+    - 'https://dns.google/dns-query'
+    - 'https://cloudflare-dns.com/dns-query'
+    - 8.8.8.8
+    - 1.1.1.1
 
 
 hosts:
@@ -29859,4 +29872,4 @@ rules:
   - PROCESS-NAME,uTorrent.exe,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,Clash
-# Auto update: 2025-06-12T01:52:59
+# Auto update: 2025-06-12T02:05:26
