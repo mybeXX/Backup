@@ -80,8 +80,8 @@ dns:
     - 223.5.5.5
     - 119.29.29.29
   nameserver:
-    - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
 
 hosts:
   'localhost': 127.0.0.1
@@ -29990,4 +29990,4 @@ rules:
   - PROCESS-NAME,uTorrent.exe,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,Clash
-# Auto update: 2025-06-17T15:47:18
+# Auto update: 2025-06-17T15:55:03
