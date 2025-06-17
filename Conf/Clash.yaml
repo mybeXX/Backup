@@ -96,7 +96,7 @@ experimental:
   quic-go: true
   udp-fallback-policy: discard
 rules:
-  # 合并规则总数：29891 条
+  # 合并规则总数：29913 条
   - DOMAIN,asusrouter.com,DIRECT
   - DOMAIN,instant.arubanetworks.com,DIRECT
   - DOMAIN,oasisauth.h3c.com,DIRECT
@@ -2117,11 +2117,15 @@ rules:
   - DOMAIN-SUFFIX,080999.cn,REJECT
   - DOMAIN-SUFFIX,087tqb.cn,REJECT
   - DOMAIN-SUFFIX,0898fang.cn,REJECT
+  - DOMAIN-SUFFIX,0941.org,REJECT
   - DOMAIN-SUFFIX,0dwm.icu,REJECT
   - DOMAIN-SUFFIX,cdn.0i-i0.com,REJECT
+  - DOMAIN-SUFFIX,0k7wod.cn,REJECT
   - DOMAIN-SUFFIX,0m483y7.cn,REJECT
   - DOMAIN-SUFFIX,0op8kh.cn,REJECT
   - DOMAIN-SUFFIX,0oqt9i.cn,REJECT
+  - DOMAIN-SUFFIX,0pdsa.icu,REJECT
+  - DOMAIN-SUFFIX,0r3tyg.cn,REJECT
   - DOMAIN-SUFFIX,0x5.me,REJECT
   - DOMAIN-SUFFIX,1-bmo-client-login.com,REJECT
   - DOMAIN-SUFFIX,10000xing.cn,REJECT
@@ -2133,7 +2137,9 @@ rules:
   - DOMAIN-SUFFIX,v.110route.cn,REJECT
   - DOMAIN-SUFFIX,ytx-file.110route.cn,REJECT
   - DOMAIN-SUFFIX,soft.110route.com,REJECT
+  - DOMAIN-SUFFIX,1.11130.com.cn,REJECT
   - DOMAIN-SUFFIX,oss-asq-static.11222.cn,REJECT
+  - DOMAIN-SUFFIX,1.11467.com,REJECT
   - DOMAIN-SUFFIX,appversion.115.com,REJECT
   - DOMAIN-SUFFIX,bj1.118pan.com,REJECT
   - DOMAIN-SUFFIX,log.120ask.com,REJECT
@@ -2208,7 +2214,14 @@ rules:
   - DOMAIN-SUFFIX,vstlog.17u.cn,REJECT
   - DOMAIN-SUFFIX,st.19mi.net,REJECT
   - DOMAIN-SUFFIX,1buo.icu,REJECT
+  - DOMAIN-SUFFIX,1dki0.icu,REJECT
+  - DOMAIN-SUFFIX,1gmzo.icu,REJECT
+  - DOMAIN-SUFFIX,1gtp.icu,REJECT
+  - DOMAIN-SUFFIX,1jok.icu,REJECT
+  - DOMAIN-SUFFIX,1kanz.cn,REJECT
   - DOMAIN-SUFFIX,ad.1kxun.com,REJECT
+  - DOMAIN-SUFFIX,1l1.cc,REJECT
+  - DOMAIN-SUFFIX,1mpi.com,REJECT
   - DOMAIN-SUFFIX,ssp.1nmob.com,REJECT
   - DOMAIN-SUFFIX,1p3yg.icu,REJECT
   - DOMAIN-SUFFIX,d1.1ppt.com,REJECT
@@ -2219,10 +2232,18 @@ rules:
   - DOMAIN-SUFFIX,1s8pj.cn,REJECT
   - DOMAIN-SUFFIX,1sapp.com,REJECT
   - DOMAIN-SUFFIX,www.1ting.com,REJECT
+  - DOMAIN-SUFFIX,1wkg.cn,REJECT
   - DOMAIN-SUFFIX,20091222.com,REJECT
+  - DOMAIN-SUFFIX,20230329.com,REJECT
+  - DOMAIN-SUFFIX,20wx.com,REJECT
+  - DOMAIN-SUFFIX,2144.cn,REJECT
   - DOMAIN-SUFFIX,ssp.21ic.com,REJECT
   - DOMAIN-SUFFIX,tj.21ic.com,REJECT
+  - DOMAIN-SUFFIX,222aa333bb.com,REJECT
+  - DOMAIN-SUFFIX,222abc999abc.com,REJECT
+  - DOMAIN-SUFFIX,2345.cn,REJECT
   - DOMAIN-SUFFIX,2345.com,REJECT
+  - DOMAIN-SUFFIX,2481e.com,REJECT
   - DOMAIN-SUFFIX,24klm.cn,REJECT
   - DOMAIN-SUFFIX,25662zubo23739.com,REJECT
   - DOMAIN-SUFFIX,jhhkl.25ku.com,REJECT
@@ -2275,6 +2296,7 @@ rules:
   - DOMAIN-SUFFIX,u.api.look.360.cn,REJECT
   - DOMAIN-SUFFIX,vconf.f.360.cn,REJECT
   - DOMAIN-SUFFIX,yasuo.360.cn,REJECT
+  - DOMAIN-SUFFIX,ykapi.luyou.360.cn,REJECT
   - DOMAIN-SUFFIX,360ads.com,REJECT
   - DOMAIN-SUFFIX,static-alias-1.360buyimg.com,REJECT
   - DOMAIN-SUFFIX,domcwlxin.360doc.cn,REJECT
@@ -2324,7 +2346,6 @@ rules:
   - DOMAIN-SUFFIX,gostat.3g.cn,REJECT
   - DOMAIN-SUFFIX,goupdate.3g.cn,REJECT
   - DOMAIN-SUFFIX,acc.3gbizhi.com,REJECT
-  - DOMAIN-SUFFIX,3gipcam.com,REJECT
   - DOMAIN-SUFFIX,uu1.3gu.com,REJECT
   - DOMAIN-SUFFIX,3i2i.com,REJECT
   - DOMAIN-SUFFIX,engage.3m.com.cn,REJECT
@@ -2345,6 +2366,7 @@ rules:
   - DOMAIN-SUFFIX,4oz4n.icu,REJECT
   - DOMAIN-SUFFIX,4q87v.icu,REJECT
   - DOMAIN-SUFFIX,4t6u.icu,REJECT
+  - DOMAIN-SUFFIX,1.5000yan.com,REJECT
   - DOMAIN-SUFFIX,4399stat.5054399.com,REJECT
   - DOMAIN-SUFFIX,50bang.org,REJECT
   - DOMAIN-SUFFIX,511a.cn,REJECT
@@ -2431,6 +2453,7 @@ rules:
   - DOMAIN-SUFFIX,666hh999gg.com,REJECT
   - DOMAIN-SUFFIX,666ppp222ppp.com,REJECT
   - DOMAIN-SUFFIX,666ppp888ppp.com,REJECT
+  - DOMAIN-SUFFIX,1.66law.cn,REJECT
   - DOMAIN-SUFFIX,6789.net,REJECT
   - DOMAIN-SUFFIX,67it.com,REJECT
   - DOMAIN-SUFFIX,68287zubo85737.com,REJECT
@@ -2444,12 +2467,15 @@ rules:
   - DOMAIN-SUFFIX,6v4.work,REJECT
   - DOMAIN-SUFFIX,6v6.work,REJECT
   - DOMAIN-SUFFIX,trail.71baomu.com,REJECT
+  - DOMAIN-SUFFIX,7299tu75.cc,REJECT
   - DOMAIN-SUFFIX,73336zubo25326.com,REJECT
   - DOMAIN-SUFFIX,777bb111ww.com,REJECT
+  - DOMAIN-SUFFIX,1.78500.cn,REJECT
   - DOMAIN-SUFFIX,7aey.icu,REJECT
   - DOMAIN-SUFFIX,7car.com.cn,REJECT
   - DOMAIN-SUFFIX,7cbwus.cn,REJECT
   - DOMAIN-SUFFIX,7daystodie.cn,REJECT
+  - DOMAIN-SUFFIX,7dot.cn,REJECT
   - DOMAIN-SUFFIX,7f7rt.icu,REJECT
   - DOMAIN-SUFFIX,7jkzmbd.cn,REJECT
   - DOMAIN-SUFFIX,7kjiiu.cn,REJECT
@@ -2471,6 +2497,7 @@ rules:
   - DOMAIN-SUFFIX,88lmfff666.com,REJECT
   - DOMAIN-SUFFIX,8ail6.icu,REJECT
   - DOMAIN-SUFFIX,8cnd.com,REJECT
+  - DOMAIN-SUFFIX,8ff0.cn,REJECT
   - DOMAIN-SUFFIX,8g0j.cn,REJECT
   - DOMAIN-SUFFIX,8gra3.icu,REJECT
   - DOMAIN-SUFFIX,8xtm6i.cn,REJECT
@@ -2483,6 +2510,7 @@ rules:
   - DOMAIN-SUFFIX,ads.95516.com,REJECT
   - DOMAIN-SUFFIX,analytics.95516.com,REJECT
   - DOMAIN-SUFFIX,958557.com,REJECT
+  - DOMAIN-SUFFIX,1.95ye.com,REJECT
   - DOMAIN-SUFFIX,961.com,REJECT
   - DOMAIN-SUFFIX,11.96131.com.cn,REJECT
   - DOMAIN-SUFFIX,96382zubo66756.com,REJECT
@@ -2505,8 +2533,10 @@ rules:
   - DOMAIN-SUFFIX,9wee.com,REJECT
   - DOMAIN-SUFFIX,log.9wuli.com,REJECT
   - DOMAIN-SUFFIX,9xxy.icu,REJECT
+  - DOMAIN-SUFFIX,a2wx.icu,REJECT
   - DOMAIN-SUFFIX,telemetry.cell-0.cn-north-1.prod.tangerinebox.console.aws.a2z.org.cn,REJECT
   - DOMAIN-SUFFIX,a32a.com.cn,REJECT
+  - DOMAIN-SUFFIX,a48505.cn,REJECT
   - DOMAIN-SUFFIX,a9v8.cn,REJECT
   - DOMAIN-SUFFIX,aaoffice.cn,REJECT
   - DOMAIN-SUFFIX,dpd-problem.abbjl.com,REJECT
@@ -2514,6 +2544,7 @@ rules:
   - DOMAIN-SUFFIX,smetrics.abercrombie.cn,REJECT
   - DOMAIN-SUFFIX,abjalrq.cn,REJECT
   - DOMAIN-SUFFIX,discover.absciex.com.cn,REJECT
+  - DOMAIN-SUFFIX,disk.accord1key.cn,REJECT
   - DOMAIN-SUFFIX,apilog-web.acfun.cn,REJECT
   - DOMAIN-SUFFIX,jscode.acg68.com,REJECT
   - DOMAIN-SUFFIX,acgshenshicha.cn,REJECT
@@ -2755,6 +2786,7 @@ rules:
   - DOMAIN-SUFFIX,amerzbj.cn,REJECT
   - DOMAIN-SUFFIX,amfhby.cn,REJECT
   - DOMAIN-SUFFIX,v.api.amgmedia.cn,REJECT
+  - DOMAIN-SUFFIX,ams-ads-creative-assets-na.s3.amazonaws.com,REJECT
   - DOMAIN-SUFFIX,dv.amtwcvh.cn,REJECT
   - DOMAIN-SUFFIX,aa.analog.com,REJECT
   - DOMAIN-SUFFIX,abtest.analog.com,REJECT
@@ -2764,6 +2796,7 @@ rules:
   - DOMAIN-SUFFIX,api.antibanads.com,REJECT
   - DOMAIN-SUFFIX,ap27.cn,REJECT
   - DOMAIN-SUFFIX,apiapple.com,REJECT
+  - DOMAIN-SUFFIX,apikey.asia,REJECT
   - DOMAIN-SUFFIX,us-behavior.apitd.net,REJECT
   - DOMAIN-SUFFIX,app-analytics-services.com,REJECT
   - DOMAIN-SUFFIX,app-measurement.com,REJECT
@@ -2954,7 +2987,6 @@ rules:
   - DOMAIN-SUFFIX,pmp-ad.cdn.bcebos.com,REJECT
   - DOMAIN-SUFFIX,qwe0231141.bj.bcebos.com,REJECT
   - DOMAIN-SUFFIX,httpdns.bcelive.com,REJECT
-  - DOMAIN-SUFFIX,bceseomvsr.icu,REJECT
   - DOMAIN-SUFFIX,bcglkfu.cn,REJECT
   - DOMAIN-SUFFIX,m.bchchk.cn,REJECT
   - DOMAIN-SUFFIX,bdhcpll.cn,REJECT
@@ -2966,7 +2998,6 @@ rules:
   - DOMAIN-SUFFIX,analytics.behr.com,REJECT
   - DOMAIN-SUFFIX,images.explore.behr.com,REJECT
   - DOMAIN-SUFFIX,ad.beihai365.com,REJECT
-  - DOMAIN-SUFFIX,beiscesou.icu,REJECT
   - DOMAIN-SUFFIX,beizi.biz,REJECT
   - DOMAIN-SUFFIX,smetrics.benefitcosmetics.com.cn,REJECT
   - DOMAIN-SUFFIX,berlinchans.com,REJECT
@@ -3041,7 +3072,9 @@ rules:
   - DOMAIN-SUFFIX,interface.bilibili.com,REJECT
   - DOMAIN-SUFFIX,miniapp.bilibili.com,REJECT
   - DOMAIN-SUFFIX,line1-log.biligame.net,REJECT
+  - DOMAIN-SUFFIX,httpdns.bilivideo.com,REJECT
   - DOMAIN-SUFFIX,mcdn.bilivideo.com,REJECT
+  - DOMAIN-SUFFIX,binace.cn,REJECT
   - DOMAIN-SUFFIX,bing.college,REJECT
   - DOMAIN-SUFFIX,bing.fashion,REJECT
   - DOMAIN-SUFFIX,bingdianhuanyuan.cn,REJECT
@@ -3145,7 +3178,6 @@ rules:
   - DOMAIN-SUFFIX,ccccc78kkkkk.com,REJECT
   - DOMAIN-SUFFIX,ccccc88kkkkk.com,REJECT
   - DOMAIN-SUFFIX,ad.ccement.com,REJECT
-  - DOMAIN-SUFFIX,ccifxt.cn,REJECT
   - DOMAIN-SUFFIX,btrace.ysp.cctv.cn,REJECT
   - DOMAIN-SUFFIX,mtrace.ysp.cctv.cn,REJECT
   - DOMAIN-SUFFIX,httpdns.cctv.com,REJECT
@@ -3153,6 +3185,7 @@ rules:
   - DOMAIN-SUFFIX,cctvgb.com.cn,REJECT
   - DOMAIN-SUFFIX,ccutu.com,REJECT
   - DOMAIN-SUFFIX,ccwgp.cn,REJECT
+  - DOMAIN-SUFFIX,www.cdcem.com,REJECT
   - DOMAIN-SUFFIX,tracker.cdnbye.com,REJECT
   - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao-b.com.w.cdngslb.com,REJECT
   - DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com.w.cdngslb.com,REJECT
@@ -3165,9 +3198,7 @@ rules:
   - DOMAIN-SUFFIX,cdnmaster.cn,REJECT
   - DOMAIN-SUFFIX,cdxyb.cn,REJECT
   - DOMAIN-SUFFIX,tvuser-ch.cedock.com,REJECT
-  - DOMAIN-SUFFIX,cengqinglin.cn,REJECT
   - DOMAIN-SUFFIX,cenjq.cn,REJECT
-  - DOMAIN-SUFFIX,cenwsu.cn,REJECT
   - DOMAIN-SUFFIX,cesumin.cn,REJECT
   - DOMAIN-SUFFIX,update.cg100iii.com,REJECT
   - DOMAIN-SUFFIX,cgigc.com.cn,REJECT
@@ -3181,7 +3212,6 @@ rules:
   - DOMAIN-SUFFIX,ssgg.chazidian.com,REJECT
   - DOMAIN-SUFFIX,yong.chazidian.com,REJECT
   - DOMAIN-SUFFIX,bdasd.chdbook.cn,REJECT
-  - DOMAIN-SUFFIX,atrace.chelaile.net.cn,REJECT
   - DOMAIN-SUFFIX,logs.chelaile.net.cn,REJECT
   - DOMAIN-SUFFIX,chemdraw.com.cn,REJECT
   - DOMAIN-SUFFIX,qc1.cheshipin.com,REJECT
@@ -3273,8 +3303,10 @@ rules:
   - DOMAIN-SUFFIX,adm.cloud.cnfol.com,REJECT
   - DOMAIN-SUFFIX,abcd.cnhuoche.com,REJECT
   - DOMAIN-SUFFIX,cnjuwks.com,REJECT
+  - DOMAIN-SUFFIX,hmjs.cnmo-img.com.cn,REJECT
   - DOMAIN-SUFFIX,icon.cnmo.com,REJECT
   - DOMAIN-SUFFIX,webcert.cnmstl.net,REJECT
+  - DOMAIN-SUFFIX,smuc.cnnfootballclub.com,REJECT
   - DOMAIN-SUFFIX,adp.cnool.net,REJECT
   - DOMAIN-SUFFIX,clickcount.cnool.net,REJECT
   - DOMAIN-SUFFIX,ad.cnr.cn,REJECT
@@ -3292,6 +3324,7 @@ rules:
   - DOMAIN-SUFFIX,sentry.coinall.ltd,REJECT
   - DOMAIN-SUFFIX,plausible.coinglass.com,REJECT
   - DOMAIN-SUFFIX,guif.coloros.com,REJECT
+  - DOMAIN-SUFFIX,guif-eu.coloros.com,REJECT
   - DOMAIN-SUFFIX,icosa-sg.coloros.com,REJECT
   - DOMAIN-SUFFIX,icota-eu.coloros.com,REJECT
   - DOMAIN-SUFFIX,ifrus.coloros.com,REJECT
@@ -3313,16 +3346,12 @@ rules:
   - DOMAIN-SUFFIX,cu-cn-north00001.gala.convection.cn,REJECT
   - DOMAIN-SUFFIX,cu-cn-north00002.gala.convection.cn,REJECT
   - DOMAIN-SUFFIX,12.cookcai.com,REJECT
-  - DOMAIN-SUFFIX,detaillog-global.coolacloud.com,REJECT
-  - DOMAIN-SUFFIX,detaillog-global-dual.coolacloud.com,REJECT
   - DOMAIN-SUFFIX,detaillog-global.coolbcloud.com,REJECT
   - DOMAIN-SUFFIX,detaillog-global-dual.coolbcloud.com,REJECT
   - DOMAIN-SUFFIX,detaillog-global.coolccloud.com,REJECT
   - DOMAIN-SUFFIX,detaillog-global-dual.coolccloud.com,REJECT
   - DOMAIN-SUFFIX,logreport-global.coolccloud.com,REJECT
   - DOMAIN-SUFFIX,wslog-global-dual.coolccloud.com,REJECT
-  - DOMAIN-SUFFIX,detaillog-global-dual.coolgcloud.com,REJECT
-  - DOMAIN-SUFFIX,detaillog-global-dual.coolhcloud.com,REJECT
   - DOMAIN-SUFFIX,coolkaba.com,REJECT
   - DOMAIN-SUFFIX,cooloffice.com.cn,REJECT
   - DOMAIN-SUFFIX,detaillog-global.coolzcloud.com,REJECT
@@ -3336,6 +3365,7 @@ rules:
   - DOMAIN-SUFFIX,cqkqyp.cn,REJECT
   - DOMAIN-SUFFIX,cbjg.cqnews.net,REJECT
   - DOMAIN-SUFFIX,cqtlimi.cn,REJECT
+  - DOMAIN-SUFFIX,cranium.cn,REJECT
   - DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com,REJECT
   - DOMAIN-SUFFIX,shence.cread.com,REJECT
   - DOMAIN-SUFFIX,crlsxny.xyz,REJECT
@@ -3387,6 +3417,7 @@ rules:
   - DOMAIN-SUFFIX,daffaite.com,REJECT
   - DOMAIN-SUFFIX,dakawm.cc,REJECT
   - DOMAIN-SUFFIX,daliantong.com.cn,REJECT
+  - DOMAIN-SUFFIX,dandasm.com,REJECT
   - DOMAIN-SUFFIX,zndsssp.dangbei.net,REJECT
   - DOMAIN-SUFFIX,dangongshijie.com,REJECT
   - DOMAIN-SUFFIX,daque.cn,REJECT
@@ -3536,6 +3567,7 @@ rules:
   - DOMAIN-SUFFIX,at1.doubanio.com,REJECT
   - DOMAIN-SUFFIX,at3.doubanio.com,REJECT
   - DOMAIN-SUFFIX,doubleclick-cn.net,REJECT
+  - DOMAIN-SUFFIX,1.doudouditu.com,REJECT
   - DOMAIN-SUFFIX,abc.douguo.com,REJECT
   - DOMAIN-SUFFIX,kpshx.douguo.com,REJECT
   - DOMAIN-SUFFIX,leabd.douguo.com,REJECT
@@ -3594,8 +3626,8 @@ rules:
   - DOMAIN-SUFFIX,analytics-api.dvdfab.cn,REJECT
   - DOMAIN-SUFFIX,dvtednm.cn,REJECT
   - DOMAIN-SUFFIX,dvzk66.cn,REJECT
-  - DOMAIN-SUFFIX,dweixin.cn,REJECT
   - DOMAIN-SUFFIX,untitled.dwstatic.com,REJECT
+  - DOMAIN-SUFFIX,2021.dxsbb.com,REJECT
   - DOMAIN-SUFFIX,dxwsty.cn,REJECT
   - DOMAIN-SUFFIX,adsdkapi.dxys.pro,REJECT
   - DOMAIN-SUFFIX,fumiad.dxys.pro,REJECT
@@ -3668,7 +3700,6 @@ rules:
   - DOMAIN-SUFFIX,ad.entgroup.cn,REJECT
   - DOMAIN-SUFFIX,js.entm.top,REJECT
   - DOMAIN-SUFFIX,jquery.envi-met.com.cn,REJECT
-  - DOMAIN-SUFFIX,eodiy.cn,REJECT
   - DOMAIN-SUFFIX,eoyqzzk.cn,REJECT
   - DOMAIN-SUFFIX,epaes.com.cn,REJECT
   - DOMAIN-SUFFIX,epafq.cn,REJECT
@@ -3677,11 +3708,10 @@ rules:
   - DOMAIN-SUFFIX,eqqi.cn,REJECT
   - DOMAIN-SUFFIX,er1h4.icu,REJECT
   - DOMAIN-SUFFIX,m.ercos.cn,REJECT
-  - DOMAIN-SUFFIX,ericedwsfe.icu,REJECT
   - DOMAIN-SUFFIX,ethan.wang,REJECT
   - DOMAIN-SUFFIX,marketing.etouch.cn,REJECT
-  - DOMAIN-SUFFIX,euitx.cn,REJECT
   - DOMAIN-SUFFIX,eujxqgh.cn,REJECT
+  - DOMAIN-SUFFIX,evdtp.cn,REJECT
   - DOMAIN-SUFFIX,sentry.evkland.cn,REJECT
   - DOMAIN-SUFFIX,duologinsupersdk.ewan.cn,REJECT
   - DOMAIN-SUFFIX,ewjhic.cn,REJECT
@@ -3715,6 +3745,7 @@ rules:
   - DOMAIN-SUFFIX,fcqztan.cn,REJECT
   - DOMAIN-SUFFIX,fdhvczd.cn,REJECT
   - DOMAIN-SUFFIX,fduip.cn,REJECT
+  - DOMAIN-SUFFIX,1.feihua.com,REJECT
   - DOMAIN-SUFFIX,wmeng.feihuadns.com,REJECT
   - DOMAIN-SUFFIX,stats.feitianma.com,REJECT
   - DOMAIN-SUFFIX,www.feitianma.com,REJECT
@@ -3739,7 +3770,6 @@ rules:
   - DOMAIN-SUFFIX,21.fh21static.com,REJECT
   - DOMAIN-SUFFIX,fhitagd.cn,REJECT
   - DOMAIN-SUFFIX,a1.firefoxchina.cn,REJECT
-  - DOMAIN-SUFFIX,device.fishmobi.com,REJECT
   - DOMAIN-SUFFIX,fiwyjar.cn,REJECT
   - DOMAIN-SUFFIX,fjshxjs.cn,REJECT
   - DOMAIN-SUFFIX,fjtroip.cn,REJECT
@@ -3777,6 +3807,7 @@ rules:
   - DOMAIN-SUFFIX,neirong.funshion.com,REJECT
   - DOMAIN-SUFFIX,vs.funshion.com,REJECT
   - DOMAIN-SUFFIX,stat.funshion.net,REJECT
+  - DOMAIN-SUFFIX,furry-femboys.top,REJECT
   - DOMAIN-SUFFIX,trk.futureelectronics.cn,REJECT
   - DOMAIN-SUFFIX,fwbgtz.cn,REJECT
   - DOMAIN-SUFFIX,fwmbjrl.cn,REJECT
@@ -3816,7 +3847,6 @@ rules:
   - DOMAIN-SUFFIX,getui.cn,REJECT
   - DOMAIN-SUFFIX,biz.gexing.com,REJECT
   - DOMAIN-SUFFIX,gfrzzzx.cn,REJECT
-  - DOMAIN-SUFFIX,gghue.cn,REJECT
   - DOMAIN-SUFFIX,zxcs.ggwan.com,REJECT
   - DOMAIN-SUFFIX,jy.ggweb.net,REJECT
   - DOMAIN-SUFFIX,shqdown.ggzuhao.com,REJECT
@@ -3845,6 +3875,7 @@ rules:
   - DOMAIN-SUFFIX,msg.ptqy.gitv.tv,REJECT
   - DOMAIN-SUFFIX,msga.ptqy.gitv.tv,REJECT
   - DOMAIN-SUFFIX,nl.rcd.ptqy.gitv.tv,REJECT
+  - DOMAIN-SUFFIX,openapi.vip.ptqy.gitv.tv,REJECT
   - DOMAIN-SUFFIX,ota.ptqy.gitv.tv,REJECT
   - DOMAIN-SUFFIX,pb.bi.gitv.tv,REJECT
   - DOMAIN-SUFFIX,policy.video.ptqy.gitv.tv,REJECT
@@ -3853,6 +3884,7 @@ rules:
   - DOMAIN-SUFFIX,sdk.ptqy.gitv.tv,REJECT
   - DOMAIN-SUFFIX,static.ptqy.gitv.tv,REJECT
   - DOMAIN-SUFFIX,time.video.ptqy.gitv.tv,REJECT
+  - DOMAIN-SUFFIX,gjgtfb.cn,REJECT
   - DOMAIN-SUFFIX,50m.gkcyc.com,REJECT
   - DOMAIN-SUFFIX,gknybkl.cn,REJECT
   - DOMAIN-SUFFIX,gkxqt.cn,REJECT
@@ -3880,6 +3912,7 @@ rules:
   - DOMAIN-SUFFIX,summit.edm.globalsources.com,REJECT
   - DOMAIN-SUFFIX,techgifts.tradeshow.globalsources.com,REJECT
   - DOMAIN-SUFFIX,tradeshow.edm.globalsources.com,REJECT
+  - DOMAIN-SUFFIX,1.glook.cn,REJECT
   - DOMAIN-SUFFIX,sensorsdata.glowapp.vip,REJECT
   - DOMAIN-SUFFIX,glwxw.net,REJECT
   - DOMAIN-SUFFIX,download.glzip.cn,REJECT
@@ -3939,6 +3972,7 @@ rules:
   - DOMAIN-SUFFIX,pgdt.gtimg.cn,REJECT
   - DOMAIN-SUFFIX,tianshu.gtimg.cn,REJECT
   - DOMAIN-SUFFIX,bla.gtimg.com,REJECT
+  - DOMAIN-SUFFIX,ltsgdty.gtimg.com,REJECT
   - DOMAIN-SUFFIX,ra.gtimg.com,REJECT
   - DOMAIN-SUFFIX,splashqqlive.gtimg.com,REJECT
   - DOMAIN-SUFFIX,tui.gtimg.com,REJECT
@@ -3962,7 +3996,6 @@ rules:
   - DOMAIN-SUFFIX,ggw.gusuwang.com,REJECT
   - DOMAIN-SUFFIX,guzsjdl.cn,REJECT
   - DOMAIN-SUFFIX,browser.gwdang.com,REJECT
-  - DOMAIN-SUFFIX,yodobashi-mulsacle.gwirk.cn,REJECT
   - DOMAIN-SUFFIX,gwmrb.cn,REJECT
   - DOMAIN-SUFFIX,gwrpceo.cn,REJECT
   - DOMAIN-SUFFIX,gxgbvmg.cn,REJECT
@@ -3990,6 +4023,7 @@ rules:
   - DOMAIN-SUFFIX,mo.haloapps.cn,REJECT
   - DOMAIN-SUFFIX,g.haluoha.com,REJECT
   - DOMAIN-SUFFIX,go.hangzhou.com.cn,REJECT
+  - DOMAIN-SUFFIX,hanhai-tiktok.com,REJECT
   - DOMAIN-SUFFIX,hanlanad.com,REJECT
   - DOMAIN-SUFFIX,s1.hanlinzhijia.com,REJECT
   - DOMAIN-SUFFIX,stats.hanmaker.com,REJECT
@@ -4099,6 +4133,7 @@ rules:
   - DOMAIN-SUFFIX,analytics.shop.hisense.com,REJECT
   - DOMAIN-SUFFIX,api-4know-em.hismarttv.com,REJECT
   - DOMAIN-SUFFIX,api-4know-eu.hismarttv.com,REJECT
+  - DOMAIN-SUFFIX,api-cloudfalcon.hismarttv.com,REJECT
   - DOMAIN-SUFFIX,api-gps.hismarttv.com,REJECT
   - DOMAIN-SUFFIX,api-gps-em.hismarttv.com,REJECT
   - DOMAIN-SUFFIX,api-gps-eu.hismarttv.com,REJECT
@@ -4108,6 +4143,7 @@ rules:
   - DOMAIN-SUFFIX,api-launcher-eu.hismarttv.com,REJECT
   - DOMAIN-SUFFIX,api-launcher-na.hismarttv.com,REJECT
   - DOMAIN-SUFFIX,api-launcher-sa.hismarttv.com,REJECT
+  - DOMAIN-SUFFIX,api-vidaaasst.hismarttv.com,REJECT
   - DOMAIN-SUFFIX,api.eu.hismarttv.com,REJECT
   - DOMAIN-SUFFIX,auth-em.hismarttv.com,REJECT
   - DOMAIN-SUFFIX,auth-eu.hismarttv.com,REJECT
@@ -4116,6 +4152,7 @@ rules:
   - DOMAIN-SUFFIX,auth-launcher-na.hismarttv.com,REJECT
   - DOMAIN-SUFFIX,auth-launcher-sa.hismarttv.com,REJECT
   - DOMAIN-SUFFIX,auth-na.hismarttv.com,REJECT
+  - DOMAIN-SUFFIX,auth-phone-afr.hismarttv.com,REJECT
   - DOMAIN-SUFFIX,auth-phone-ap.hismarttv.com,REJECT
   - DOMAIN-SUFFIX,auth-phone-na.hismarttv.com,REJECT
   - DOMAIN-SUFFIX,auth-sa.hismarttv.com,REJECT
@@ -4182,7 +4219,6 @@ rules:
   - DOMAIN-SUFFIX,hqoffice.com.cn,REJECT
   - DOMAIN-SUFFIX,support.hqts.com,REJECT
   - DOMAIN-SUFFIX,cdnjs.hro-cosmetics.com,REJECT
-  - DOMAIN-SUFFIX,hseda.com,REJECT
   - DOMAIN-SUFFIX,hsrgnac.cn,REJECT
   - DOMAIN-SUFFIX,hstpnetwork.com,REJECT
   - DOMAIN-SUFFIX,g.hsw.cn,REJECT
@@ -4277,7 +4313,6 @@ rules:
   - DOMAIN-SUFFIX,busuanzi.ibruce.info,REJECT
   - DOMAIN-SUFFIX,moon.ibytecdn.cn,REJECT
   - DOMAIN-SUFFIX,static.ichehome.com,REJECT
-  - DOMAIN-SUFFIX,f1.ichong123.com,REJECT
   - DOMAIN-SUFFIX,goto.www.iciba.com,REJECT
   - DOMAIN-SUFFIX,report.iciba.com,REJECT
   - DOMAIN-SUFFIX,report2.iciba.com,REJECT
@@ -4320,6 +4355,7 @@ rules:
   - DOMAIN-SUFFIX,log.iflytek.com,REJECT
   - DOMAIN-SUFFIX,logconf.iflytek.com,REJECT
   - DOMAIN-SUFFIX,log.igamecj.com,REJECT
+  - DOMAIN-SUFFIX,igesz.cn,REJECT
   - DOMAIN-SUFFIX,entree.igetget.com,REJECT
   - DOMAIN-SUFFIX,piccdn.igetget.com,REJECT
   - DOMAIN-SUFFIX,seeder.igetget.com,REJECT
@@ -4330,6 +4366,7 @@ rules:
   - DOMAIN-SUFFIX,adapi.ihuman.com,REJECT
   - DOMAIN-SUFFIX,iimedia.cn,REJECT
   - DOMAIN-SUFFIX,3389.iis7.com,REJECT
+  - DOMAIN-SUFFIX,www.iiyout.cn,REJECT
   - DOMAIN-SUFFIX,ijinshan.com,REJECT
   - DOMAIN-SUFFIX,static.ilclock.com,REJECT
   - DOMAIN-SUFFIX,ilkwork.com,REJECT
@@ -4425,7 +4462,6 @@ rules:
   - DOMAIN-SUFFIX,adshow.it168.com,REJECT
   - DOMAIN-SUFFIX,itaoxiaoshuo.com,REJECT
   - DOMAIN-SUFFIX,collect.iteam-dress.com,REJECT
-  - DOMAIN-SUFFIX,cee1.iteye.com,REJECT
   - DOMAIN-SUFFIX,mpb1.iteye.com,REJECT
   - DOMAIN-SUFFIX,rabc1.iteye.com,REJECT
   - DOMAIN-SUFFIX,stat.iteye.com,REJECT
@@ -4448,7 +4484,6 @@ rules:
   - DOMAIN-SUFFIX,ixjtpbj.cn,REJECT
   - DOMAIN-SUFFIX,iyuedu.cn.com,REJECT
   - DOMAIN-SUFFIX,log.iyunmai.com,REJECT
-  - DOMAIN-SUFFIX,izcmf.cn,REJECT
   - DOMAIN-SUFFIX,adapi.izuiyou.com,REJECT
   - DOMAIN-SUFFIX,adstat.izuiyou.com,REJECT
   - DOMAIN-SUFFIX,j6zh4g0.cn,REJECT
@@ -4495,7 +4530,6 @@ rules:
   - DOMAIN-SUFFIX,pic.jdbbs.com,REJECT
   - DOMAIN-SUFFIX,jddaw.com,REJECT
   - DOMAIN-SUFFIX,jdnlynb.cn,REJECT
-  - DOMAIN-SUFFIX,jdpm.net.cn,REJECT
   - DOMAIN-SUFFIX,pic.jdunion.com,REJECT
   - DOMAIN-SUFFIX,jeubw.cn,REJECT
   - DOMAIN-SUFFIX,jg1668.com,REJECT
@@ -4503,7 +4537,6 @@ rules:
   - DOMAIN-SUFFIX,jgstny.com,REJECT
   - DOMAIN-SUFFIX,jhzfwl.cn,REJECT
   - DOMAIN-SUFFIX,8961.jianbihua.com,REJECT
-  - DOMAIN-SUFFIX,wj.jiancai365.cn,REJECT
   - DOMAIN-SUFFIX,ads.jianchiapp.com,REJECT
   - DOMAIN-SUFFIX,xomk.jiangjunmh.top,REJECT
   - DOMAIN-SUFFIX,acc.jiangsujiaxue.com,REJECT
@@ -4545,6 +4578,7 @@ rules:
   - DOMAIN-SUFFIX,email-cm.joneslanglasalle.com.cn,REJECT
   - DOMAIN-SUFFIX,email-em.joneslanglasalle.com.cn,REJECT
   - DOMAIN-SUFFIX,telemetry.api.joox.com,REJECT
+  - DOMAIN-SUFFIX,jp-verify.com,REJECT
   - DOMAIN-SUFFIX,jpush.io,REJECT
   - DOMAIN-SUFFIX,jpushoa.com,REJECT
   - DOMAIN-SUFFIX,jquyb.cn,REJECT
@@ -4558,10 +4592,12 @@ rules:
   - DOMAIN-SUFFIX,fpb1.jsq886.com,REJECT
   - DOMAIN-SUFFIX,jszctech.com,REJECT
   - DOMAIN-SUFFIX,lm10111.jtrincc.cn,REJECT
+  - DOMAIN-SUFFIX,jtwlj.cn,REJECT
   - DOMAIN-SUFFIX,jiaoben.jucanw.com,REJECT
   - DOMAIN-SUFFIX,juetz.cn,REJECT
   - DOMAIN-SUFFIX,junshi8181.com,REJECT
   - DOMAIN-SUFFIX,y1.junshitt.com,REJECT
+  - DOMAIN-SUFFIX,1.jushtong.com,REJECT
   - DOMAIN-SUFFIX,jvpyxve.cn,REJECT
   - DOMAIN-SUFFIX,jwddpvu.cn,REJECT
   - DOMAIN-SUFFIX,jxdown.com,REJECT
@@ -4590,7 +4626,6 @@ rules:
   - DOMAIN-SUFFIX,kdqnaec.cn,REJECT
   - DOMAIN-SUFFIX,gateway-bugly.ke.com,REJECT
   - DOMAIN-SUFFIX,kekop.cn,REJECT
-  - DOMAIN-SUFFIX,kexgmc.cn,REJECT
   - DOMAIN-SUFFIX,keyshot.cc,REJECT
   - DOMAIN-SUFFIX,elq.keysight.com.cn,REJECT
   - DOMAIN-SUFFIX,sandbox-elq.keysight.com.cn,REJECT
@@ -4622,6 +4657,7 @@ rules:
   - DOMAIN-SUFFIX,dpi.networkorder.komect.com,REJECT
   - DOMAIN-SUFFIX,metrics.kone.cn,REJECT
   - DOMAIN-SUFFIX,smetrics.kone.cn,REJECT
+  - DOMAIN-SUFFIX,konghuabianlidian.cn,REJECT
   - DOMAIN-SUFFIX,adsmart.konka.com,REJECT
   - DOMAIN-SUFFIX,sentry.kookapp.cn,REJECT
   - DOMAIN-SUFFIX,sdkapi.kookong.com,REJECT
@@ -4789,6 +4825,7 @@ rules:
   - DOMAIN-SUFFIX,data.adobe.l-god.cn,REJECT
   - DOMAIN-SUFFIX,l7u3kf.cn,REJECT
   - DOMAIN-SUFFIX,laawmmy.cn,REJECT
+  - DOMAIN-SUFFIX,lackam.cn,REJECT
   - DOMAIN-SUFFIX,lady177.com,REJECT
   - DOMAIN-SUFFIX,lop.lamimi.cn,REJECT
   - DOMAIN-SUFFIX,brc.languageclass.cc,REJECT
@@ -4832,6 +4869,7 @@ rules:
   - DOMAIN-SUFFIX,stat.le.com,REJECT
   - DOMAIN-SUFFIX,api.leancloud.cn,REJECT
   - DOMAIN-SUFFIX,ledaren.cn,REJECT
+  - DOMAIN-SUFFIX,analysis.leetcode.cn,REJECT
   - DOMAIN-SUFFIX,ads-api-o.api.leiniao.com,REJECT
   - DOMAIN-SUFFIX,euads-o.api.leiniao.com,REJECT
   - DOMAIN-SUFFIX,update.lejiao.tv,REJECT
@@ -4839,7 +4877,6 @@ rules:
   - DOMAIN-SUFFIX,src.leju.com,REJECT
   - DOMAIN-SUFFIX,tongji.leju.com,REJECT
   - DOMAIN-SUFFIX,lejuliang.com,REJECT
-  - DOMAIN-SUFFIX,lelic.cn,REJECT
   - DOMAIN-SUFFIX,analyze.lemurbrowser.com,REJECT
   - DOMAIN-SUFFIX,app.update.lenovo.com,REJECT
   - DOMAIN-SUFFIX,forms.lenovo.com,REJECT
@@ -4894,6 +4931,7 @@ rules:
   - DOMAIN-SUFFIX,lkme.cc,REJECT
   - DOMAIN-SUFFIX,lkqaq.icu,REJECT
   - DOMAIN-SUFFIX,llius.cn,REJECT
+  - DOMAIN-SUFFIX,lmeurbnjs.com,REJECT
   - DOMAIN-SUFFIX,lmgns.cn,REJECT
   - DOMAIN-SUFFIX,lmlmvip.com,REJECT
   - DOMAIN-SUFFIX,ads.lmmob.com,REJECT
@@ -5232,6 +5270,7 @@ rules:
   - DOMAIN-SUFFIX,nmntgd.cn,REJECT
   - DOMAIN-SUFFIX,nmrdnqn.cn,REJECT
   - DOMAIN-SUFFIX,nndzsw1.com,REJECT
+  - DOMAIN-SUFFIX,nobly.top,REJECT
   - DOMAIN-SUFFIX,normugtog.com,REJECT
   - DOMAIN-SUFFIX,notion-templates.club,REJECT
   - DOMAIN-SUFFIX,nouvelles247.com,REJECT
@@ -5324,7 +5363,6 @@ rules:
   - DOMAIN-SUFFIX,startup.oupeng.com,REJECT
   - DOMAIN-SUFFIX,turbo2sdk-push.oupeng.com,REJECT
   - DOMAIN-SUFFIX,ouplc.icu,REJECT
-  - DOMAIN-SUFFIX,ad.ourgame.com,REJECT
   - DOMAIN-SUFFIX,outerinfo.com,REJECT
   - DOMAIN-SUFFIX,apps.outfit7.com,REJECT
   - DOMAIN-SUFFIX,apps2.outfit7.com,REJECT
@@ -5363,7 +5401,6 @@ rules:
   - DOMAIN-SUFFIX,paypalnfo.cfd,REJECT
   - DOMAIN-SUFFIX,pbaiyho.cn,REJECT
   - DOMAIN-SUFFIX,pbcdf.cn,REJECT
-  - DOMAIN-SUFFIX,pbzbr.cn,REJECT
   - DOMAIN-SUFFIX,ipad.pc899.cn,REJECT
   - DOMAIN-SUFFIX,count.pcauto.com.cn,REJECT
   - DOMAIN-SUFFIX,counter.pcauto.com.cn,REJECT
@@ -5915,8 +5952,8 @@ rules:
   - DOMAIN-SUFFIX,analysis.shixunsuda.com,REJECT
   - DOMAIN-SUFFIX,1.shopit.cn,REJECT
   - DOMAIN-SUFFIX,d1.showself.com,REJECT
-  - DOMAIN-SUFFIX,ana-vestigarou.shreakj.cn,REJECT
   - DOMAIN-SUFFIX,shtatuo.cn,REJECT
+  - DOMAIN-SUFFIX,1178.shucong.com,REJECT
   - DOMAIN-SUFFIX,shudi8.com,REJECT
   - DOMAIN-SUFFIX,js.shunqi.com,REJECT
   - DOMAIN-SUFFIX,www.shuqw.com,REJECT
@@ -6018,6 +6055,7 @@ rules:
   - DOMAIN-SUFFIX,smetrics.future.smart.com,REJECT
   - DOMAIN-SUFFIX,sms.info.smart.com,REJECT
   - DOMAIN-SUFFIX,tracking.smobird.cc,REJECT
+  - DOMAIN-SUFFIX,smucdn.com,REJECT
   - DOMAIN-SUFFIX,analytics-api.smzdm.com,REJECT
   - DOMAIN-SUFFIX,res-ga.smzdm.com,REJECT
   - DOMAIN-SUFFIX,errortracking.snapp.site,REJECT
@@ -6039,6 +6077,7 @@ rules:
   - DOMAIN-SUFFIX,is.snssdk.com,REJECT
   - DOMAIN-SUFFIX,lianmengapi.snssdk.com,REJECT
   - DOMAIN-SUFFIX,log-hl.snssdk.com,REJECT
+  - DOMAIN-SUFFIX,log-lf.snssdk.com,REJECT
   - DOMAIN-SUFFIX,log-lq.snssdk.com,REJECT
   - DOMAIN-SUFFIX,mcs.snssdk.com,REJECT
   - DOMAIN-SUFFIX,mercury-sdk.snssdk.com,REJECT
@@ -6145,7 +6184,6 @@ rules:
   - DOMAIN-SUFFIX,client-dmp.suishenyun.cn,REJECT
   - DOMAIN-SUFFIX,log-dmp.suishenyun.cn,REJECT
   - DOMAIN-SUFFIX,pclog.suishenyun.net,REJECT
-  - DOMAIN-SUFFIX,a1.sumiaowang.com,REJECT
   - DOMAIN-SUFFIX,sentry-oversea.sunborngame.com,REJECT
   - DOMAIN-SUFFIX,apm.suning.cn,REJECT
   - DOMAIN-SUFFIX,dcbpm.suning.cn,REJECT
@@ -6305,8 +6343,12 @@ rules:
   - DOMAIN-SUFFIX,log.tec73.com,REJECT
   - DOMAIN-SUFFIX,1.tecbbs.com,REJECT
   - DOMAIN-SUFFIX,tongji.techweb.com.cn,REJECT
+  - DOMAIN-SUFFIX,tecunonline.com,REJECT
   - DOMAIN-SUFFIX,teddymobile.cn,REJECT
+  - DOMAIN-SUFFIX,telecom-info.com,REJECT
+  - DOMAIN-SUFFIX,telegramcn.co,REJECT
   - DOMAIN-SUFFIX,teleportdelivery.com.cn,REJECT
+  - DOMAIN-SUFFIX,telepzow.cn,REJECT
   - DOMAIN-SUFFIX,teleqpnm.cn,REJECT
   - DOMAIN-SUFFIX,telezgrme.cn,REJECT
   - DOMAIN-SUFFIX,apd-pcdnvodstat.teg.tencent-cloud.net,REJECT
@@ -6324,7 +6366,6 @@ rules:
   - DOMAIN-SUFFIX,stat.tpns.gz2.tencent.com,REJECT
   - DOMAIN-SUFFIX,tpns.tencent.com,REJECT
   - DOMAIN-SUFFIX,tpstelemetry.tencent.com,REJECT
-  - DOMAIN-SUFFIX,tencentapigw.com,REJECT
   - DOMAIN-SUFFIX,gz.apigw.tencentcs.com,REJECT
   - DOMAIN-SUFFIX,sh.apigw.tencentcs.com,REJECT
   - DOMAIN-SUFFIX,ad.tencentmusic.com,REJECT
@@ -6333,6 +6374,7 @@ rules:
   - DOMAIN-SUFFIX,adexpo.tencentmusic.com,REJECT
   - DOMAIN-SUFFIX,adstats.tencentmusic.com,REJECT
   - DOMAIN-SUFFIX,report.tencentmusic.com,REJECT
+  - DOMAIN-SUFFIX,tengfeidn.com,REJECT
   - DOMAIN-SUFFIX,tepusi888.cn,REJECT
   - DOMAIN-SUFFIX,answers.teradata.cn,REJECT
   - DOMAIN-SUFFIX,answers.teradata.com.cn,REJECT
@@ -6448,6 +6490,7 @@ rules:
   - DOMAIN-SUFFIX,md.tvzhe.com,REJECT
   - DOMAIN-SUFFIX,cs.twcczhu.com,REJECT
   - DOMAIN-SUFFIX,tjpv.twh5.com,REJECT
+  - DOMAIN-SUFFIX,twinkfinder.nl,REJECT
   - DOMAIN-SUFFIX,twjsx.cn,REJECT
   - DOMAIN-SUFFIX,tb.code.twyxi.com,REJECT
   - DOMAIN-SUFFIX,twzui6.com,REJECT
@@ -6456,6 +6499,7 @@ rules:
   - DOMAIN-SUFFIX,livetech.shopee.vn.txlivecdn.com,REJECT
   - DOMAIN-SUFFIX,txscn.cn,REJECT
   - DOMAIN-SUFFIX,tyawwj.cn,REJECT
+  - DOMAIN-SUFFIX,tyise.cn,REJECT
   - DOMAIN-SUFFIX,www.tz-dsp.com,REJECT
   - DOMAIN-SUFFIX,tzcfyre.cn,REJECT
   - DOMAIN-SUFFIX,tzlit.cn,REJECT
@@ -6536,7 +6580,6 @@ rules:
   - DOMAIN-SUFFIX,cdn.iads.unitychina.cn,REJECT
   - DOMAIN-SUFFIX,unityads.unitychina.cn,REJECT
   - DOMAIN-SUFFIX,b.unjs.com,REJECT
-  - DOMAIN-SUFFIX,unlsk.cn,REJECT
   - DOMAIN-SUFFIX,unypud.cn,REJECT
   - DOMAIN-SUFFIX,uodoo.com,REJECT
   - DOMAIN-SUFFIX,iosipa.b0.upaiyun.com,REJECT
@@ -6546,6 +6589,7 @@ rules:
   - DOMAIN-SUFFIX,adscfg.uqualities.com,REJECT
   - DOMAIN-SUFFIX,adsoss.uqualities.com,REJECT
   - DOMAIN-SUFFIX,uqz.com,REJECT
+  - DOMAIN-SUFFIX,urezv.cn,REJECT
   - DOMAIN-SUFFIX,urlqh.cn,REJECT
   - DOMAIN-SUFFIX,usrzh.cn,REJECT
   - DOMAIN-SUFFIX,gyqpyr.utsource.net,REJECT
@@ -6568,6 +6612,7 @@ rules:
   - DOMAIN-SUFFIX,uwphz.cn,REJECT
   - DOMAIN-SUFFIX,uxcnhsf.cn,REJECT
   - DOMAIN-SUFFIX,uxlqwra.cn,REJECT
+  - DOMAIN-SUFFIX,uxmcwn.cn,REJECT
   - DOMAIN-SUFFIX,uxuyf.cn,REJECT
   - DOMAIN-SUFFIX,v2.uyan.cc,REJECT
   - DOMAIN-SUFFIX,uzzf.com,REJECT
@@ -6586,6 +6631,7 @@ rules:
   - DOMAIN-SUFFIX,vcotr.cn,REJECT
   - DOMAIN-SUFFIX,m.vcsoat.cn,REJECT
   - DOMAIN-SUFFIX,veasf.cn,REJECT
+  - DOMAIN-SUFFIX,sentry.meitu-int.com.c.vedcdnlb.com,REJECT
   - DOMAIN-SUFFIX,vegaschina.cn,REJECT
   - DOMAIN-SUFFIX,g.analytics.versa-ai.com,REJECT
   - DOMAIN-SUFFIX,veryboys.com,REJECT
@@ -6662,6 +6708,7 @@ rules:
   - DOMAIN-SUFFIX,asia-vcode-or.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,asia-vpushonrt-stsdk.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,asia-vpushort-stsdk.vivoglobal.com,REJECT
+  - DOMAIN-SUFFIX,cl-romsp-unifyconfig.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,cl-vcode-api.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,cl-vcode-od.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,cname-ali-asia-stsdk.vivoglobal.com,REJECT
@@ -6693,6 +6740,7 @@ rules:
   - DOMAIN-SUFFIX,eu-ort-stsdk.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,eu-romsp-unifyconfig.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,eu-st-sl.vivoglobal.com,REJECT
+  - DOMAIN-SUFFIX,eu-stsdk.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,eu-timesync.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,eu-vcode-api.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,eu-vcode-od.vivoglobal.com,REJECT
@@ -6713,6 +6761,7 @@ rules:
   - DOMAIN-SUFFIX,in-ctdbonrt-stsdk.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,in-ctdbort-stsdk.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,in-ctdbpnrt-stsdk.vivoglobal.com,REJECT
+  - DOMAIN-SUFFIX,in-ctdbprt-stsdk.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,in-domaincfg.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,in-errup.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,in-ex-adlog.vivoglobal.com,REJECT
@@ -6733,10 +6782,12 @@ rules:
   - DOMAIN-SUFFIX,kz-monitor-stsdk.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,kz-onrt-stsdk.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,kz-ort-stsdk.vivoglobal.com,REJECT
+  - DOMAIN-SUFFIX,kz-p.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,kz-romsp-unifyconfig.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,kz-st-exappupgrade.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,kz-st-sl.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,kz-stsdk.vivoglobal.com,REJECT
+  - DOMAIN-SUFFIX,kz-timesync.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,kz-vcode-api.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,kz-vcode-od.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,kz-vcode-or.vivoglobal.com,REJECT
@@ -6755,6 +6806,7 @@ rules:
   - DOMAIN-SUFFIX,mx-vcode-od.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,mx-vcode-or.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,onrt-stsdk.vivoglobal.com,REJECT
+  - DOMAIN-SUFFIX,ort-stsdk.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,pnrt-stsdk.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,ro-up.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,ru-commonitor-stsdk.vivoglobal.com,REJECT
@@ -6762,6 +6814,7 @@ rules:
   - DOMAIN-SUFFIX,ru-comort-stsdk.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,ru-compnrt-stsdk.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,ru-comprt-stsdk.vivoglobal.com,REJECT
+  - DOMAIN-SUFFIX,ru-cota.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,ru-err-up.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,ru-exstsdk.vivoglobal.com,REJECT
   - DOMAIN-SUFFIX,ru-monitor-stsdk.vivoglobal.com,REJECT
@@ -6843,6 +6896,7 @@ rules:
   - DOMAIN-SUFFIX,w.waacorp.com,REJECT
   - DOMAIN-SUFFIX,wahahatech.asia,REJECT
   - DOMAIN-SUFFIX,wajyv.cn,REJECT
+  - DOMAIN-SUFFIX,tongdun-fingerprint.walmartmobile.cn,REJECT
   - DOMAIN-SUFFIX,mlog.wangsu.com,REJECT
   - DOMAIN-SUFFIX,wangyouxs.cn,REJECT
   - DOMAIN-SUFFIX,analytics-gw.games.wanmei.com,REJECT
@@ -6880,6 +6934,8 @@ rules:
   - DOMAIN-SUFFIX,widget.weibo.com,REJECT
   - DOMAIN-SUFFIX,logtake.weidian.com,REJECT
   - DOMAIN-SUFFIX,weidianyuedu.com,REJECT
+  - DOMAIN-SUFFIX,1.weiheshidai.com,REJECT
+  - DOMAIN-SUFFIX,ads.weilitoutiao.net,REJECT
   - DOMAIN-SUFFIX,badjs.weixinbridge.com,REJECT
   - DOMAIN-SUFFIX,code.wenbanzhu.com,REJECT
   - DOMAIN-SUFFIX,mps.wenkuzu.com,REJECT
@@ -7022,12 +7078,14 @@ rules:
   - DOMAIN-SUFFIX,data.game.xiaomi.com,REJECT
   - DOMAIN-SUFFIX,data.mistat.intl.xiaomi.com,REJECT
   - DOMAIN-SUFFIX,global-ad-extranet-pri-azams.alb.xiaomi.com,REJECT
+  - DOMAIN-SUFFIX,global-ad-extranet-pri-azpn.alb.xiaomi.com,REJECT
   - DOMAIN-SUFFIX,global-ad-intl-pri-alisgp.alb.xiaomi.com,REJECT
   - DOMAIN-SUFFIX,globalvideo.cdn.pandora.intl.xiaomi.com,REJECT
   - DOMAIN-SUFFIX,image.cdn.pandora.xiaomi.com,REJECT
   - DOMAIN-SUFFIX,in-miuilog.sms.intl.xiaomi.com,REJECT
   - DOMAIN-SUFFIX,milink.pandora.xiaomi.com,REJECT
   - DOMAIN-SUFFIX,misc.pandora.xiaomi.com,REJECT
+  - DOMAIN-SUFFIX,mishop.pandora.xiaomi.com,REJECT
   - DOMAIN-SUFFIX,o2o.api.xiaomi.com,REJECT
   - DOMAIN-SUFFIX,ottl7-l2.pandora.xiaomi.com,REJECT
   - DOMAIN-SUFFIX,p.www.xiaomi.com,REJECT
@@ -7117,7 +7175,6 @@ rules:
   - DOMAIN-SUFFIX,adm.xmfish.com,REJECT
   - DOMAIN-SUFFIX,cmm.xmfish.com,REJECT
   - DOMAIN-SUFFIX,xmlheads.com,REJECT
-  - DOMAIN-SUFFIX,xmlsxar.cn,REJECT
   - DOMAIN-SUFFIX,xn--2qu92fhtxsxexqab.xn--fiqs8s,REJECT
   - DOMAIN-SUFFIX,xn--2qux23cs4e63q.com,REJECT
   - DOMAIN-SUFFIX,xn--2qux23cwrdmnaz3gj3w.xn--fiqs8s,REJECT
@@ -7250,7 +7307,6 @@ rules:
   - DOMAIN-SUFFIX,yj2nf.icu,REJECT
   - DOMAIN-SUFFIX,js.yjbys.com,REJECT
   - DOMAIN-SUFFIX,yje912.cn,REJECT
-  - DOMAIN-SUFFIX,yjrik.cn,REJECT
   - DOMAIN-SUFFIX,qpb1.sohu.com.cname209.yjs-cdn.com,REJECT
   - DOMAIN-SUFFIX,ykcjxvg.cn,REJECT
   - DOMAIN-SUFFIX,g3.ykimg.com,REJECT
@@ -7341,6 +7397,7 @@ rules:
   - DOMAIN-SUFFIX,yw800.com.cn,REJECT
   - DOMAIN-SUFFIX,ywkkmze.cn,REJECT
   - DOMAIN-SUFFIX,ywsywh.cn,REJECT
+  - DOMAIN-SUFFIX,ywvyua.cn,REJECT
   - DOMAIN-SUFFIX,123.ywxww.net,REJECT
   - DOMAIN-SUFFIX,ftp.ywxww.net,REJECT
   - DOMAIN-SUFFIX,adsclick.yx.js.cn,REJECT
@@ -7380,6 +7437,7 @@ rules:
   - DOMAIN-SUFFIX,yystzl.cn,REJECT
   - DOMAIN-SUFFIX,yywridi.cn,REJECT
   - DOMAIN-SUFFIX,yzkzixun.com,REJECT
+  - DOMAIN-SUFFIX,yzlycq.cn,REJECT
   - DOMAIN-SUFFIX,yznwyng.cn,REJECT
   - DOMAIN-SUFFIX,yktj.yzz.cn,REJECT
   - DOMAIN-SUFFIX,z-office.cn,REJECT
@@ -7402,7 +7460,6 @@ rules:
   - DOMAIN-SUFFIX,api-analytics-de.zepp.com,REJECT
   - DOMAIN-SUFFIX,api-analytics-us.zepp.com,REJECT
   - DOMAIN-SUFFIX,api-analytics-us3.zepp.com,REJECT
-  - DOMAIN-SUFFIX,app-analytics.zepp.com,REJECT
   - DOMAIN-SUFFIX,clarity.zepp.com,REJECT
   - DOMAIN-SUFFIX,zerolcp.cn,REJECT
   - DOMAIN-SUFFIX,ssp.zf313.com,REJECT
@@ -7512,7 +7569,6 @@ rules:
   - DOMAIN-SUFFIX,abcd.zle.com,REJECT
   - DOMAIN-SUFFIX,efg.zle.com,REJECT
   - DOMAIN-SUFFIX,gl.zle.com,REJECT
-  - DOMAIN-SUFFIX,zlitgy.cn,REJECT
   - DOMAIN-SUFFIX,zljnwzp.cn,REJECT
   - DOMAIN-SUFFIX,c.zlongad.com,REJECT
   - DOMAIN-SUFFIX,r.zlongad.com,REJECT
@@ -7551,6 +7607,7 @@ rules:
   - DOMAIN-SUFFIX,log2.zuimeitianqi.com,REJECT
   - DOMAIN-SUFFIX,stat.zuimeitianqi.com,REJECT
   - DOMAIN-SUFFIX,zukddms.cn,REJECT
+  - DOMAIN-SUFFIX,1.zuowenjun.com,REJECT
   - DOMAIN-SUFFIX,zwjaoni.cn,REJECT
   - DOMAIN-SUFFIX,zwlikv.cn,REJECT
   - DOMAIN-SUFFIX,etc-egyrast.zxaoqxu.cn,REJECT
@@ -7602,44 +7659,6 @@ rules:
   - DOMAIN-SUFFIX,wxapp.tc.qq.com,DIRECT
   - DOMAIN-SUFFIX,wxs.qq.com,DIRECT
   - IP-ASN,132203,DIRECT,no-resolve
-  - DOMAIN,assets1.xboxlive.com,DIRECT
-  - DOMAIN,assets2.xboxlive.com,DIRECT
-  - DOMAIN,blizzard.gcdn.cloudn.co.kr,DIRECT
-  - DOMAIN,blzddist1-a.akamaihd.net,DIRECT
-  - DOMAIN,blzddistkr1-a.akamaihd.net,DIRECT
-  - DOMAIN,client.hikarifield.co.jp,DIRECT
-  - DOMAIN,content.cdp.bethesda.net,DIRECT
-  - DOMAIN,download.cdp.bethesda.net,DIRECT
-  - DOMAIN,download.dm.origin.com,DIRECT
-  - DOMAIN,download.epicgames.com,DIRECT
-  - DOMAIN,download.hikarifield.co.jp,DIRECT
-  - DOMAIN,download2.epicgames.com,DIRECT
-  - DOMAIN,download3.epicgames.com,DIRECT
-  - DOMAIN,download4.epicgames.com,DIRECT
-  - DOMAIN,edge.steam-dns.top.comcast.net,DIRECT
-  - DOMAIN,epicgames-download1.akamaized.net,DIRECT
-  - DOMAIN,eu.cdn.blizzard.com,DIRECT
-  - DOMAIN,fastly-download.epicgames.com,DIRECT
-  - DOMAIN,gamedownloads-rockstargames-com.akamaized.net,DIRECT
-  - DOMAIN,gog-cdn-lumen.secure2.footprint.net,DIRECT
-  - DOMAIN,kr.cdn.blizzard.com,DIRECT
-  - DOMAIN,level3.blizzard.com,DIRECT
-  - DOMAIN,packagespc.xboxlive.com,DIRECT
-  - DOMAIN,ssl-lvlt.cdn.ea.com,DIRECT
-  - DOMAIN,steam.eca.qtlglb.com,DIRECT
-  - DOMAIN,steam.naeu.qtlglb.com,DIRECT
-  - DOMAIN,steam.ru.qtlglb.com,DIRECT
-  - DOMAIN,steampipe-kr.akamaized.net,DIRECT
-  - DOMAIN,steampipe-partner.akamaized.net,DIRECT
-  - DOMAIN,steampipe.akamaized.net,DIRECT
-  - DOMAIN,steamusercontent-a.akamaihd.net,DIRECT
-  - DOMAIN,uplaypc-s-ubisoft.cdn.ubionline.com.cn,DIRECT
-  - DOMAIN,us.cdn.blizzard.com,DIRECT
-  - DOMAIN,xvcf1.xboxlive.com,DIRECT
-  - DOMAIN,xvcf2.xboxlive.com,DIRECT
-  - DOMAIN-SUFFIX,cdn.ubi.com,DIRECT
-  - DOMAIN-SUFFIX,dyn.riotcdn.net,DIRECT
-  - DOMAIN-SUFFIX,steamcontent.com,DIRECT
   - DOMAIN,csgo.wmsj.cn,DIRECT
   - DOMAIN,dl.steam.clngaa.com,DIRECT
   - DOMAIN,dl.steam.ksyna.com,DIRECT
@@ -7654,600 +7673,601 @@ rules:
   - DOMAIN,xz.pphimalayanrt.com,DIRECT
   - DOMAIN-SUFFIX,cm.steampowered.com,DIRECT
   - DOMAIN-SUFFIX,steamchina.com,DIRECT
+  - DOMAIN-SUFFIX,steamcontent.com,DIRECT
   - DOMAIN-SUFFIX,steamserver.net,DIRECT
   - DOMAIN-SUFFIX,steamusercontent.com,DIRECT
-  - DOMAIN,eaasserts-a.akamaihd.net,Clash
-  - DOMAIN,originasserts.akamaized.net,Clash
-  - DOMAIN,gog.salesmanago.com,Clash
-  - DOMAIN,img-prod-cms-rt-microsoft-com.akamaized.net,Clash
-  - DOMAIN,login.live.com,Clash
-  - DOMAIN,logincdn.msauth.net,Clash
-  - DOMAIN,store-images.s-microsoft.com,Clash
-  - DOMAIN-SUFFIX,battle.net,Clash
-  - DOMAIN-SUFFIX,battlenet.com.cn,Clash
-  - DOMAIN-SUFFIX,blizzard.com,Clash
-  - DOMAIN-SUFFIX,battlenet.com,Clash
-  - DOMAIN-SUFFIX,blizzard.cn,Clash
-  - DOMAIN-SUFFIX,blizzard.nefficient.co.kr,Clash
-  - DOMAIN-SUFFIX,blizzardgames.cn,Clash
-  - DOMAIN-SUFFIX,blizzardgearstore.com,Clash
-  - DOMAIN-SUFFIX,blizzcon-a.akamaihd.net,Clash
-  - DOMAIN-SUFFIX,blz-contentstack.com,Clash
-  - DOMAIN-SUFFIX,blz.nosdn.127.net,Clash
-  - DOMAIN-SUFFIX,blzddist1-a.akamaihd.net,Clash
-  - DOMAIN-SUFFIX,blzddistkr1-a.akamaihd.net,Clash
-  - DOMAIN-SUFFIX,blzmedia-a.akamaihd.net,Clash
-  - DOMAIN-SUFFIX,blznav.akamaized.net,Clash
-  - DOMAIN-SUFFIX,blzstatic.cn,Clash
-  - DOMAIN-SUFFIX,bnet.163.com,Clash
-  - DOMAIN-SUFFIX,bnetcmsus-a.akamaihd.net,Clash
-  - DOMAIN-SUFFIX,bnetproduct-a.akamaihd.net,Clash
-  - DOMAIN-SUFFIX,bnetshopus.akamaized.net,Clash
-  - DOMAIN-SUFFIX,cdp.cloud.unity3d.com,Clash
-  - DOMAIN-SUFFIX,di.res.netease.com,Clash
-  - DOMAIN-SUFFIX,diablo3.com,Clash
-  - DOMAIN-SUFFIX,diablo3.nosdn.127.net,Clash
-  - DOMAIN-SUFFIX,diabloimmortal.com,Clash
-  - DOMAIN-SUFFIX,firesidegatherings.com,Clash
-  - DOMAIN-SUFFIX,hearthstone.nosdn.127.net,Clash
-  - DOMAIN-SUFFIX,heroes.nos.netease.com,Clash
-  - DOMAIN-SUFFIX,heroesofthestorm.com,Clash
-  - DOMAIN-SUFFIX,overwatch.nosdn.127.net,Clash
-  - DOMAIN-SUFFIX,playhearthstone.com,Clash
-  - DOMAIN-SUFFIX,playoverwatch.com,Clash
-  - DOMAIN-SUFFIX,playwarcraft3.com,Clash
-  - DOMAIN-SUFFIX,sc2.nosdn.127.net,Clash
-  - DOMAIN-SUFFIX,starcraft.com,Clash
-  - DOMAIN-SUFFIX,starcraft2.com,Clash
-  - DOMAIN-SUFFIX,worldofwarcraft.com,Clash
-  - DOMAIN-SUFFIX,wow.nosdn.127.net,Clash
-  - DOMAIN-SUFFIX,wowchina.com,Clash
-  - DOMAIN-SUFFIX,anthemgame.com,Clash
-  - DOMAIN-SUFFIX,anthemthegame.com,Clash
-  - DOMAIN-SUFFIX,apexlegends.com,Clash
-  - DOMAIN-SUFFIX,awayoutgame.com,Clash
-  - DOMAIN-SUFFIX,battlefield.com,Clash
-  - DOMAIN-SUFFIX,battlefield1943.com,Clash
-  - DOMAIN-SUFFIX,battlefield3.com,Clash
-  - DOMAIN-SUFFIX,battlefield4.com,Clash
-  - DOMAIN-SUFFIX,battlefield5.com,Clash
-  - DOMAIN-SUFFIX,battlefieldbadcompany2.com,Clash
-  - DOMAIN-SUFFIX,battlefieldheroes.com,Clash
-  - DOMAIN-SUFFIX,battlefieldv.com,Clash
-  - DOMAIN-SUFFIX,battlefront2.com,Clash
-  - DOMAIN-SUFFIX,battlefrontii.com,Clash
-  - DOMAIN-SUFFIX,battlelog.com,Clash
-  - DOMAIN-SUFFIX,bejeweledstars.com,Clash
-  - DOMAIN-SUFFIX,bejewled-stars.com,Clash
-  - DOMAIN-SUFFIX,bioware.com,Clash
-  - DOMAIN-SUFFIX,biowarestore.com,Clash
-  - DOMAIN-SUFFIX,blackboxgames.com,Clash
-  - DOMAIN-SUFFIX,camelot-europe.com,Clash
-  - DOMAIN-SUFFIX,camelotherald.com,Clash
-  - DOMAIN-SUFFIX,camelotherald.net,Clash
-  - DOMAIN-SUFFIX,capitalgames.com,Clash
-  - DOMAIN-SUFFIX,chillingo.com,Clash
-  - DOMAIN-SUFFIX,cloudsync-prod.s3.amazonaws.com,Clash
-  - DOMAIN-SUFFIX,cncrivals.com,Clash
-  - DOMAIN-SUFFIX,commandandconquer.com,Clash
-  - DOMAIN-SUFFIX,conquerwithcharacter.com,Clash
-  - DOMAIN-SUFFIX,crysis.jp,Clash
-  - DOMAIN-SUFFIX,daoc.net,Clash
-  - DOMAIN-SUFFIX,darkageofcamelot.com,Clash
-  - DOMAIN-SUFFIX,darkness-risen.com,Clash
-  - DOMAIN-SUFFIX,dawngate.com,Clash
-  - DOMAIN-SUFFIX,dawngatechronicles.com,Clash
-  - DOMAIN-SUFFIX,deadspacegame.com,Clash
-  - DOMAIN-SUFFIX,dice.se,Clash
-  - DOMAIN-SUFFIX,dicela.com,Clash
-  - DOMAIN-SUFFIX,dicela.net,Clash
-  - DOMAIN-SUFFIX,dragonage.com,Clash
-  - DOMAIN-SUFFIX,dragonagekeep.com,Clash
-  - DOMAIN-SUFFIX,dragonagemovie.com,Clash
-  - DOMAIN-SUFFIX,dungeonkeeper.cn,Clash
-  - DOMAIN-SUFFIX,dungeonkeeper.com,Clash
-  - DOMAIN-SUFFIX,dungeonkeeper.com.cn,Clash
-  - DOMAIN-SUFFIX,ea-anz-press.com,Clash
-  - DOMAIN-SUFFIX,ea.com,Clash
-  - DOMAIN-SUFFIX,ea.tt.omtrdc.net,Clash
-  - DOMAIN-SUFFIX,eaaccess.com,Clash
-  - DOMAIN-SUFFIX,eaassets-a.akamaihd.net,Clash
-  - DOMAIN-SUFFIX,eablackbox.com,Clash
-  - DOMAIN-SUFFIX,eacashcard.com,Clash
-  - DOMAIN-SUFFIX,eacodigos.com,Clash
-  - DOMAIN-SUFFIX,eafootballworld.com,Clash
-  - DOMAIN-SUFFIX,eakorea.co.kr,Clash
-  - DOMAIN-SUFFIX,eamirrorsedge.com,Clash
-  - DOMAIN-SUFFIX,eamobile.com,Clash
-  - DOMAIN-SUFFIX,eamythic.com,Clash
-  - DOMAIN-SUFFIX,eamythic.net,Clash
-  - DOMAIN-SUFFIX,eanordic.com,Clash
-  - DOMAIN-SUFFIX,eaplay.com,Clash
-  - DOMAIN-SUFFIX,easports.com,Clash
-  - DOMAIN-SUFFIX,easports.jp,Clash
-  - DOMAIN-SUFFIX,easportsactive.com,Clash
-  - DOMAIN-SUFFIX,easportsactiveonline.com,Clash
-  - DOMAIN-SUFFIX,easportsfootball.com,Clash
-  - DOMAIN-SUFFIX,easportsfootballclub.com,Clash
-  - DOMAIN-SUFFIX,easportsmma.com,Clash
-  - DOMAIN-SUFFIX,easportsworld.com,Clash
-  - DOMAIN-SUFFIX,eastore.com,Clash
-  - DOMAIN-SUFFIX,electronicarts.com,Clash
-  - DOMAIN-SUFFIX,electronicarts.fr,Clash
-  - DOMAIN-SUFFIX,fifastreet.com,Clash
-  - DOMAIN-SUFFIX,fifastreet3.com,Clash
-  - DOMAIN-SUFFIX,frostbite.com,Clash
-  - DOMAIN-SUFFIX,futpromos.com,Clash
-  - DOMAIN-SUFFIX,futunited.com,Clash
-  - DOMAIN-SUFFIX,ghostgames.com,Clash
-  - DOMAIN-SUFFIX,heroesofdragonage.com,Clash
-  - DOMAIN-SUFFIX,hutpromos.com,Clash
-  - DOMAIN-SUFFIX,industrialtoys.com,Clash
-  - DOMAIN-SUFFIX,lordofultima.com,Clash
-  - DOMAIN-SUFFIX,maddenchampionship.com,Clash
-  - DOMAIN-SUFFIX,maddenrewards.com,Clash
-  - DOMAIN-SUFFIX,maddenseason.info,Clash
-  - DOMAIN-SUFFIX,maddenseason.net,Clash
-  - DOMAIN-SUFFIX,maddenseason.org,Clash
-  - DOMAIN-SUFFIX,masseffect.com,Clash
-  - DOMAIN-SUFFIX,masseffectarchives.com,Clash
-  - DOMAIN-SUFFIX,maxis.com,Clash
-  - DOMAIN-SUFFIX,mirrorsedge.com,Clash
-  - DOMAIN-SUFFIX,mirrorsedge.jp,Clash
-  - DOMAIN-SUFFIX,mirrorsedge.net,Clash
-  - DOMAIN-SUFFIX,mirrorsedge2.com,Clash
-  - DOMAIN-SUFFIX,mirrorsedge2d.com,Clash
-  - DOMAIN-SUFFIX,mysims.com,Clash
-  - DOMAIN-SUFFIX,mysimsracing.com,Clash
-  - DOMAIN-SUFFIX,mythicentertainment.com,Clash
-  - DOMAIN-SUFFIX,mythicentertainment.net,Clash
-  - DOMAIN-SUFFIX,mythicgames.com,Clash
-  - DOMAIN-SUFFIX,needforspeed.com,Clash
-  - DOMAIN-SUFFIX,needforspeedboost.com,Clash
-  - DOMAIN-SUFFIX,needforspeeddriftkings.com,Clash
-  - DOMAIN-SUFFIX,needforspeedeliminator.com,Clash
-  - DOMAIN-SUFFIX,needforspeedlightning.com,Clash
-  - DOMAIN-SUFFIX,needforspeedoverdrive.com,Clash
-  - DOMAIN-SUFFIX,needforspeedproven.com,Clash
-  - DOMAIN-SUFFIX,needforspeedredline.com,Clash
-  - DOMAIN-SUFFIX,needforspeedshowdown.com,Clash
-  - DOMAIN-SUFFIX,needforspeedstreetkings.com,Clash
-  - DOMAIN-SUFFIX,needforspeedtakedown.com,Clash
-  - DOMAIN-SUFFIX,needforspeedtherun.com,Clash
-  - DOMAIN-SUFFIX,needforspeedtimeattack.com,Clash
-  - DOMAIN-SUFFIX,needforspeedundergroundeast.com,Clash
-  - DOMAIN-SUFFIX,nfsworld.com,Clash
-  - DOMAIN-SUFFIX,origin-a.akamaihd.net,Clash
-  - DOMAIN-SUFFIX,origin.com,Clash
-  - DOMAIN-SUFFIX,origin.tv,Clash
-  - DOMAIN-SUFFIX,plantsvszombies2.com,Clash
-  - DOMAIN-SUFFIX,play4free.com,Clash
-  - DOMAIN-SUFFIX,playapex.com,Clash
-  - DOMAIN-SUFFIX,pogo.com,Clash
-  - DOMAIN-SUFFIX,pogobeta.com,Clash
-  - DOMAIN-SUFFIX,popcap.com,Clash
-  - DOMAIN-SUFFIX,projectapex.com,Clash
-  - DOMAIN-SUFFIX,pvzgw2.com,Clash
-  - DOMAIN-SUFFIX,pvzheroes.com,Clash
-  - DOMAIN-SUFFIX,seaofsolitude.com,Clash
-  - DOMAIN-SUFFIX,simcity-buildit.com,Clash
-  - DOMAIN-SUFFIX,simcity.com,Clash
-  - DOMAIN-SUFFIX,skate2.com,Clash
-  - DOMAIN-SUFFIX,spearhead.kr,Clash
-  - DOMAIN-SUFFIX,speedhunters.com,Clash
-  - DOMAIN-SUFFIX,spore.com,Clash
-  - DOMAIN-SUFFIX,ssx3.com,Clash
-  - DOMAIN-SUFFIX,starwarsbattlefront.com,Clash
-  - DOMAIN-SUFFIX,starwarsbattlefront2.com,Clash
-  - DOMAIN-SUFFIX,starwarsfallenorder.com,Clash
-  - DOMAIN-SUFFIX,starwarsjedifallenorder.com,Clash
-  - DOMAIN-SUFFIX,starwarstheoldrepublic.com,Clash
-  - DOMAIN-SUFFIX,swjedifallenorder.com,Clash
-  - DOMAIN-SUFFIX,swjfo.com,Clash
-  - DOMAIN-SUFFIX,swtor.com,Clash
-  - DOMAIN-SUFFIX,swtor.net,Clash
-  - DOMAIN-SUFFIX,teamneedforspeed.com,Clash
-  - DOMAIN-SUFFIX,thedreadwolfrises.com,Clash
-  - DOMAIN-SUFFIX,thesims.com,Clash
-  - DOMAIN-SUFFIX,thesims3.com,Clash
-  - DOMAIN-SUFFIX,thesims4.com,Clash
-  - DOMAIN-SUFFIX,thesimssocial.com,Clash
-  - DOMAIN-SUFFIX,tiberiumalliances.com,Clash
-  - DOMAIN-SUFFIX,tiburon.com,Clash
-  - DOMAIN-SUFFIX,titanfall.com,Clash
-  - DOMAIN-SUFFIX,tnt-ea.com,Clash
-  - DOMAIN-SUFFIX,ultimaforever.com,Clash
-  - DOMAIN-SUFFIX,ultimaonline.com,Clash
-  - DOMAIN-SUFFIX,unravel2.com,Clash
-  - DOMAIN-SUFFIX,unraveltwo.com,Clash
-  - DOMAIN-SUFFIX,uo.com,Clash
-  - DOMAIN-SUFFIX,uoherald.com,Clash
-  - DOMAIN-SUFFIX,visceralgames.com,Clash
-  - DOMAIN-SUFFIX,xdsummit.com,Clash
-  - DOMAIN-SUFFIX,yogify.com,Clash
-  - DOMAIN-SUFFIX,battlebreakers.com,Clash
-  - DOMAIN-SUFFIX,eac-cdn.com,Clash
-  - DOMAIN-SUFFIX,easy.ac,Clash
-  - DOMAIN-SUFFIX,easyanticheat.net,Clash
-  - DOMAIN-SUFFIX,epicgames.com,Clash
-  - DOMAIN-SUFFIX,epicgames.dev,Clash
-  - DOMAIN-SUFFIX,fortnite.com,Clash
-  - DOMAIN-SUFFIX,helpshift.com,Clash
-  - DOMAIN-SUFFIX,paragon.com,Clash
-  - DOMAIN-SUFFIX,playparagon.com,Clash
-  - DOMAIN-SUFFIX,roborecall.com,Clash
-  - DOMAIN-SUFFIX,shadowcomplex.com,Clash
-  - DOMAIN-SUFFIX,spyjinx.com,Clash
-  - DOMAIN-SUFFIX,unrealengine.com,Clash
-  - DOMAIN-SUFFIX,unrealtournament.com,Clash
-  - DOMAIN-SUFFIX,game.maj-soul.com,Clash
-  - DOMAIN-SUFFIX,gateway-cdn.maj-soul.com,Clash
-  - DOMAIN-SUFFIX,gateway-hw.maj-soul.com,Clash
-  - DOMAIN-SUFFIX,gateway-sy.catmjstudio.com,Clash
-  - DOMAIN-SUFFIX,gateway-sy.maj-soul.com,Clash
-  - DOMAIN-SUFFIX,gateway-v2.maj-soul.com,Clash
-  - DOMAIN-SUFFIX,lb-cdn.maj-soul.com,Clash
-  - DOMAIN-SUFFIX,lb-hw.maj-soul.com,Clash
-  - DOMAIN-SUFFIX,lb-sy.maj-soul.com,Clash
-  - DOMAIN-SUFFIX,lb-v2.maj-soul.com,Clash
-  - DOMAIN-SUFFIX,majsoul-hk-client.cn-hongkong.log.aliyuncs.com,Clash
-  - DOMAIN-SUFFIX,sony.com,Clash
-  - DOMAIN-SUFFIX,avatargarenanow-a.akamaihd.net,Clash
-  - DOMAIN-SUFFIX,cdngarenanow-a.akamaihd.net,Clash
-  - DOMAIN-SUFFIX,dlmobilegarena-a.akamaihd.net,Clash
-  - DOMAIN-SUFFIX,garena.co.id,Clash
-  - DOMAIN-SUFFIX,garena.co.th,Clash
-  - DOMAIN-SUFFIX,garena.com,Clash
-  - DOMAIN-SUFFIX,garena.live,Clash
-  - DOMAIN-SUFFIX,garena.my,Clash
-  - DOMAIN-SUFFIX,garena.ph,Clash
-  - DOMAIN-SUFFIX,garena.sg,Clash
-  - DOMAIN-SUFFIX,garena.tv,Clash
-  - DOMAIN-SUFFIX,garena.tw,Clash
-  - DOMAIN-SUFFIX,garena.vn,Clash
-  - DOMAIN-SUFFIX,garenanow.com,Clash
-  - DOMAIN-SUFFIX,seagroup.com,Clash
-  - DOMAIN-SUFFIX,gog-statics.com,Clash
-  - DOMAIN-SUFFIX,gog.com,Clash
-  - DOMAIN-SUFFIX,gog.qtlglb.com,Clash
-  - DOMAIN-SUFFIX,100classicbooks.com,Clash
-  - DOMAIN-SUFFIX,ac-pocketcamp.com,Clash
-  - DOMAIN-SUFFIX,amiibo.com,Clash
-  - DOMAIN-SUFFIX,ayudanintendo.com,Clash
-  - DOMAIN-SUFFIX,bowsersinsidestory.com,Clash
-  - DOMAIN-SUFFIX,dialga.com,Clash
-  - DOMAIN-SUFFIX,diddykongracing.com,Clash
-  - DOMAIN-SUFFIX,dkr.com,Clash
-  - DOMAIN-SUFFIX,donkeykongcountryreturns.com,Clash
-  - DOMAIN-SUFFIX,drmario-world.com,Clash
-  - DOMAIN-SUFFIX,excitebots.com,Clash
-  - DOMAIN-SUFFIX,fire-emblem-heroes.com,Clash
-  - DOMAIN-SUFFIX,fireemblemawakening.com,Clash
-  - DOMAIN-SUFFIX,flipnotestudio.com,Clash
-  - DOMAIN-SUFFIX,giratina.com,Clash
-  - DOMAIN-SUFFIX,gloryofheracles.com,Clash
-  - DOMAIN-SUFFIX,hackyourconsole.com,Clash
-  - DOMAIN-SUFFIX,kirbysepicyarn.com,Clash
-  - DOMAIN-SUFFIX,kirbysuperstarultra.com,Clash
-  - DOMAIN-SUFFIX,kyurem.com,Clash
-  - DOMAIN-SUFFIX,legendofzelda.cn,Clash
-  - DOMAIN-SUFFIX,legendofzelda.com.cn,Clash
-  - DOMAIN-SUFFIX,marioandluigidreamteam.com,Clash
-  - DOMAIN-SUFFIX,mariobroswii.com,Clash
-  - DOMAIN-SUFFIX,mariokart.cn,Clash
-  - DOMAIN-SUFFIX,mariokart.com.cn,Clash
-  - DOMAIN-SUFFIX,mariokart7.com,Clash
-  - DOMAIN-SUFFIX,mariokart8.com,Clash
-  - DOMAIN-SUFFIX,mariosupersluggers.com,Clash
-  - DOMAIN-SUFFIX,miitomo.com,Clash
-  - DOMAIN-SUFFIX,miitomo.com.cn,Clash
-  - DOMAIN-SUFFIX,miiverse.com,Clash
-  - DOMAIN-SUFFIX,nentindo.net,Clash
-  - DOMAIN-SUFFIX,newsupermariobrosu.com,Clash
-  - DOMAIN-SUFFIX,nintendo-europe-sales.com,Clash
-  - DOMAIN-SUFFIX,nintendo-europe.com,Clash
-  - DOMAIN-SUFFIX,nintendo.at,Clash
-  - DOMAIN-SUFFIX,nintendo.be,Clash
-  - DOMAIN-SUFFIX,nintendo.ch,Clash
-  - DOMAIN-SUFFIX,nintendo.co.jp,Clash
-  - DOMAIN-SUFFIX,nintendo.co.kr,Clash
-  - DOMAIN-SUFFIX,nintendo.co.uk,Clash
-  - DOMAIN-SUFFIX,nintendo.co.za,Clash
-  - DOMAIN-SUFFIX,nintendo.com,Clash
-  - DOMAIN-SUFFIX,nintendo.com.au,Clash
-  - DOMAIN-SUFFIX,nintendo.com.hk,Clash
-  - DOMAIN-SUFFIX,nintendo.com.pt,Clash
-  - DOMAIN-SUFFIX,nintendo.de,Clash
-  - DOMAIN-SUFFIX,nintendo.dk,Clash
-  - DOMAIN-SUFFIX,nintendo.es,Clash
-  - DOMAIN-SUFFIX,nintendo.eu,Clash
-  - DOMAIN-SUFFIX,nintendo.fi,Clash
-  - DOMAIN-SUFFIX,nintendo.fr,Clash
-  - DOMAIN-SUFFIX,nintendo.it,Clash
-  - DOMAIN-SUFFIX,nintendo.jp,Clash
-  - DOMAIN-SUFFIX,nintendo.net,Clash
-  - DOMAIN-SUFFIX,nintendo.nl,Clash
-  - DOMAIN-SUFFIX,nintendo.no,Clash
-  - DOMAIN-SUFFIX,nintendo.pt,Clash
-  - DOMAIN-SUFFIX,nintendo.ru,Clash
-  - DOMAIN-SUFFIX,nintendo.se,Clash
-  - DOMAIN-SUFFIX,nintendo.tw,Clash
-  - DOMAIN-SUFFIX,nintendo3ds.com,Clash
-  - DOMAIN-SUFFIX,nintendodsi.com,Clash
-  - DOMAIN-SUFFIX,nintendoeurope.com,Clash
-  - DOMAIN-SUFFIX,nintendolabo.cn,Clash
-  - DOMAIN-SUFFIX,nintendonetwork.net,Clash
-  - DOMAIN-SUFFIX,nintendonyc.com,Clash
-  - DOMAIN-SUFFIX,nintendostore.com,Clash
-  - DOMAIN-SUFFIX,nintendoswitch.cn,Clash
-  - DOMAIN-SUFFIX,nintendoswitch.com,Clash
-  - DOMAIN-SUFFIX,nintendoswitch.com.cn,Clash
-  - DOMAIN-SUFFIX,nintendoswitch.net,Clash
-  - DOMAIN-SUFFIX,nintendoswitchtogether.com,Clash
-  - DOMAIN-SUFFIX,nintendowifi.net,Clash
-  - DOMAIN-SUFFIX,nintendowii.com,Clash
-  - DOMAIN-SUFFIX,personaltrainermath.com,Clash
-  - DOMAIN-SUFFIX,playnintendo.com,Clash
-  - DOMAIN-SUFFIX,pokedex3d.com,Clash
-  - DOMAIN-SUFFIX,pokemon-moon.com,Clash
-  - DOMAIN-SUFFIX,pokemon-sun.com,Clash
-  - DOMAIN-SUFFIX,pokemon-sunmoon.com,Clash
-  - DOMAIN-SUFFIX,pokemon.com,Clash
-  - DOMAIN-SUFFIX,pokemonbank.com,Clash
-  - DOMAIN-SUFFIX,pokemonblackwhite.com,Clash
-  - DOMAIN-SUFFIX,pokemonbw.com,Clash
-  - DOMAIN-SUFFIX,pokemonchampionships.com,Clash
-  - DOMAIN-SUFFIX,pokemongoldsilver.com,Clash
-  - DOMAIN-SUFFIX,pokemonhome.com,Clash
-  - DOMAIN-SUFFIX,pokemonletsgoeevee.com,Clash
-  - DOMAIN-SUFFIX,pokemonletsgopikachu.com,Clash
-  - DOMAIN-SUFFIX,pokemonmysterydungeon.com,Clash
-  - DOMAIN-SUFFIX,pokemonpicross.com,Clash
-  - DOMAIN-SUFFIX,pokemonplatinum.com,Clash
-  - DOMAIN-SUFFIX,pokemonrubysapphire.com,Clash
-  - DOMAIN-SUFFIX,pokemonsunmoon.com,Clash
-  - DOMAIN-SUFFIX,pokemonswordshield.com,Clash
-  - DOMAIN-SUFFIX,pokemonultrasunmoon.com,Clash
-  - DOMAIN-SUFFIX,pokemonvgc.com,Clash
-  - DOMAIN-SUFFIX,pokemonwifi.net,Clash
-  - DOMAIN-SUFFIX,splatoon2tournament.com,Clash
-  - DOMAIN-SUFFIX,starfox.com,Clash
-  - DOMAIN-SUFFIX,supermario.com,Clash
-  - DOMAIN-SUFFIX,supermario3dworld.com,Clash
-  - DOMAIN-SUFFIX,supermariobros.com.cn,Clash
-  - DOMAIN-SUFFIX,supermariogalaxy.com,Clash
-  - DOMAIN-SUFFIX,supermariorun.com,Clash
-  - DOMAIN-SUFFIX,superpapermario.com,Clash
-  - DOMAIN-SUFFIX,supersmashbros.cn,Clash
-  - DOMAIN-SUFFIX,supersmashbros.com.cn,Clash
-  - DOMAIN-SUFFIX,thelegendarystarfy.com,Clash
-  - DOMAIN-SUFFIX,thewonderful101.com,Clash
-  - DOMAIN-SUFFIX,wariolandshakeit.com,Clash
-  - DOMAIN-SUFFIX,wariowarediy.com,Clash
-  - DOMAIN-SUFFIX,wii-u.com,Clash
-  - DOMAIN-SUFFIX,wiifit.com,Clash
-  - DOMAIN-SUFFIX,wiifitu.com,Clash
-  - DOMAIN-SUFFIX,wiipartyu.com,Clash
-  - DOMAIN-SUFFIX,wiisports.com,Clash
-  - DOMAIN-SUFFIX,wiisportsresort.com,Clash
-  - DOMAIN-SUFFIX,wiiugamepad.com,Clash
-  - DOMAIN-SUFFIX,wiivc.net,Clash
-  - DOMAIN-SUFFIX,xenoblade.com,Clash
-  - DOMAIN-SUFFIX,xn--mts47c3w9b1qr.cn,Clash
-  - DOMAIN-SUFFIX,xn--mts47c3w9b1qr.net,Clash
-  - DOMAIN-SUFFIX,yoshisnewisland.com,Clash
-  - DOMAIN-SUFFIX,op.gg,Clash
-  - DOMAIN-SUFFIX,opgg-static.akamaized.net,Clash
-  - DOMAIN-SUFFIX,playstation.com,Clash
-  - DOMAIN-SUFFIX,playstation.net,Clash
-  - DOMAIN-SUFFIX,playstationnetwork.com,Clash
-  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,Clash
-  - DOMAIN-SUFFIX,api-priconne-redive.cygames.jp,Clash
-  - DOMAIN-SUFFIX,omotenashi.cygames.jp,Clash
-  - DOMAIN-SUFFIX,prd-priconne-redive.akamaized.net,Clash
-  - DOMAIN-SUFFIX,championshipseriesleague.com,Clash
-  - DOMAIN-SUFFIX,convrgencegame.com,Clash
-  - DOMAIN-SUFFIX,historyofdota.com,Clash
-  - DOMAIN-SUFFIX,historyofdota.net,Clash
-  - DOMAIN-SUFFIX,historyofdota.org,Clash
-  - DOMAIN-SUFFIX,instituteofwar.org,Clash
-  - DOMAIN-SUFFIX,lcsmerch.com,Clash
-  - DOMAIN-SUFFIX,leaguehighschool.com,Clash
-  - DOMAIN-SUFFIX,leagueoflegends.ca,Clash
-  - DOMAIN-SUFFIX,leagueoflegends.cn,Clash
-  - DOMAIN-SUFFIX,leagueoflegends.co.kr,Clash
-  - DOMAIN-SUFFIX,leagueoflegends.com,Clash
-  - DOMAIN-SUFFIX,leagueoflegends.info,Clash
-  - DOMAIN-SUFFIX,leagueoflegends.kr,Clash
-  - DOMAIN-SUFFIX,leagueoflegends.net,Clash
-  - DOMAIN-SUFFIX,leagueoflegends.org,Clash
-  - DOMAIN-SUFFIX,leagueoflegendsscripts.com,Clash
-  - DOMAIN-SUFFIX,leaguesharp.info,Clash
-  - DOMAIN-SUFFIX,leaguoflegends.com,Clash
-  - DOMAIN-SUFFIX,learnwithleague.com,Clash
-  - DOMAIN-SUFFIX,lol-europe.com,Clash
-  - DOMAIN-SUFFIX,lolclub.org,Clash
-  - DOMAIN-SUFFIX,lolespor.com,Clash
-  - DOMAIN-SUFFIX,lolesports.com,Clash
-  - DOMAIN-SUFFIX,lolfanart.net,Clash
-  - DOMAIN-SUFFIX,lolpcs.com,Clash
-  - DOMAIN-SUFFIX,lolshop.co.kr,Clash
-  - DOMAIN-SUFFIX,lolstatic-a.akamaihd.net,Clash
-  - DOMAIN-SUFFIX,lolstatic.com,Clash
-  - DOMAIN-SUFFIX,lolusercontent.com,Clash
-  - DOMAIN-SUFFIX,lpl.com.cn,Clash
-  - DOMAIN-SUFFIX,molesports.com,Clash
-  - DOMAIN-SUFFIX,playvalorant.com,Clash
-  - DOMAIN-SUFFIX,pvp.tv,Clash
-  - DOMAIN-SUFFIX,rgpub.io,Clash
-  - DOMAIN-SUFFIX,riot-games.com,Clash
-  - DOMAIN-SUFFIX,riot.com,Clash
-  - DOMAIN-SUFFIX,riot.net,Clash
-  - DOMAIN-SUFFIX,riotforgegames.com,Clash
-  - DOMAIN-SUFFIX,riotgames.co.kr,Clash
-  - DOMAIN-SUFFIX,riotgames.info,Clash
-  - DOMAIN-SUFFIX,riotgames.jp,Clash
-  - DOMAIN-SUFFIX,riotgames.net,Clash
-  - DOMAIN-SUFFIX,riotgames.tv,Clash
-  - DOMAIN-SUFFIX,riotgames.zendesk.com,Clash
-  - DOMAIN-SUFFIX,riotpin.com,Clash
-  - DOMAIN-SUFFIX,riotpoints.com,Clash
-  - DOMAIN-SUFFIX,rstatic.net,Clash
-  - DOMAIN-SUFFIX,ruinedking.com,Clash
-  - DOMAIN-SUFFIX,supremacy.com,Clash
-  - DOMAIN-SUFFIX,supremacy.net,Clash
-  - DOMAIN-SUFFIX,ulol.com,Clash
-  - DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net,Clash
-  - DOMAIN-SUFFIX,media-rockstargames-com.akamaized.net,Clash
-  - DOMAIN-SUFFIX,rockstargames.com,Clash
-  - DOMAIN-SUFFIX,rsg.sc,Clash
-  - DOMAIN-SUFFIX,videos-rockstargames-com.akamaized.net,Clash
-  - DOMAIN-SUFFIX,csgo.wmsj.cn,Clash
-  - DOMAIN-SUFFIX,dl.steam.clngaa.com,Clash
-  - DOMAIN-SUFFIX,dl.steam.ksyna.com,Clash
-  - DOMAIN-SUFFIX,dota2.wmsj.cn,Clash
-  - DOMAIN-SUFFIX,edge.steam-dns.top.comcast.net,Clash
-  - DOMAIN-SUFFIX,f3b7q2p3.ssl.hwcdn.net,Clash
-  - DOMAIN-SUFFIX,fanatical.com,Clash
-  - DOMAIN-SUFFIX,humblebundle.com,Clash
-  - DOMAIN-SUFFIX,playartifact.com,Clash
-  - DOMAIN-SUFFIX,s.team,Clash
-  - DOMAIN-SUFFIX,st.dl.bscstorage.net,Clash
-  - DOMAIN-SUFFIX,st.dl.eccdnx.com,Clash
-  - DOMAIN-SUFFIX,st.dl.pinyuncloud.com,Clash
-  - DOMAIN-SUFFIX,steam-api.com,Clash
-  - DOMAIN-SUFFIX,steam-chat.com,Clash
-  - DOMAIN-SUFFIX,steam.apac.qtlglb.com,Clash
-  - DOMAIN-SUFFIX,steam.cdn.on.net,Clash
-  - DOMAIN-SUFFIX,steam.cdn.orcon.net.nz,Clash
-  - DOMAIN-SUFFIX,steam.cdn.slingshot.co.nz,Clash
-  - DOMAIN-SUFFIX,steam.cdn.webra.ru,Clash
-  - DOMAIN-SUFFIX,steam.eca.qtlglb.com,Clash
-  - DOMAIN-SUFFIX,steam.naeu.qtlglb.com,Clash
-  - DOMAIN-SUFFIX,steam.ru.qtlglb.com,Clash
-  - DOMAIN-SUFFIX,steam.tv,Clash
-  - DOMAIN-SUFFIX,steambroadcast.akamaized.net,Clash
-  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net,Clash
-  - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net,Clash
-  - DOMAIN-SUFFIX,steamcommunity.com,Clash
-  - DOMAIN-SUFFIX,steamcontent.tnkjmec.com,Clash
-  - DOMAIN-SUFFIX,steamdeck.com,Clash
-  - DOMAIN-SUFFIX,steamgames.com,Clash
-  - DOMAIN-SUFFIX,steammobile.akamaized.net,Clash
-  - DOMAIN-SUFFIX,steampipe-kr.akamaized.net,Clash
-  - DOMAIN-SUFFIX,steampipe-partner.akamaized.net,Clash
-  - DOMAIN-SUFFIX,steampipe.akamaized.net,Clash
-  - DOMAIN-SUFFIX,steampowered.com,Clash
-  - DOMAIN-SUFFIX,steampowered.com.8686c.com,Clash
-  - DOMAIN-SUFFIX,steamstat.us,Clash
-  - DOMAIN-SUFFIX,steamstatic.com,Clash
-  - DOMAIN-SUFFIX,steamstatic.com.8686c.com,Clash
-  - DOMAIN-SUFFIX,steamstore-a.akamaihd.net,Clash
-  - DOMAIN-SUFFIX,steamunlocked.net,Clash
-  - DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net,Clash
-  - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net,Clash
-  - DOMAIN-SUFFIX,steamvideo-a.akamaihd.net,Clash
-  - DOMAIN-SUFFIX,underlords.com,Clash
-  - DOMAIN-SUFFIX,valvesoftware.com,Clash
-  - DOMAIN-SUFFIX,wmsjsteam.com,Clash
-  - DOMAIN-SUFFIX,brawlstars.com,Clash
-  - DOMAIN-SUFFIX,brawlstarsgame.com,Clash
-  - DOMAIN-SUFFIX,ubi.com,Clash
-  - DOMAIN-SUFFIX,ubisoft-orbit-savegames.s3.amazonaws.com,Clash
-  - DOMAIN-SUFFIX,ubisoft-uplay-savegames.s3.amazonaws.com,Clash
-  - DOMAIN-SUFFIX,ubisoft.com,Clash
-  - DOMAIN-SUFFIX,uplay.com,Clash
-  - DOMAIN-SUFFIX,pvp.net,Clash
-  - DOMAIN-SUFFIX,riotcdn.net,Clash
-  - DOMAIN-SUFFIX,riotgames.com,Clash
-  - DOMAIN-SUFFIX,beth.games,Clash
-  - DOMAIN-SUFFIX,bethesda.net,Clash
-  - DOMAIN-SUFFIX,bethesdagamestudios.com,Clash
-  - DOMAIN-SUFFIX,bethsoft.com,Clash
-  - DOMAIN-SUFFIX,callersbane.com,Clash
-  - DOMAIN-SUFFIX,forzamotorsport.net,Clash
-  - DOMAIN-SUFFIX,forzaracingchampionship.com,Clash
-  - DOMAIN-SUFFIX,forzarc.com,Clash
-  - DOMAIN-SUFFIX,gamepass.com,Clash
-  - DOMAIN-SUFFIX,minecraft.net,Clash
-  - DOMAIN-SUFFIX,minecraftshop.com,Clash
-  - DOMAIN-SUFFIX,mojang.com,Clash
-  - DOMAIN-SUFFIX,msgamestudios.com,Clash
-  - DOMAIN-SUFFIX,orithegame.com,Clash
-  - DOMAIN-SUFFIX,renovacionxboxlive.com,Clash
-  - DOMAIN-SUFFIX,tellmewhygame.com,Clash
-  - DOMAIN-SUFFIX,xbox.co,Clash
-  - DOMAIN-SUFFIX,xbox.com,Clash
-  - DOMAIN-SUFFIX,xbox.eu,Clash
-  - DOMAIN-SUFFIX,xbox.org,Clash
-  - DOMAIN-SUFFIX,xbox360.co,Clash
-  - DOMAIN-SUFFIX,xbox360.com,Clash
-  - DOMAIN-SUFFIX,xbox360.eu,Clash
-  - DOMAIN-SUFFIX,xbox360.org,Clash
-  - DOMAIN-SUFFIX,xboxab.com,Clash
-  - DOMAIN-SUFFIX,xboxab.net,Clash
-  - DOMAIN-SUFFIX,xboxgamepass.com,Clash
-  - DOMAIN-SUFFIX,xboxgamestudios.com,Clash
-  - DOMAIN-SUFFIX,xboxlive.cn,Clash
-  - DOMAIN-SUFFIX,xboxlive.com,Clash
-  - DOMAIN-SUFFIX,xboxone.co,Clash
-  - DOMAIN-SUFFIX,xboxone.com,Clash
-  - DOMAIN-SUFFIX,xboxone.eu,Clash
-  - DOMAIN-SUFFIX,xboxplayanywhere.com,Clash
-  - DOMAIN-SUFFIX,xboxservice.com,Clash
-  - DOMAIN-SUFFIX,xboxservices.com,Clash
-  - DOMAIN-SUFFIX,xboxstudios.com,Clash
-  - DOMAIN-SUFFIX,xbx.lv,Clash
-  - DOMAIN-KEYWORD,epicgames,Clash
-  - DOMAIN-KEYWORD,steambroadcast,Clash
-  - DOMAIN-KEYWORD,steamstore,Clash
-  - DOMAIN-KEYWORD,steamuserimages,Clash
-  - IP-CIDR,103.4.115.248/32,Clash,no-resolve
-  - IP-CIDR,182.162.135.1/32,Clash,no-resolve
-  - IP-CIDR,185.60.112.157/32,Clash,no-resolve
-  - IP-CIDR,185.60.112.158/32,Clash,no-resolve
-  - IP-CIDR,210.242.235.6/32,Clash,no-resolve
-  - IP-CIDR,24.105.30.129/32,Clash,no-resolve
-  - IP-CIDR,54.94.196.47/32,Clash,no-resolve
-  - IP-CIDR,182.162.132.1/32,Clash,no-resolve
-  - IP-CIDR,103.4.114.233/32,Clash,no-resolve
-  - IP-CIDR,182.162.116.1/32,Clash,no-resolve
-  - IP-CIDR,202.9.67.59/32,Clash,no-resolve
-  - IP-CIDR,203.69.111.4/32,Clash,no-resolve
-  - IP-CIDR,54.207.104.145/32,Clash,no-resolve
-  - IP-CIDR,35.192.0.0/12,Clash,no-resolve
-  - IP-CIDR,203.66.81.98/32,Clash,no-resolve
-  - IP-CIDR,211.234.110.1/32,Clash,no-resolve
-  - IP-CIDR,54.207.107.12/32,Clash,no-resolve
-  - IP-CIDR,202.9.67.254/32,Clash,no-resolve
-  - IP-CIDR,222.231.22.1/32,Clash,no-resolve
-  - IP-CIDR,13.210.25.233/32,Clash,no-resolve
-  - IP-CIDR,13.212.170.102/32,Clash,no-resolve
-  - IP-CIDR,13.212.171.212/32,Clash,no-resolve
-  - IP-CIDR,15.161.130.86/32,Clash,no-resolve
-  - IP-CIDR,15.254.1.17/32,Clash,no-resolve
-  - IP-CIDR,162.62.33.45/32,Clash,no-resolve
-  - IP-CIDR,162.62.33.70/32,Clash,no-resolve
-  - IP-CIDR,162.62.34.10/32,Clash,no-resolve
-  - IP-CIDR,18.141.176.65/32,Clash,no-resolve
-  - IP-CIDR,18.156.137.147/32,Clash,no-resolve
-  - IP-CIDR,18.231.148.103/32,Clash,no-resolve
-  - IP-CIDR,3.1.80.68/32,Clash,no-resolve
-  - IP-CIDR,3.25.190.152/32,Clash,no-resolve
-  - IP-CIDR,3.82.147.36/32,Clash,no-resolve
-  - IP-CIDR,34.220.160.16/32,Clash,no-resolve
-  - IP-CIDR,35.154.64.7/32,Clash,no-resolve
-  - IP-CIDR,35.72.32.125/32,Clash,no-resolve
-  - IP-CIDR,52.13.150.128/32,Clash,no-resolve
-  - IP-CIDR,52.13.42.120/32,Clash,no-resolve
-  - IP-CIDR,52.50.131.212/32,Clash,no-resolve
-  - IP-CIDR,54.207.168.84/32,Clash,no-resolve
-  - IP-CIDR,54.248.64.192/32,Clash,no-resolve
-  - IP-CIDR,137.221.105.2/32,Clash,no-resolve
-  - IP-CIDR,185.60.114.159/32,Clash,no-resolve
-  - IP-CIDR,210.71.148.11/32,Clash,no-resolve
-  - IP-CIDR,211.115.104.1/32,Clash,no-resolve
-  - IP-CIDR,24.105.62.129/32,Clash,no-resolve
+  - DOMAIN,eaasserts-a.akamaihd.net,Steam
+  - DOMAIN,originasserts.akamaized.net,Steam
+  - DOMAIN,gog.salesmanago.com,Steam
+  - DOMAIN,img-prod-cms-rt-microsoft-com.akamaized.net,Steam
+  - DOMAIN,login.live.com,Steam
+  - DOMAIN,logincdn.msauth.net,Steam
+  - DOMAIN,store-images.s-microsoft.com,Steam
+  - DOMAIN-SUFFIX,battle.net,Steam
+  - DOMAIN-SUFFIX,battlenet.com.cn,Steam
+  - DOMAIN-SUFFIX,blizzard.com,Steam
+  - DOMAIN-SUFFIX,battlenet.com,Steam
+  - DOMAIN-SUFFIX,blizzard.cn,Steam
+  - DOMAIN-SUFFIX,blizzard.nefficient.co.kr,Steam
+  - DOMAIN-SUFFIX,blizzardgames.cn,Steam
+  - DOMAIN-SUFFIX,blizzardgearstore.com,Steam
+  - DOMAIN-SUFFIX,blizzcon-a.akamaihd.net,Steam
+  - DOMAIN-SUFFIX,blz-contentstack.com,Steam
+  - DOMAIN-SUFFIX,blz.nosdn.127.net,Steam
+  - DOMAIN-SUFFIX,blzddist1-a.akamaihd.net,Steam
+  - DOMAIN-SUFFIX,blzddistkr1-a.akamaihd.net,Steam
+  - DOMAIN-SUFFIX,blzmedia-a.akamaihd.net,Steam
+  - DOMAIN-SUFFIX,blznav.akamaized.net,Steam
+  - DOMAIN-SUFFIX,blzstatic.cn,Steam
+  - DOMAIN-SUFFIX,bnet.163.com,Steam
+  - DOMAIN-SUFFIX,bnetcmsus-a.akamaihd.net,Steam
+  - DOMAIN-SUFFIX,bnetproduct-a.akamaihd.net,Steam
+  - DOMAIN-SUFFIX,bnetshopus.akamaized.net,Steam
+  - DOMAIN-SUFFIX,cdp.cloud.unity3d.com,Steam
+  - DOMAIN-SUFFIX,di.res.netease.com,Steam
+  - DOMAIN-SUFFIX,diablo3.com,Steam
+  - DOMAIN-SUFFIX,diablo3.nosdn.127.net,Steam
+  - DOMAIN-SUFFIX,diabloimmortal.com,Steam
+  - DOMAIN-SUFFIX,firesidegatherings.com,Steam
+  - DOMAIN-SUFFIX,hearthstone.nosdn.127.net,Steam
+  - DOMAIN-SUFFIX,heroes.nos.netease.com,Steam
+  - DOMAIN-SUFFIX,heroesofthestorm.com,Steam
+  - DOMAIN-SUFFIX,overwatch.nosdn.127.net,Steam
+  - DOMAIN-SUFFIX,playhearthstone.com,Steam
+  - DOMAIN-SUFFIX,playoverwatch.com,Steam
+  - DOMAIN-SUFFIX,playwarcraft3.com,Steam
+  - DOMAIN-SUFFIX,sc2.nosdn.127.net,Steam
+  - DOMAIN-SUFFIX,starcraft.com,Steam
+  - DOMAIN-SUFFIX,starcraft2.com,Steam
+  - DOMAIN-SUFFIX,worldofwarcraft.com,Steam
+  - DOMAIN-SUFFIX,wow.nosdn.127.net,Steam
+  - DOMAIN-SUFFIX,wowchina.com,Steam
+  - DOMAIN-SUFFIX,anthemgame.com,Steam
+  - DOMAIN-SUFFIX,anthemthegame.com,Steam
+  - DOMAIN-SUFFIX,apexlegends.com,Steam
+  - DOMAIN-SUFFIX,awayoutgame.com,Steam
+  - DOMAIN-SUFFIX,battlefield.com,Steam
+  - DOMAIN-SUFFIX,battlefield1943.com,Steam
+  - DOMAIN-SUFFIX,battlefield3.com,Steam
+  - DOMAIN-SUFFIX,battlefield4.com,Steam
+  - DOMAIN-SUFFIX,battlefield5.com,Steam
+  - DOMAIN-SUFFIX,battlefieldbadcompany2.com,Steam
+  - DOMAIN-SUFFIX,battlefieldheroes.com,Steam
+  - DOMAIN-SUFFIX,battlefieldv.com,Steam
+  - DOMAIN-SUFFIX,battlefront2.com,Steam
+  - DOMAIN-SUFFIX,battlefrontii.com,Steam
+  - DOMAIN-SUFFIX,battlelog.com,Steam
+  - DOMAIN-SUFFIX,bejeweledstars.com,Steam
+  - DOMAIN-SUFFIX,bejewled-stars.com,Steam
+  - DOMAIN-SUFFIX,bioware.com,Steam
+  - DOMAIN-SUFFIX,biowarestore.com,Steam
+  - DOMAIN-SUFFIX,blackboxgames.com,Steam
+  - DOMAIN-SUFFIX,camelot-europe.com,Steam
+  - DOMAIN-SUFFIX,camelotherald.com,Steam
+  - DOMAIN-SUFFIX,camelotherald.net,Steam
+  - DOMAIN-SUFFIX,capitalgames.com,Steam
+  - DOMAIN-SUFFIX,chillingo.com,Steam
+  - DOMAIN-SUFFIX,cloudsync-prod.s3.amazonaws.com,Steam
+  - DOMAIN-SUFFIX,cncrivals.com,Steam
+  - DOMAIN-SUFFIX,commandandconquer.com,Steam
+  - DOMAIN-SUFFIX,conquerwithcharacter.com,Steam
+  - DOMAIN-SUFFIX,crysis.jp,Steam
+  - DOMAIN-SUFFIX,daoc.net,Steam
+  - DOMAIN-SUFFIX,darkageofcamelot.com,Steam
+  - DOMAIN-SUFFIX,darkness-risen.com,Steam
+  - DOMAIN-SUFFIX,dawngate.com,Steam
+  - DOMAIN-SUFFIX,dawngatechronicles.com,Steam
+  - DOMAIN-SUFFIX,deadspacegame.com,Steam
+  - DOMAIN-SUFFIX,dice.se,Steam
+  - DOMAIN-SUFFIX,dicela.com,Steam
+  - DOMAIN-SUFFIX,dicela.net,Steam
+  - DOMAIN-SUFFIX,dragonage.com,Steam
+  - DOMAIN-SUFFIX,dragonagekeep.com,Steam
+  - DOMAIN-SUFFIX,dragonagemovie.com,Steam
+  - DOMAIN-SUFFIX,dungeonkeeper.cn,Steam
+  - DOMAIN-SUFFIX,dungeonkeeper.com,Steam
+  - DOMAIN-SUFFIX,dungeonkeeper.com.cn,Steam
+  - DOMAIN-SUFFIX,ea-anz-press.com,Steam
+  - DOMAIN-SUFFIX,ea.com,Steam
+  - DOMAIN-SUFFIX,ea.tt.omtrdc.net,Steam
+  - DOMAIN-SUFFIX,eaaccess.com,Steam
+  - DOMAIN-SUFFIX,eaassets-a.akamaihd.net,Steam
+  - DOMAIN-SUFFIX,eablackbox.com,Steam
+  - DOMAIN-SUFFIX,eacashcard.com,Steam
+  - DOMAIN-SUFFIX,eacodigos.com,Steam
+  - DOMAIN-SUFFIX,eafootballworld.com,Steam
+  - DOMAIN-SUFFIX,eakorea.co.kr,Steam
+  - DOMAIN-SUFFIX,eamirrorsedge.com,Steam
+  - DOMAIN-SUFFIX,eamobile.com,Steam
+  - DOMAIN-SUFFIX,eamythic.com,Steam
+  - DOMAIN-SUFFIX,eamythic.net,Steam
+  - DOMAIN-SUFFIX,eanordic.com,Steam
+  - DOMAIN-SUFFIX,eaplay.com,Steam
+  - DOMAIN-SUFFIX,easports.com,Steam
+  - DOMAIN-SUFFIX,easports.jp,Steam
+  - DOMAIN-SUFFIX,easportsactive.com,Steam
+  - DOMAIN-SUFFIX,easportsactiveonline.com,Steam
+  - DOMAIN-SUFFIX,easportsfootball.com,Steam
+  - DOMAIN-SUFFIX,easportsfootballclub.com,Steam
+  - DOMAIN-SUFFIX,easportsmma.com,Steam
+  - DOMAIN-SUFFIX,easportsworld.com,Steam
+  - DOMAIN-SUFFIX,eastore.com,Steam
+  - DOMAIN-SUFFIX,electronicarts.com,Steam
+  - DOMAIN-SUFFIX,electronicarts.fr,Steam
+  - DOMAIN-SUFFIX,fifastreet.com,Steam
+  - DOMAIN-SUFFIX,fifastreet3.com,Steam
+  - DOMAIN-SUFFIX,frostbite.com,Steam
+  - DOMAIN-SUFFIX,futpromos.com,Steam
+  - DOMAIN-SUFFIX,futunited.com,Steam
+  - DOMAIN-SUFFIX,ghostgames.com,Steam
+  - DOMAIN-SUFFIX,heroesofdragonage.com,Steam
+  - DOMAIN-SUFFIX,hutpromos.com,Steam
+  - DOMAIN-SUFFIX,industrialtoys.com,Steam
+  - DOMAIN-SUFFIX,lordofultima.com,Steam
+  - DOMAIN-SUFFIX,maddenchampionship.com,Steam
+  - DOMAIN-SUFFIX,maddenrewards.com,Steam
+  - DOMAIN-SUFFIX,maddenseason.info,Steam
+  - DOMAIN-SUFFIX,maddenseason.net,Steam
+  - DOMAIN-SUFFIX,maddenseason.org,Steam
+  - DOMAIN-SUFFIX,masseffect.com,Steam
+  - DOMAIN-SUFFIX,masseffectarchives.com,Steam
+  - DOMAIN-SUFFIX,maxis.com,Steam
+  - DOMAIN-SUFFIX,mirrorsedge.com,Steam
+  - DOMAIN-SUFFIX,mirrorsedge.jp,Steam
+  - DOMAIN-SUFFIX,mirrorsedge.net,Steam
+  - DOMAIN-SUFFIX,mirrorsedge2.com,Steam
+  - DOMAIN-SUFFIX,mirrorsedge2d.com,Steam
+  - DOMAIN-SUFFIX,mysims.com,Steam
+  - DOMAIN-SUFFIX,mysimsracing.com,Steam
+  - DOMAIN-SUFFIX,mythicentertainment.com,Steam
+  - DOMAIN-SUFFIX,mythicentertainment.net,Steam
+  - DOMAIN-SUFFIX,mythicgames.com,Steam
+  - DOMAIN-SUFFIX,needforspeed.com,Steam
+  - DOMAIN-SUFFIX,needforspeedboost.com,Steam
+  - DOMAIN-SUFFIX,needforspeeddriftkings.com,Steam
+  - DOMAIN-SUFFIX,needforspeedeliminator.com,Steam
+  - DOMAIN-SUFFIX,needforspeedlightning.com,Steam
+  - DOMAIN-SUFFIX,needforspeedoverdrive.com,Steam
+  - DOMAIN-SUFFIX,needforspeedproven.com,Steam
+  - DOMAIN-SUFFIX,needforspeedredline.com,Steam
+  - DOMAIN-SUFFIX,needforspeedshowdown.com,Steam
+  - DOMAIN-SUFFIX,needforspeedstreetkings.com,Steam
+  - DOMAIN-SUFFIX,needforspeedtakedown.com,Steam
+  - DOMAIN-SUFFIX,needforspeedtherun.com,Steam
+  - DOMAIN-SUFFIX,needforspeedtimeattack.com,Steam
+  - DOMAIN-SUFFIX,needforspeedundergroundeast.com,Steam
+  - DOMAIN-SUFFIX,nfsworld.com,Steam
+  - DOMAIN-SUFFIX,origin-a.akamaihd.net,Steam
+  - DOMAIN-SUFFIX,origin.com,Steam
+  - DOMAIN-SUFFIX,origin.tv,Steam
+  - DOMAIN-SUFFIX,plantsvszombies2.com,Steam
+  - DOMAIN-SUFFIX,play4free.com,Steam
+  - DOMAIN-SUFFIX,playapex.com,Steam
+  - DOMAIN-SUFFIX,pogo.com,Steam
+  - DOMAIN-SUFFIX,pogobeta.com,Steam
+  - DOMAIN-SUFFIX,popcap.com,Steam
+  - DOMAIN-SUFFIX,projectapex.com,Steam
+  - DOMAIN-SUFFIX,pvzgw2.com,Steam
+  - DOMAIN-SUFFIX,pvzheroes.com,Steam
+  - DOMAIN-SUFFIX,seaofsolitude.com,Steam
+  - DOMAIN-SUFFIX,simcity-buildit.com,Steam
+  - DOMAIN-SUFFIX,simcity.com,Steam
+  - DOMAIN-SUFFIX,skate2.com,Steam
+  - DOMAIN-SUFFIX,spearhead.kr,Steam
+  - DOMAIN-SUFFIX,speedhunters.com,Steam
+  - DOMAIN-SUFFIX,spore.com,Steam
+  - DOMAIN-SUFFIX,ssx3.com,Steam
+  - DOMAIN-SUFFIX,starwarsbattlefront.com,Steam
+  - DOMAIN-SUFFIX,starwarsbattlefront2.com,Steam
+  - DOMAIN-SUFFIX,starwarsfallenorder.com,Steam
+  - DOMAIN-SUFFIX,starwarsjedifallenorder.com,Steam
+  - DOMAIN-SUFFIX,starwarstheoldrepublic.com,Steam
+  - DOMAIN-SUFFIX,swjedifallenorder.com,Steam
+  - DOMAIN-SUFFIX,swjfo.com,Steam
+  - DOMAIN-SUFFIX,swtor.com,Steam
+  - DOMAIN-SUFFIX,swtor.net,Steam
+  - DOMAIN-SUFFIX,teamneedforspeed.com,Steam
+  - DOMAIN-SUFFIX,thedreadwolfrises.com,Steam
+  - DOMAIN-SUFFIX,thesims.com,Steam
+  - DOMAIN-SUFFIX,thesims3.com,Steam
+  - DOMAIN-SUFFIX,thesims4.com,Steam
+  - DOMAIN-SUFFIX,thesimssocial.com,Steam
+  - DOMAIN-SUFFIX,tiberiumalliances.com,Steam
+  - DOMAIN-SUFFIX,tiburon.com,Steam
+  - DOMAIN-SUFFIX,titanfall.com,Steam
+  - DOMAIN-SUFFIX,tnt-ea.com,Steam
+  - DOMAIN-SUFFIX,ultimaforever.com,Steam
+  - DOMAIN-SUFFIX,ultimaonline.com,Steam
+  - DOMAIN-SUFFIX,unravel2.com,Steam
+  - DOMAIN-SUFFIX,unraveltwo.com,Steam
+  - DOMAIN-SUFFIX,uo.com,Steam
+  - DOMAIN-SUFFIX,uoherald.com,Steam
+  - DOMAIN-SUFFIX,visceralgames.com,Steam
+  - DOMAIN-SUFFIX,xdsummit.com,Steam
+  - DOMAIN-SUFFIX,yogify.com,Steam
+  - DOMAIN-SUFFIX,battlebreakers.com,Steam
+  - DOMAIN-SUFFIX,eac-cdn.com,Steam
+  - DOMAIN-SUFFIX,easy.ac,Steam
+  - DOMAIN-SUFFIX,easyanticheat.net,Steam
+  - DOMAIN-SUFFIX,epicgames.com,Steam
+  - DOMAIN-SUFFIX,epicgames.dev,Steam
+  - DOMAIN-SUFFIX,fortnite.com,Steam
+  - DOMAIN-SUFFIX,helpshift.com,Steam
+  - DOMAIN-SUFFIX,paragon.com,Steam
+  - DOMAIN-SUFFIX,playparagon.com,Steam
+  - DOMAIN-SUFFIX,roborecall.com,Steam
+  - DOMAIN-SUFFIX,shadowcomplex.com,Steam
+  - DOMAIN-SUFFIX,spyjinx.com,Steam
+  - DOMAIN-SUFFIX,unrealengine.com,Steam
+  - DOMAIN-SUFFIX,unrealtournament.com,Steam
+  - DOMAIN-SUFFIX,game.maj-soul.com,Steam
+  - DOMAIN-SUFFIX,gateway-cdn.maj-soul.com,Steam
+  - DOMAIN-SUFFIX,gateway-hw.maj-soul.com,Steam
+  - DOMAIN-SUFFIX,gateway-sy.catmjstudio.com,Steam
+  - DOMAIN-SUFFIX,gateway-sy.maj-soul.com,Steam
+  - DOMAIN-SUFFIX,gateway-v2.maj-soul.com,Steam
+  - DOMAIN-SUFFIX,lb-cdn.maj-soul.com,Steam
+  - DOMAIN-SUFFIX,lb-hw.maj-soul.com,Steam
+  - DOMAIN-SUFFIX,lb-sy.maj-soul.com,Steam
+  - DOMAIN-SUFFIX,lb-v2.maj-soul.com,Steam
+  - DOMAIN-SUFFIX,majsoul-hk-client.cn-hongkong.log.aliyuncs.com,Steam
+  - DOMAIN-SUFFIX,sony.com,Steam
+  - DOMAIN-SUFFIX,avatargarenanow-a.akamaihd.net,Steam
+  - DOMAIN-SUFFIX,cdngarenanow-a.akamaihd.net,Steam
+  - DOMAIN-SUFFIX,dlmobilegarena-a.akamaihd.net,Steam
+  - DOMAIN-SUFFIX,garena.co.id,Steam
+  - DOMAIN-SUFFIX,garena.co.th,Steam
+  - DOMAIN-SUFFIX,garena.com,Steam
+  - DOMAIN-SUFFIX,garena.live,Steam
+  - DOMAIN-SUFFIX,garena.my,Steam
+  - DOMAIN-SUFFIX,garena.ph,Steam
+  - DOMAIN-SUFFIX,garena.sg,Steam
+  - DOMAIN-SUFFIX,garena.tv,Steam
+  - DOMAIN-SUFFIX,garena.tw,Steam
+  - DOMAIN-SUFFIX,garena.vn,Steam
+  - DOMAIN-SUFFIX,garenanow.com,Steam
+  - DOMAIN-SUFFIX,seagroup.com,Steam
+  - DOMAIN-SUFFIX,gog-statics.com,Steam
+  - DOMAIN-SUFFIX,gog.com,Steam
+  - DOMAIN-SUFFIX,gog.qtlglb.com,Steam
+  - DOMAIN-SUFFIX,100classicbooks.com,Steam
+  - DOMAIN-SUFFIX,ac-pocketcamp.com,Steam
+  - DOMAIN-SUFFIX,amiibo.com,Steam
+  - DOMAIN-SUFFIX,ayudanintendo.com,Steam
+  - DOMAIN-SUFFIX,bowsersinsidestory.com,Steam
+  - DOMAIN-SUFFIX,dialga.com,Steam
+  - DOMAIN-SUFFIX,diddykongracing.com,Steam
+  - DOMAIN-SUFFIX,dkr.com,Steam
+  - DOMAIN-SUFFIX,donkeykongcountryreturns.com,Steam
+  - DOMAIN-SUFFIX,drmario-world.com,Steam
+  - DOMAIN-SUFFIX,excitebots.com,Steam
+  - DOMAIN-SUFFIX,fire-emblem-heroes.com,Steam
+  - DOMAIN-SUFFIX,fireemblemawakening.com,Steam
+  - DOMAIN-SUFFIX,flipnotestudio.com,Steam
+  - DOMAIN-SUFFIX,giratina.com,Steam
+  - DOMAIN-SUFFIX,gloryofheracles.com,Steam
+  - DOMAIN-SUFFIX,hackyourconsole.com,Steam
+  - DOMAIN-SUFFIX,kirbysepicyarn.com,Steam
+  - DOMAIN-SUFFIX,kirbysuperstarultra.com,Steam
+  - DOMAIN-SUFFIX,kyurem.com,Steam
+  - DOMAIN-SUFFIX,legendofzelda.cn,Steam
+  - DOMAIN-SUFFIX,legendofzelda.com.cn,Steam
+  - DOMAIN-SUFFIX,marioandluigidreamteam.com,Steam
+  - DOMAIN-SUFFIX,mariobroswii.com,Steam
+  - DOMAIN-SUFFIX,mariokart.cn,Steam
+  - DOMAIN-SUFFIX,mariokart.com.cn,Steam
+  - DOMAIN-SUFFIX,mariokart7.com,Steam
+  - DOMAIN-SUFFIX,mariokart8.com,Steam
+  - DOMAIN-SUFFIX,mariosupersluggers.com,Steam
+  - DOMAIN-SUFFIX,miitomo.com,Steam
+  - DOMAIN-SUFFIX,miitomo.com.cn,Steam
+  - DOMAIN-SUFFIX,miiverse.com,Steam
+  - DOMAIN-SUFFIX,nentindo.net,Steam
+  - DOMAIN-SUFFIX,newsupermariobrosu.com,Steam
+  - DOMAIN-SUFFIX,nintendo-europe-sales.com,Steam
+  - DOMAIN-SUFFIX,nintendo-europe.com,Steam
+  - DOMAIN-SUFFIX,nintendo.at,Steam
+  - DOMAIN-SUFFIX,nintendo.be,Steam
+  - DOMAIN-SUFFIX,nintendo.ch,Steam
+  - DOMAIN-SUFFIX,nintendo.co.jp,Steam
+  - DOMAIN-SUFFIX,nintendo.co.kr,Steam
+  - DOMAIN-SUFFIX,nintendo.co.uk,Steam
+  - DOMAIN-SUFFIX,nintendo.co.za,Steam
+  - DOMAIN-SUFFIX,nintendo.com,Steam
+  - DOMAIN-SUFFIX,nintendo.com.au,Steam
+  - DOMAIN-SUFFIX,nintendo.com.hk,Steam
+  - DOMAIN-SUFFIX,nintendo.com.pt,Steam
+  - DOMAIN-SUFFIX,nintendo.de,Steam
+  - DOMAIN-SUFFIX,nintendo.dk,Steam
+  - DOMAIN-SUFFIX,nintendo.es,Steam
+  - DOMAIN-SUFFIX,nintendo.eu,Steam
+  - DOMAIN-SUFFIX,nintendo.fi,Steam
+  - DOMAIN-SUFFIX,nintendo.fr,Steam
+  - DOMAIN-SUFFIX,nintendo.it,Steam
+  - DOMAIN-SUFFIX,nintendo.jp,Steam
+  - DOMAIN-SUFFIX,nintendo.net,Steam
+  - DOMAIN-SUFFIX,nintendo.nl,Steam
+  - DOMAIN-SUFFIX,nintendo.no,Steam
+  - DOMAIN-SUFFIX,nintendo.pt,Steam
+  - DOMAIN-SUFFIX,nintendo.ru,Steam
+  - DOMAIN-SUFFIX,nintendo.se,Steam
+  - DOMAIN-SUFFIX,nintendo.tw,Steam
+  - DOMAIN-SUFFIX,nintendo3ds.com,Steam
+  - DOMAIN-SUFFIX,nintendodsi.com,Steam
+  - DOMAIN-SUFFIX,nintendoeurope.com,Steam
+  - DOMAIN-SUFFIX,nintendolabo.cn,Steam
+  - DOMAIN-SUFFIX,nintendonetwork.net,Steam
+  - DOMAIN-SUFFIX,nintendonyc.com,Steam
+  - DOMAIN-SUFFIX,nintendostore.com,Steam
+  - DOMAIN-SUFFIX,nintendoswitch.cn,Steam
+  - DOMAIN-SUFFIX,nintendoswitch.com,Steam
+  - DOMAIN-SUFFIX,nintendoswitch.com.cn,Steam
+  - DOMAIN-SUFFIX,nintendoswitch.net,Steam
+  - DOMAIN-SUFFIX,nintendoswitchtogether.com,Steam
+  - DOMAIN-SUFFIX,nintendowifi.net,Steam
+  - DOMAIN-SUFFIX,nintendowii.com,Steam
+  - DOMAIN-SUFFIX,personaltrainermath.com,Steam
+  - DOMAIN-SUFFIX,playnintendo.com,Steam
+  - DOMAIN-SUFFIX,pokedex3d.com,Steam
+  - DOMAIN-SUFFIX,pokemon-moon.com,Steam
+  - DOMAIN-SUFFIX,pokemon-sun.com,Steam
+  - DOMAIN-SUFFIX,pokemon-sunmoon.com,Steam
+  - DOMAIN-SUFFIX,pokemon.com,Steam
+  - DOMAIN-SUFFIX,pokemonbank.com,Steam
+  - DOMAIN-SUFFIX,pokemonblackwhite.com,Steam
+  - DOMAIN-SUFFIX,pokemonbw.com,Steam
+  - DOMAIN-SUFFIX,pokemonchampionships.com,Steam
+  - DOMAIN-SUFFIX,pokemongoldsilver.com,Steam
+  - DOMAIN-SUFFIX,pokemonhome.com,Steam
+  - DOMAIN-SUFFIX,pokemonletsgoeevee.com,Steam
+  - DOMAIN-SUFFIX,pokemonletsgopikachu.com,Steam
+  - DOMAIN-SUFFIX,pokemonmysterydungeon.com,Steam
+  - DOMAIN-SUFFIX,pokemonpicross.com,Steam
+  - DOMAIN-SUFFIX,pokemonplatinum.com,Steam
+  - DOMAIN-SUFFIX,pokemonrubysapphire.com,Steam
+  - DOMAIN-SUFFIX,pokemonsunmoon.com,Steam
+  - DOMAIN-SUFFIX,pokemonswordshield.com,Steam
+  - DOMAIN-SUFFIX,pokemonultrasunmoon.com,Steam
+  - DOMAIN-SUFFIX,pokemonvgc.com,Steam
+  - DOMAIN-SUFFIX,pokemonwifi.net,Steam
+  - DOMAIN-SUFFIX,splatoon2tournament.com,Steam
+  - DOMAIN-SUFFIX,starfox.com,Steam
+  - DOMAIN-SUFFIX,supermario.com,Steam
+  - DOMAIN-SUFFIX,supermario3dworld.com,Steam
+  - DOMAIN-SUFFIX,supermariobros.com.cn,Steam
+  - DOMAIN-SUFFIX,supermariogalaxy.com,Steam
+  - DOMAIN-SUFFIX,supermariorun.com,Steam
+  - DOMAIN-SUFFIX,superpapermario.com,Steam
+  - DOMAIN-SUFFIX,supersmashbros.cn,Steam
+  - DOMAIN-SUFFIX,supersmashbros.com.cn,Steam
+  - DOMAIN-SUFFIX,thelegendarystarfy.com,Steam
+  - DOMAIN-SUFFIX,thewonderful101.com,Steam
+  - DOMAIN-SUFFIX,wariolandshakeit.com,Steam
+  - DOMAIN-SUFFIX,wariowarediy.com,Steam
+  - DOMAIN-SUFFIX,wii-u.com,Steam
+  - DOMAIN-SUFFIX,wiifit.com,Steam
+  - DOMAIN-SUFFIX,wiifitu.com,Steam
+  - DOMAIN-SUFFIX,wiipartyu.com,Steam
+  - DOMAIN-SUFFIX,wiisports.com,Steam
+  - DOMAIN-SUFFIX,wiisportsresort.com,Steam
+  - DOMAIN-SUFFIX,wiiugamepad.com,Steam
+  - DOMAIN-SUFFIX,wiivc.net,Steam
+  - DOMAIN-SUFFIX,xenoblade.com,Steam
+  - DOMAIN-SUFFIX,xn--mts47c3w9b1qr.cn,Steam
+  - DOMAIN-SUFFIX,xn--mts47c3w9b1qr.net,Steam
+  - DOMAIN-SUFFIX,yoshisnewisland.com,Steam
+  - DOMAIN-SUFFIX,op.gg,Steam
+  - DOMAIN-SUFFIX,opgg-static.akamaized.net,Steam
+  - DOMAIN-SUFFIX,playstation.com,Steam
+  - DOMAIN-SUFFIX,playstation.net,Steam
+  - DOMAIN-SUFFIX,playstationnetwork.com,Steam
+  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,Steam
+  - DOMAIN-SUFFIX,api-priconne-redive.cygames.jp,Steam
+  - DOMAIN-SUFFIX,omotenashi.cygames.jp,Steam
+  - DOMAIN-SUFFIX,prd-priconne-redive.akamaized.net,Steam
+  - DOMAIN-SUFFIX,championshipseriesleague.com,Steam
+  - DOMAIN-SUFFIX,convrgencegame.com,Steam
+  - DOMAIN-SUFFIX,historyofdota.com,Steam
+  - DOMAIN-SUFFIX,historyofdota.net,Steam
+  - DOMAIN-SUFFIX,historyofdota.org,Steam
+  - DOMAIN-SUFFIX,instituteofwar.org,Steam
+  - DOMAIN-SUFFIX,lcsmerch.com,Steam
+  - DOMAIN-SUFFIX,leaguehighschool.com,Steam
+  - DOMAIN-SUFFIX,leagueoflegends.ca,Steam
+  - DOMAIN-SUFFIX,leagueoflegends.cn,Steam
+  - DOMAIN-SUFFIX,leagueoflegends.co.kr,Steam
+  - DOMAIN-SUFFIX,leagueoflegends.com,Steam
+  - DOMAIN-SUFFIX,leagueoflegends.info,Steam
+  - DOMAIN-SUFFIX,leagueoflegends.kr,Steam
+  - DOMAIN-SUFFIX,leagueoflegends.net,Steam
+  - DOMAIN-SUFFIX,leagueoflegends.org,Steam
+  - DOMAIN-SUFFIX,leagueoflegendsscripts.com,Steam
+  - DOMAIN-SUFFIX,leaguesharp.info,Steam
+  - DOMAIN-SUFFIX,leaguoflegends.com,Steam
+  - DOMAIN-SUFFIX,learnwithleague.com,Steam
+  - DOMAIN-SUFFIX,lol-europe.com,Steam
+  - DOMAIN-SUFFIX,lolclub.org,Steam
+  - DOMAIN-SUFFIX,lolespor.com,Steam
+  - DOMAIN-SUFFIX,lolesports.com,Steam
+  - DOMAIN-SUFFIX,lolfanart.net,Steam
+  - DOMAIN-SUFFIX,lolpcs.com,Steam
+  - DOMAIN-SUFFIX,lolshop.co.kr,Steam
+  - DOMAIN-SUFFIX,lolstatic-a.akamaihd.net,Steam
+  - DOMAIN-SUFFIX,lolstatic.com,Steam
+  - DOMAIN-SUFFIX,lolusercontent.com,Steam
+  - DOMAIN-SUFFIX,lpl.com.cn,Steam
+  - DOMAIN-SUFFIX,molesports.com,Steam
+  - DOMAIN-SUFFIX,playvalorant.com,Steam
+  - DOMAIN-SUFFIX,pvp.tv,Steam
+  - DOMAIN-SUFFIX,rgpub.io,Steam
+  - DOMAIN-SUFFIX,riot-games.com,Steam
+  - DOMAIN-SUFFIX,riot.com,Steam
+  - DOMAIN-SUFFIX,riot.net,Steam
+  - DOMAIN-SUFFIX,riotforgegames.com,Steam
+  - DOMAIN-SUFFIX,riotgames.co.kr,Steam
+  - DOMAIN-SUFFIX,riotgames.info,Steam
+  - DOMAIN-SUFFIX,riotgames.jp,Steam
+  - DOMAIN-SUFFIX,riotgames.net,Steam
+  - DOMAIN-SUFFIX,riotgames.tv,Steam
+  - DOMAIN-SUFFIX,riotgames.zendesk.com,Steam
+  - DOMAIN-SUFFIX,riotpin.com,Steam
+  - DOMAIN-SUFFIX,riotpoints.com,Steam
+  - DOMAIN-SUFFIX,rstatic.net,Steam
+  - DOMAIN-SUFFIX,ruinedking.com,Steam
+  - DOMAIN-SUFFIX,supremacy.com,Steam
+  - DOMAIN-SUFFIX,supremacy.net,Steam
+  - DOMAIN-SUFFIX,ulol.com,Steam
+  - DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net,Steam
+  - DOMAIN-SUFFIX,media-rockstargames-com.akamaized.net,Steam
+  - DOMAIN-SUFFIX,rockstargames.com,Steam
+  - DOMAIN-SUFFIX,rsg.sc,Steam
+  - DOMAIN-SUFFIX,videos-rockstargames-com.akamaized.net,Steam
+  - DOMAIN-SUFFIX,csgo.wmsj.cn,Steam
+  - DOMAIN-SUFFIX,dl.steam.clngaa.com,Steam
+  - DOMAIN-SUFFIX,dl.steam.ksyna.com,Steam
+  - DOMAIN-SUFFIX,dota2.wmsj.cn,Steam
+  - DOMAIN-SUFFIX,edge.steam-dns.top.comcast.net,Steam
+  - DOMAIN-SUFFIX,f3b7q2p3.ssl.hwcdn.net,Steam
+  - DOMAIN-SUFFIX,fanatical.com,Steam
+  - DOMAIN-SUFFIX,humblebundle.com,Steam
+  - DOMAIN-SUFFIX,playartifact.com,Steam
+  - DOMAIN-SUFFIX,s.team,Steam
+  - DOMAIN-SUFFIX,st.dl.bscstorage.net,Steam
+  - DOMAIN-SUFFIX,st.dl.eccdnx.com,Steam
+  - DOMAIN-SUFFIX,st.dl.pinyuncloud.com,Steam
+  - DOMAIN-SUFFIX,steam-api.com,Steam
+  - DOMAIN-SUFFIX,steam-chat.com,Steam
+  - DOMAIN-SUFFIX,steam.apac.qtlglb.com,Steam
+  - DOMAIN-SUFFIX,steam.cdn.on.net,Steam
+  - DOMAIN-SUFFIX,steam.cdn.orcon.net.nz,Steam
+  - DOMAIN-SUFFIX,steam.cdn.slingshot.co.nz,Steam
+  - DOMAIN-SUFFIX,steam.cdn.webra.ru,Steam
+  - DOMAIN-SUFFIX,steam.eca.qtlglb.com,Steam
+  - DOMAIN-SUFFIX,steam.naeu.qtlglb.com,Steam
+  - DOMAIN-SUFFIX,steam.ru.qtlglb.com,Steam
+  - DOMAIN-SUFFIX,steam.tv,Steam
+  - DOMAIN-SUFFIX,steambroadcast.akamaized.net,Steam
+  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net,Steam
+  - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net,Steam
+  - DOMAIN-SUFFIX,steamcommunity.com,Steam
+  - DOMAIN-SUFFIX,steamcontent.tnkjmec.com,Steam
+  - DOMAIN-SUFFIX,steamdeck.com,Steam
+  - DOMAIN-SUFFIX,steamgames.com,Steam
+  - DOMAIN-SUFFIX,steammobile.akamaized.net,Steam
+  - DOMAIN-SUFFIX,steampipe-kr.akamaized.net,Steam
+  - DOMAIN-SUFFIX,steampipe-partner.akamaized.net,Steam
+  - DOMAIN-SUFFIX,steampipe.akamaized.net,Steam
+  - DOMAIN-SUFFIX,steampowered.com,Steam
+  - DOMAIN-SUFFIX,steampowered.com.8686c.com,Steam
+  - DOMAIN-SUFFIX,steamstat.us,Steam
+  - DOMAIN-SUFFIX,steamstatic.com,Steam
+  - DOMAIN-SUFFIX,steamstatic.com.8686c.com,Steam
+  - DOMAIN-SUFFIX,steamstore-a.akamaihd.net,Steam
+  - DOMAIN-SUFFIX,steamunlocked.net,Steam
+  - DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net,Steam
+  - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net,Steam
+  - DOMAIN-SUFFIX,steamvideo-a.akamaihd.net,Steam
+  - DOMAIN-SUFFIX,underlords.com,Steam
+  - DOMAIN-SUFFIX,valvesoftware.com,Steam
+  - DOMAIN-SUFFIX,wmsjsteam.com,Steam
+  - DOMAIN-SUFFIX,brawlstars.com,Steam
+  - DOMAIN-SUFFIX,brawlstarsgame.com,Steam
+  - DOMAIN-SUFFIX,ubi.com,Steam
+  - DOMAIN-SUFFIX,ubisoft-orbit-savegames.s3.amazonaws.com,Steam
+  - DOMAIN-SUFFIX,ubisoft-uplay-savegames.s3.amazonaws.com,Steam
+  - DOMAIN-SUFFIX,ubisoft.com,Steam
+  - DOMAIN-SUFFIX,uplay.com,Steam
+  - DOMAIN-SUFFIX,pvp.net,Steam
+  - DOMAIN-SUFFIX,riotcdn.net,Steam
+  - DOMAIN-SUFFIX,riotgames.com,Steam
+  - DOMAIN-SUFFIX,beth.games,Steam
+  - DOMAIN-SUFFIX,bethesda.net,Steam
+  - DOMAIN-SUFFIX,bethesdagamestudios.com,Steam
+  - DOMAIN-SUFFIX,bethsoft.com,Steam
+  - DOMAIN-SUFFIX,callersbane.com,Steam
+  - DOMAIN-SUFFIX,forzamotorsport.net,Steam
+  - DOMAIN-SUFFIX,forzaracingchampionship.com,Steam
+  - DOMAIN-SUFFIX,forzarc.com,Steam
+  - DOMAIN-SUFFIX,gamepass.com,Steam
+  - DOMAIN-SUFFIX,minecraft.net,Steam
+  - DOMAIN-SUFFIX,minecraftshop.com,Steam
+  - DOMAIN-SUFFIX,mojang.com,Steam
+  - DOMAIN-SUFFIX,msgamestudios.com,Steam
+  - DOMAIN-SUFFIX,orithegame.com,Steam
+  - DOMAIN-SUFFIX,renovacionxboxlive.com,Steam
+  - DOMAIN-SUFFIX,tellmewhygame.com,Steam
+  - DOMAIN-SUFFIX,xbox.co,Steam
+  - DOMAIN-SUFFIX,xbox.com,Steam
+  - DOMAIN-SUFFIX,xbox.eu,Steam
+  - DOMAIN-SUFFIX,xbox.org,Steam
+  - DOMAIN-SUFFIX,xbox360.co,Steam
+  - DOMAIN-SUFFIX,xbox360.com,Steam
+  - DOMAIN-SUFFIX,xbox360.eu,Steam
+  - DOMAIN-SUFFIX,xbox360.org,Steam
+  - DOMAIN-SUFFIX,xboxab.com,Steam
+  - DOMAIN-SUFFIX,xboxab.net,Steam
+  - DOMAIN-SUFFIX,xboxgamepass.com,Steam
+  - DOMAIN-SUFFIX,xboxgamestudios.com,Steam
+  - DOMAIN-SUFFIX,xboxlive.cn,Steam
+  - DOMAIN-SUFFIX,xboxlive.com,Steam
+  - DOMAIN-SUFFIX,xboxone.co,Steam
+  - DOMAIN-SUFFIX,xboxone.com,Steam
+  - DOMAIN-SUFFIX,xboxone.eu,Steam
+  - DOMAIN-SUFFIX,xboxplayanywhere.com,Steam
+  - DOMAIN-SUFFIX,xboxservice.com,Steam
+  - DOMAIN-SUFFIX,xboxservices.com,Steam
+  - DOMAIN-SUFFIX,xboxstudios.com,Steam
+  - DOMAIN-SUFFIX,xbx.lv,Steam
+  - DOMAIN-KEYWORD,epicgames,Steam
+  - DOMAIN-KEYWORD,steambroadcast,Steam
+  - DOMAIN-KEYWORD,steamstore,Steam
+  - DOMAIN-KEYWORD,steamuserimages,Steam
+  - IP-CIDR,103.4.115.248/32,Steam,no-resolve
+  - IP-CIDR,182.162.135.1/32,Steam,no-resolve
+  - IP-CIDR,185.60.112.157/32,Steam,no-resolve
+  - IP-CIDR,185.60.112.158/32,Steam,no-resolve
+  - IP-CIDR,210.242.235.6/32,Steam,no-resolve
+  - IP-CIDR,24.105.30.129/32,Steam,no-resolve
+  - IP-CIDR,54.94.196.47/32,Steam,no-resolve
+  - IP-CIDR,182.162.132.1/32,Steam,no-resolve
+  - IP-CIDR,103.4.114.233/32,Steam,no-resolve
+  - IP-CIDR,182.162.116.1/32,Steam,no-resolve
+  - IP-CIDR,202.9.67.59/32,Steam,no-resolve
+  - IP-CIDR,203.69.111.4/32,Steam,no-resolve
+  - IP-CIDR,54.207.104.145/32,Steam,no-resolve
+  - IP-CIDR,35.192.0.0/12,Steam,no-resolve
+  - IP-CIDR,203.66.81.98/32,Steam,no-resolve
+  - IP-CIDR,211.234.110.1/32,Steam,no-resolve
+  - IP-CIDR,54.207.107.12/32,Steam,no-resolve
+  - IP-CIDR,202.9.67.254/32,Steam,no-resolve
+  - IP-CIDR,222.231.22.1/32,Steam,no-resolve
+  - IP-CIDR,13.210.25.233/32,Steam,no-resolve
+  - IP-CIDR,13.212.170.102/32,Steam,no-resolve
+  - IP-CIDR,13.212.171.212/32,Steam,no-resolve
+  - IP-CIDR,15.161.130.86/32,Steam,no-resolve
+  - IP-CIDR,15.254.1.17/32,Steam,no-resolve
+  - IP-CIDR,162.62.33.45/32,Steam,no-resolve
+  - IP-CIDR,162.62.33.70/32,Steam,no-resolve
+  - IP-CIDR,162.62.34.10/32,Steam,no-resolve
+  - IP-CIDR,18.141.176.65/32,Steam,no-resolve
+  - IP-CIDR,18.156.137.147/32,Steam,no-resolve
+  - IP-CIDR,18.231.148.103/32,Steam,no-resolve
+  - IP-CIDR,3.1.80.68/32,Steam,no-resolve
+  - IP-CIDR,3.25.190.152/32,Steam,no-resolve
+  - IP-CIDR,3.82.147.36/32,Steam,no-resolve
+  - IP-CIDR,34.220.160.16/32,Steam,no-resolve
+  - IP-CIDR,35.154.64.7/32,Steam,no-resolve
+  - IP-CIDR,35.72.32.125/32,Steam,no-resolve
+  - IP-CIDR,52.13.150.128/32,Steam,no-resolve
+  - IP-CIDR,52.13.42.120/32,Steam,no-resolve
+  - IP-CIDR,52.50.131.212/32,Steam,no-resolve
+  - IP-CIDR,54.207.168.84/32,Steam,no-resolve
+  - IP-CIDR,54.248.64.192/32,Steam,no-resolve
+  - IP-CIDR,137.221.105.2/32,Steam,no-resolve
+  - IP-CIDR,185.60.114.159/32,Steam,no-resolve
+  - IP-CIDR,210.71.148.11/32,Steam,no-resolve
+  - IP-CIDR,211.115.104.1/32,Steam,no-resolve
+  - IP-CIDR,24.105.62.129/32,Steam,no-resolve
   - DOMAIN,appldnld.apple.com.edgesuite.net,DIRECT
   - DOMAIN,apple-events.akamaized.net,DIRECT
   - DOMAIN,appleworldwidedeveloper.hb-api.omtrdc.net,DIRECT
@@ -20097,7 +20117,9 @@ rules:
   - DOMAIN,steambroadcast.akamaized.net,Clash
   - DOMAIN,steamcommunity-a.akamaihd.net,Clash
   - DOMAIN,steamstore-a.akamaihd.net,Clash
+  - DOMAIN,steamusercontent-a.akamaihd.net,Clash
   - DOMAIN,steamuserimages-a.akamaihd.net,Clash
+  - DOMAIN,steampipe.akamaized.net,Clash
   - IP-CIDR,208.43.122.128/27,Clash,no-resolve
   - IP-CIDR,108.168.174.0/16,Clash,no-resolve
   - IP-CIDR,174.37.243.0/16,Clash,no-resolve
@@ -29990,4 +30012,4 @@ rules:
   - PROCESS-NAME,uTorrent.exe,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,Clash
-# Auto update: 2025-06-17T16:02:10
+# Auto update: 2025-06-17T21:03:22
