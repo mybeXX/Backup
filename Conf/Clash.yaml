@@ -38871,4 +38871,4 @@ rules:
   - PROCESS-NAME,uTorrent.exe,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,Clash
-# Auto update: 2025-06-18T16:28:54
+# Auto update: 2025-06-18T16:31:57
